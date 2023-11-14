@@ -1,0 +1,6 @@
+framework module CmgeSDK {
+  umbrella header "CmgeSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

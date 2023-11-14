@@ -1,0 +1,6 @@
+framework module Pods_CmgeSDK_Tests {
+  umbrella header "Pods-CmgeSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
