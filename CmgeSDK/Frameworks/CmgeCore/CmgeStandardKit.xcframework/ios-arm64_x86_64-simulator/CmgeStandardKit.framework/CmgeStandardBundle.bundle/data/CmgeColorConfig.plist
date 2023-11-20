@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VersionNumber</key>
+	<string>0.8.4</string>
+	<key>BuildNumber</key>
+	<string>20190729.1</string>
+	<key>SDKTypeName</key>
+	<string>创新游戏青版</string>
+	<key>ClassPrefix</key>
+	<string>Qing</string>
+	<key>Color</key>
+	<dict>
+		<key>hightlightTextColor</key>
+		<array>
+			<integer>255</integer>
+			<integer>255</integer>
+			<integer>255</integer>
+		</array>
+		<key>themeColor</key>
+		<array>
+			<integer>240</integer>
+			<integer>153</integer>
+			<integer>80</integer>
+		</array>
+		<key>textColor</key>
+		<array>
+			<integer>50</integer>
+			<integer>50</integer>
+			<integer>50</integer>
+		</array>
+		<key>secondaryTextColor</key>
+		<array>
+			<integer>160</integer>
+			<integer>160</integer>
+			<integer>160</integer>
+		</array>
+		<key>placeholderTextColor</key>
+		<array>
+			<integer>200</integer>
+			<integer>200</integer>
+			<integer>200</integer>
+		</array>
+		<key>backgroundColor</key>
+		<array>
+			<integer>250</integer>
+			<integer>250</integer>
+			<integer>250</integer>
+		</array>
+		<key>secondaryBackgroundColor</key>
+		<array>
+			<integer>255</integer>
+			<integer>255</integer>
+			<integer>255</integer>
+		</array>
+		<key>separatorColor</key>
+		<array>
+			<integer>230</integer>
+			<integer>230</integer>
+			<integer>230</integer>
+		</array>
+	</dict>
+</dict>
+</plist>

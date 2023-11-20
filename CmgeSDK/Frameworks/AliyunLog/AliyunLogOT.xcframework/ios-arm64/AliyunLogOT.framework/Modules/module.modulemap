@@ -1,0 +1,6 @@
+framework module AliyunLogOT {
+  umbrella header "AliyunLogOT.h"
+
+  export *
+  module * { export * }
+}

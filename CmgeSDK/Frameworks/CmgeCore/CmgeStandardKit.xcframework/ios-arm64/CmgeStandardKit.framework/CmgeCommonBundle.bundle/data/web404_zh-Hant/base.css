@@ -1,0 +1,219 @@
+*{padding: 0;margin: 0;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+/*公共样式 适配*/
+@media only screen and (min-width:400px) {
+    html {
+        font-size: 21.33333333px!important
+    }
+}
+@media only screen and (min-width:414px) {
+    html {
+        font-size: 22.08px!important
+    }
+}
+@media only screen and (min-width:480px) {
+    html {
+        font-size: 25.6px!important
+    }
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+}
+a:active,a:hover {
+    outline: 0
+}
+img {
+    border: 0
+}
+
+input {
+    color: inherit;
+    margin: 0;
+    border: 0;  
+    outline: 0; 
+    background-color: rgba(0, 0, 0, 0);
+}
+input, button { cursor: pointer; -webkit-appearance: none; }
+ul li {
+    list-style: none;
+}
+/* 字体 */
+.font12 {
+    font-size: 12px;
+}
+.font14 {
+    font-size: 14px;
+}
+.font16 {
+    font-size: 16px;
+}
+.fontNromal {
+    font-size: .8rem;
+}
+/* color */
+.default-color_f {
+    color: #F29948;
+}
+.default-color_b {
+    background: #F29948;
+}
+/* 居中 */
+.text-center {
+    text-align: center;
+}
+/* 清除浮动 */
+.clearFloat {
+    clear: both;
+    overflow: hidden;
+}
+.circle-gray_n {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: 1px solid #CACACA;
+}
+.btn-default {
+    width: 43%;
+    text-align: center;
+    color: #fff;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    border-radius: 21px;
+    font-size: .6rem;
+}
+.btn-default:hover, .btn-default:active{
+    opacity: 0.7;
+}
+.hr_m {
+    background: #F4F4F4;
+    height: 6px;
+    border: none;
+}
+.hide {
+    display: none !important;
+}
+.show{
+    display: block !important;
+}
+
+/* ============================================================
+   flex：定义布局为盒模型
+   flex-v：盒模型垂直布局
+   flex-1：子元素占据剩余的空间
+   flex-align-center：子元素垂直居中
+   flex-pack-center：子元素水平居中
+   flex-pack-justify：子元素两端对齐
+   兼容性：ios 4+、android 2.3+、winphone8+、IE10+、Safari、Opera、Chrome、Firefox
+   ============================================================ */ 
+.flex{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -moz-flex;
+    display: flex;
+}
+.flex-v{
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.flex-1{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.flex-align-center{
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -moz-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.flex-pack-center{
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -moz-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.flex-pack-justify{
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -moz-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.line:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    width: 200%;
+    height: 200%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+}
+.scale-1px{
+    position: relative;
+    margin-bottom: 20px;
+    border:none;
+}
+.scale-1px:after{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+border: 1px solid #ccc;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+width: 200%;
+height: 200%;
+-webkit-transform: scale(0.5);
+transform: scale(0.5);
+-webkit-transform-origin: left top;
+transform-origin: left top;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.close{position: relative;display: inline-block;width: 16px;height: 16px;overflow: hidden;}
+.close::before{-webkit-transform: rotate(45deg);transform: rotate(45deg);}
+.close::before, .close::after {content: ''; position: absolute; height: 1px; width: 100%;top: 50%;left: 0;margin-top: 1px; background: #7E7E7E;}
+.close::after{-webkit-transform: rotate(-45deg);transform: rotate(-45deg);}
+
+.return{
+    position: absolute;
+    left:15px;
+    top:15px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #ccc;
+    border-left: 0;
+    border-bottom: 0;
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.popup {display: none;width: 100%;position: absolute;transform: translate(-50%, -50%);top: 50%;left: 50%;}
+.popup-msg {color: #fff; padding: 10px 25px;border-radius: 3px;font-size: 12px;background: rgba(0,0,0,.7);}

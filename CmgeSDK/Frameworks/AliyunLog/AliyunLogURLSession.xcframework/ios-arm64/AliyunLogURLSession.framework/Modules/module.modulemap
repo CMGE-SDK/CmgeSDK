@@ -1,0 +1,4 @@
+framework module AliyunLogURLSession {
+  header "AliyunLogURLSession-Swift.h"
+  requires objc
+}

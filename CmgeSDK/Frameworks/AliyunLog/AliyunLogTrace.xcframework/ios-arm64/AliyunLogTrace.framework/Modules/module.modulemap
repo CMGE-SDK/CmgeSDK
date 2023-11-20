@@ -1,0 +1,6 @@
+framework module AliyunLogTrace {
+  umbrella header "AliyunLogTrace.h"
+
+  export *
+  module * { export * }
+}

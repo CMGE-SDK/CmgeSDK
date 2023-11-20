@@ -1,0 +1,6 @@
+framework module CmgeDeviceInfoKit {
+  umbrella header "CmgeDeviceInfoKit.h"
+  export *
+
+  module * { export * }
+}

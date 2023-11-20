@@ -1,0 +1,4 @@
+framework module CmgeStandardKit {
+  header "CmgeKit-Swift.h"
+  requires objc
+}

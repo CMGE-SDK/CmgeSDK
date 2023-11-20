@@ -2,13 +2,7 @@ use_frameworks!
 
 platform :ios, '10.0'
 
-target 'CmgeSDK_Example' do
-  #pod 'CmgeSDK', :path => '../'
+target 'JTLYDemo' do
+#  pod 'CmgeSDK', :path => '../'
   pod 'CmgeSDK',:podspec => '../CmgeSDK.podspec'
-
-  target 'CmgeSDK_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

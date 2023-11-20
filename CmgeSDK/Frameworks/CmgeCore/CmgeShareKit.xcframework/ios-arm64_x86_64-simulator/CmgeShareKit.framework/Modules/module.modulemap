@@ -1,0 +1,6 @@
+framework module CmgeShareKit {
+  umbrella header "CmgeShareKit.h"
+  export *
+
+  module * { export * }
+}

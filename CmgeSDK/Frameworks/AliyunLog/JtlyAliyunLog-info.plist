@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>domestic</key>
+	<dict>
+		<key>instanceId</key>
+		<string>sdk-ios-domestic-2956</string>
+		<key>endpoint</key>
+		<string>https://cn-beijing.log.aliyuncs.com</string>
+		<key>project</key>
+		<string>jt-ronghe-sdk-log</string>
+		<key>secretKey</key>
+		<string>eyJhbGl5dW5fdWlkIjoiMTAxMTE0NTU4NjQ2MTg5OCIsImlwYV9hcHBfaWQiOiJTeVBpclVIM3JXNFB0R2pmeWVZbUJxIiwic2VjX2tleSI6ImYzMDZlM2VjOTgxNDI1NGY3YjM5OWI0YTM0MDc1Mjk1N2IzZDcxMTcxYWMyMzFlNzVlM2RjYzgxYTA5M2JkYTliZDcyYjQ4YmI3MDYyYzUxZTllZDNmMGJmY2I0YzlkZjdlYzc2OGFjMTUzNjY4NDk3MmQwYTlkYzAyZWJkNDNhIiwic2lnbiI6IjI4YzhhZDU0ZWIzNTkwMjRmMmJjZTA0Nzg3MDVkNzFkNjkzMDJhMzNkYjVlOWFlN2ZiZmYxYmRmNWJkNjNjZWNiODM1YjkzMDA5NjRkOGZlMTZjZWI4NWU1NTQyZDQxZWFmMjA4NWM2MzllMGY3OTAxOTk5MjIwY2NmMTJlMDA1In0=</string>
+	</dict>
+	<key>oversea</key>
+	<dict>
+		<key>instanceId</key>
+		<string>sdk-ios-oversea-4987</string>
+		<key>endpoint</key>
+		<string>https://cn-hongkong.log.aliyuncs.com</string>
+		<key>project</key>
+		<string>jtsdk-hw-log</string>
+		<key>secretKey</key>
+		<string>eyJhbGl5dW5fdWlkIjoiMTAxMTE0NTU4NjQ2MTg5OCIsImlwYV9hcHBfaWQiOiJoOWZlaVRkeDc0Rk5GTTJlM2hybm9LIiwic2VjX2tleSI6IjFlMjZhNjA2MjNhMjdjZTAyMzg5MGNkOGYyN2I5NGQ2MzM0ODMyM2Q4YjQ5NGMyMjViZTBiZjVhMDIyNjcyNTkwODI3ODE1OWM2NzFmYTE4NzQ4MWEwMjIzMTRiZTAwNzc0ZTRhOGZmNWI3ZDI5MDI5NjgzODNiY2FjYzQ4NzJmIiwic2lnbiI6IjVlMDIxOTBhNTFkN2JiMGEzOTk2ZGIyYzQzOTlhOTY4ODk5Y2ZiMGFkYzk2MmIxOTU4NTBjZWUyY2VhNGZhMWE0MDJlMTI3ZDg3OWJiMWMyZjkxY2RkZjc2MzZjYzFlYTE3YjUyMWRiZjMxNDdlNjc2YTQwZWQ5N2YwZWJlODBiIn0=</string>
+	</dict>
+</dict>
+</plist>

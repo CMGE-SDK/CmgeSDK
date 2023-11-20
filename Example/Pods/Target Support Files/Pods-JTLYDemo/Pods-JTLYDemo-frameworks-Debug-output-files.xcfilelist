@@ -1,0 +1,5 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CmgeStandardKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JtlyAnalyticsKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CmgeDeviceInfoKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CmgeIdentifierKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CmgeShareKit.framework

@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082635A127F6A0E800DBC1ED /* JTLYDemoEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 082635A027F6A0E800DBC1ED /* JTLYDemoEventManager.m */; };
+		08EE6827299F1E7D0048578D /* JTLYDemoSdkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EE6826299F1E7D0048578D /* JTLYDemoSdkManager.m */; };
+		62CFA487244858DA00DF1494 /* JTLYDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62CFA482244858D900DF1494 /* JTLYDemoViewController.xib */; };
+		62CFA489244858DA00DF1494 /* JTLYDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CFA485244858D900DF1494 /* JTLYDemoViewController.m */; };
+		62F84FD1243DA3320099BA5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F84FD0243DA3320099BA5B /* AppDelegate.m */; };
+		62F84FDC243DA3350099BA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F84FDB243DA3350099BA5B /* Assets.xcassets */; };
+		62F84FDF243DA3350099BA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F84FDD243DA3350099BA5B /* LaunchScreen.storyboard */; };
+		62F84FE2243DA3350099BA5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F84FE1243DA3350099BA5B /* main.m */; };
+		723D3DDD2B0785F90019B0F5 /* JtlyThinking-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 723D3DDC2B0785F90019B0F5 /* JtlyThinking-info.plist */; };
+		B22D153CFDCA43F495C16E3C /* Pods_JTLYDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83175C9C2FFE8F4D35EE9C6 /* Pods_JTLYDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		620990F724F7933B00480ACF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0817749E29F8FE7300C4E6AC /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		0826359F27F6A0E800DBC1ED /* JTLYDemoEventManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTLYDemoEventManager.h; sourceTree = "<group>"; };
+		082635A027F6A0E800DBC1ED /* JTLYDemoEventManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTLYDemoEventManager.m; sourceTree = "<group>"; };
+		0884C0E929135D3A00547209 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		08C254352768ADC7009BF3F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		08C254362768ADCA009BF3F0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		08E53F5B2702F35B001476BB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		08E53F6F2702F4F1001476BB /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		08E53F722702F5B9001476BB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		08EE6825299F1E7D0048578D /* JTLYDemoSdkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTLYDemoSdkManager.h; sourceTree = "<group>"; };
+		08EE6826299F1E7D0048578D /* JTLYDemoSdkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTLYDemoSdkManager.m; sourceTree = "<group>"; };
+		620990EA24F78CE800480ACF /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		620990EC24F78CEF00480ACF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		620990EE24F78D4200480ACF /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		620990F124F791A700480ACF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		620990F324F791C400480ACF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		62152A6E28C75136006CC440 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		6223BB2229FA621B00FB03C1 /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
+		6223BB2429FA630C00FB03C1 /* libswiftCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCore.tbd; path = usr/lib/swift/libswiftCore.tbd; sourceTree = SDKROOT; };
+		6223BB2629FA64E100FB03C1 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		6223BB2829FA64F700FB03C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6267D01C2760B5A8006A2FAA /* JTLYDemoDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JTLYDemoDebug.entitlements; sourceTree = "<group>"; };
+		628F594A24FCD744000C2B2F /* JTLYDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JTLYDemo.entitlements; sourceTree = "<group>"; };
+		62CE1AB2248F7EA10073BC1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62CE1AB6248F7EC90073BC1A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		62CE1AB8248F7ED10073BC1A /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		62CE1ABA248F7ED90073BC1A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		62CE1ABC248F7EE40073BC1A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		62CE1ABE248F7EF70073BC1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62CE1AC0248F7EFE0073BC1A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		62CE1AC2248F7F140073BC1A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		62CE1AC4248F7F2C0073BC1A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		62CE1AC6248F7F390073BC1A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		62CE1AC8248F7F420073BC1A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		62CFA482244858D900DF1494 /* JTLYDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTLYDemoViewController.xib; sourceTree = "<group>"; };
+		62CFA485244858D900DF1494 /* JTLYDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTLYDemoViewController.m; sourceTree = "<group>"; };
+		62CFA486244858D900DF1494 /* JTLYDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTLYDemoViewController.h; sourceTree = "<group>"; };
+		62F84FCC243DA3320099BA5B /* JTLYDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTLYDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F84FCF243DA3320099BA5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62F84FD0243DA3320099BA5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62F84FDB243DA3350099BA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62F84FDE243DA3350099BA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62F84FE0243DA3350099BA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F84FE1243DA3350099BA5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		723D3DDC2B0785F90019B0F5 /* JtlyThinking-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JtlyThinking-info.plist"; sourceTree = "<group>"; };
+		954BD5D9F0E7D00B82CB872E /* Pods-JTLYDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTLYDemo.release.xcconfig"; path = "Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A54A44221E2124C006DD1F67 /* Pods-JTLYDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTLYDemo.debug.xcconfig"; path = "Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A83175C9C2FFE8F4D35EE9C6 /* Pods_JTLYDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTLYDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F84FC9243DA3320099BA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22D153CFDCA43F495C16E3C /* Pods_JTLYDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FDDDC4247E61160077A55D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6223BB2829FA64F700FB03C1 /* CoreGraphics.framework */,
+				6223BB2629FA64E100FB03C1 /* libresolv.tbd */,
+				6223BB2429FA630C00FB03C1 /* libswiftCore.tbd */,
+				6223BB2229FA621B00FB03C1 /* libswiftWebKit.tbd */,
+				0817749E29F8FE7300C4E6AC /* libresolv.9.tbd */,
+				62152A6E28C75136006CC440 /* CoreServices.framework */,
+				08E53F722702F5B9001476BB /* MobileCoreServices.framework */,
+				08E53F6F2702F4F1001476BB /* Photos.framework */,
+				08E53F5B2702F35B001476BB /* AVFoundation.framework */,
+				620990F324F791C400480ACF /* libc++.tbd */,
+				620990F124F791A700480ACF /* libz.tbd */,
+				620990EE24F78D4200480ACF /* ReplayKit.framework */,
+				620990EC24F78CEF00480ACF /* Accelerate.framework */,
+				620990EA24F78CE800480ACF /* AuthenticationServices.framework */,
+				62CE1AC8248F7F420073BC1A /* SystemConfiguration.framework */,
+				62CE1AC6248F7F390073BC1A /* CoreTelephony.framework */,
+				62CE1AC4248F7F2C0073BC1A /* MessageUI.framework */,
+				62CE1AC2248F7F140073BC1A /* libsqlite3.0.tbd */,
+				62CE1AC0248F7EFE0073BC1A /* WebKit.framework */,
+				62CE1ABE248F7EF70073BC1A /* Foundation.framework */,
+				62CE1ABC248F7EE40073BC1A /* CoreFoundation.framework */,
+				62CE1ABA248F7ED90073BC1A /* CFNetwork.framework */,
+				62CE1AB8248F7ED10073BC1A /* LocalAuthentication.framework */,
+				62CE1AB6248F7EC90073BC1A /* SafariServices.framework */,
+				62CE1AB2248F7EA10073BC1A /* UIKit.framework */,
+				A83175C9C2FFE8F4D35EE9C6 /* Pods_JTLYDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2006F91ED9D94CD9B2BCB23C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A54A44221E2124C006DD1F67 /* Pods-JTLYDemo.debug.xcconfig */,
+				954BD5D9F0E7D00B82CB872E /* Pods-JTLYDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62CFA48A24485A3D00DF1494 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F84FE1243DA3350099BA5B /* main.m */,
+				62F84FDD243DA3350099BA5B /* LaunchScreen.storyboard */,
+				62F84FDB243DA3350099BA5B /* Assets.xcassets */,
+				62F84FE0243DA3350099BA5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F84FC3243DA3320099BA5B = {
+			isa = PBXGroup;
+			children = (
+				723D3DDB2B0785F90019B0F5 /* ThirdPartyResourceFiles */,
+				62F84FCE243DA3320099BA5B /* JTLYDemo */,
+				62F84FCD243DA3320099BA5B /* Products */,
+				08FDDDC4247E61160077A55D /* Frameworks */,
+				2006F91ED9D94CD9B2BCB23C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		62F84FCD243DA3320099BA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F84FCC243DA3320099BA5B /* JTLYDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F84FCE243DA3320099BA5B /* JTLYDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6267D01C2760B5A8006A2FAA /* JTLYDemoDebug.entitlements */,
+				628F594A24FCD744000C2B2F /* JTLYDemo.entitlements */,
+				62F84FCF243DA3320099BA5B /* AppDelegate.h */,
+				62F84FD0243DA3320099BA5B /* AppDelegate.m */,
+				62CFA486244858D900DF1494 /* JTLYDemoViewController.h */,
+				62CFA485244858D900DF1494 /* JTLYDemoViewController.m */,
+				62CFA482244858D900DF1494 /* JTLYDemoViewController.xib */,
+				08EE6825299F1E7D0048578D /* JTLYDemoSdkManager.h */,
+				08EE6826299F1E7D0048578D /* JTLYDemoSdkManager.m */,
+				0826359F27F6A0E800DBC1ED /* JTLYDemoEventManager.h */,
+				082635A027F6A0E800DBC1ED /* JTLYDemoEventManager.m */,
+				62CFA48A24485A3D00DF1494 /* Supporting Files */,
+			);
+			path = JTLYDemo;
+			sourceTree = "<group>";
+		};
+		723D3DDB2B0785F90019B0F5 /* ThirdPartyResourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				723D3DDC2B0785F90019B0F5 /* JtlyThinking-info.plist */,
+			);
+			path = ThirdPartyResourceFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F84FCB243DA3320099BA5B /* JTLYDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F84FE5243DA3350099BA5B /* Build configuration list for PBXNativeTarget "JTLYDemo" */;
+			buildPhases = (
+				0F3F82A18A5E598337E299EC /* [CP] Check Pods Manifest.lock */,
+				62F84FC8243DA3320099BA5B /* Sources */,
+				62F84FC9243DA3320099BA5B /* Frameworks */,
+				62F84FCA243DA3320099BA5B /* Resources */,
+				620990F724F7933B00480ACF /* Embed Frameworks */,
+				623DE3C42A09E412009BAC9A /* BuildDemoVersion */,
+				EBD0C9DA9D44B657625BCD45 /* [CP] Embed Pods Frameworks */,
+				3AF6F16ABBB942E057DA7A06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTLYDemo;
+			productName = JTLYDemo;
+			productReference = 62F84FCC243DA3320099BA5B /* JTLYDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F84FC4243DA3320099BA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = WakeyWoo;
+				TargetAttributes = {
+					62F84FCB243DA3320099BA5B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 62F84FC7243DA3320099BA5B /* Build configuration list for PBXProject "JTLYDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+				ko,
+			);
+			mainGroup = 62F84FC3243DA3320099BA5B;
+			productRefGroup = 62F84FCD243DA3320099BA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F84FCB243DA3320099BA5B /* JTLYDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F84FCA243DA3320099BA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F84FDF243DA3350099BA5B /* LaunchScreen.storyboard in Resources */,
+				723D3DDD2B0785F90019B0F5 /* JtlyThinking-info.plist in Resources */,
+				62F84FDC243DA3350099BA5B /* Assets.xcassets in Resources */,
+				62CFA487244858DA00DF1494 /* JTLYDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F3F82A18A5E598337E299EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JTLYDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AF6F16ABBB942E057DA7A06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		623DE3C42A09E412009BAC9A /* BuildDemoVersion */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = BuildDemoVersion;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# 1\n# Set bash script to exit immediately if any commands fail.\n# that script for being sure the bundle files are lastest build.\nset -e\n\n#plist文件位置\nplist=${INFOPLIST_FILE}\n\n#Define文件夹目录\ndefinePath=\"${PROJECT_DIR}/../CmgeKit/CmgeKit/Define\"\n#版本号构建号文件夹目录\nverBuildFilePath=\"${definePath}/CmgeCoreConstantDefine.h\"\n#联运开关类型文件夹目录\njointFilePath=\"${definePath}/CmgeAdvanceCoreConstantDefine.h\"\n\n#read version number \nVERSION_NUMBER=`grep '^#define VERSION_CN' ${verBuildFilePath} | sed -n 's/#define VERSION_CN @\"\\(.*\\)\"/\\1/gp'`\n\n#read build number\nBUILD_NUMBER=`grep '^#define Build_CN' ${verBuildFilePath} | sed -n 's/#define Build_CN @\"\\(.*\\)\"/\\1/gp'`\n\n#mutiple switches, 集团默认全关\nJGTypeCount=0\n\n#检测第三方ZF是否打开\n#thirdPartyZF=`sed -n 's/^#define THIRD_PARTY_ZF/THIRD_PARTY_ZF/gp' ${jointFilePath}`\n#if [[ $thirdPartyZF == \"THIRD_PARTY_ZF\" ]]\n#then\n#    let \"JGTypeCount=((1<<0))\"\n#fi\n\n#检测是否强制关闭账号\n#forceOffAccount=`sed -n 's/^#define FORCE_DISABLE_ACCOUNTLOGIN/FORCE_DISABLE_ACCOUNTLOGIN/gp' ${jointFilePath}`\n#if [[ $forceOffAccount == \"FORCE_DISABLE_ACCOUNTLOGIN\" ]]\n#then\n#    let \"JGTypeCount=JGTypeCount + ((1<<1))\"\n#    echo \"you are here\"\n#fi\n\n#build number + switches\nBUILD_AND_TYPE=\"$BUILD_NUMBER.$JGTypeCount\"\n\n\n#这段代码是为了防止build number和version number为空的情况了，先默认给一个\nif [[ $VERSION_NUMBER == \"\" ]]\nthen\n    VERSION_NUMBER=\"1.0.0\"\nfi\n\nif [[ $BUILD_AND_TYPE == \".0\" ]]\nthen\n    BUILD_AND_TYPE=\"202301011000.0\"\nfi\n\n#change version number\n/usr/libexec/Plistbuddy -c \"Set CFBundleShortVersionString $VERSION_NUMBER\" \"${plist}\"\n\n\n#change build number\n/usr/libexec/Plistbuddy -c \"Set CFBundleVersion $BUILD_AND_TYPE\" \"${plist}\"\n";
+		};
+		EBD0C9DA9D44B657625BCD45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F84FC8243DA3320099BA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CFA489244858DA00DF1494 /* JTLYDemoViewController.m in Sources */,
+				08EE6827299F1E7D0048578D /* JTLYDemoSdkManager.m in Sources */,
+				62F84FD1243DA3320099BA5B /* AppDelegate.m in Sources */,
+				082635A127F6A0E800DBC1ED /* JTLYDemoEventManager.m in Sources */,
+				62F84FE2243DA3350099BA5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62F84FDD243DA3350099BA5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F84FDE243DA3350099BA5B /* Base */,
+				08C254352768ADC7009BF3F0 /* zh-Hans */,
+				08C254362768ADCA009BF3F0 /* zh-Hant */,
+				0884C0E929135D3A00547209 /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62F84FE3243DA3350099BA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62F84FE4243DA3350099BA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62F84FE6243DA3350099BA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54A44221E2124C006DD1F67 /* Pods-JTLYDemo.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_ENTITLEMENTS = JTLYDemo/JTLYDemoDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2023101601;
+				DEVELOPMENT_TEAM = BKYK4P9KAG;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = JTLYDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CmgeSDKTest;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.15.1;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmge.sdktest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62F84FE7243DA3350099BA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954BD5D9F0E7D00B82CB872E /* Pods-JTLYDemo.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_ENTITLEMENTS = JTLYDemo/JTLYDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2023101601;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BKYK4P9KAG;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = JTLYDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CmgeSDKTest;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.15.1;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmge.sdktest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = SdkTest_AdHoc;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F84FC7243DA3320099BA5B /* Build configuration list for PBXProject "JTLYDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F84FE3243DA3350099BA5B /* Debug */,
+				62F84FE4243DA3350099BA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F84FE5243DA3350099BA5B /* Build configuration list for PBXNativeTarget "JTLYDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F84FE6243DA3350099BA5B /* Debug */,
+				62F84FE7243DA3350099BA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62F84FC4243DA3320099BA5B /* Project object */;
+}

@@ -1,0 +1,256 @@
+/*
+  Localizable.strings
+  CmgeKit
+
+  Created by ly on 2020/7/30.
+  Copyright © 2020 WakeyWoo. All rights reserved.
+*/
+
+"CmgeAccount" = "アカウント";
+"CmgeEmail" = "メールアドレス";
+"CmgePassword" = "パスワード";
+"CmgeLogin" = "ログイン";
+"CmgeRegister" = "登録";
+"CmgeRegisterNow" = "今すぐ登録";
+"CmgeForgetPassword" = "パスワードを忘れた";
+"CmgeInputCorrectPhoneNum" = "正しい携帯番号をご入力ください";
+"CmgeOperationIsTooFrequent" = "操作頻繫。10秒後に再試行してください";
+"CmgeConfirm" = "確認";
+"CmgeConfirmPassword" = "パスワード確認";
+"CmgeRegisterSuccess" = "登録成功";
+"CmgeRegisterFail" = "登録失敗";
+"CmgeLoginGame" = "ゲームログイン";
+"CmgeRegisterAgain" = "再登録";
+"CmgePhoneNumOneClickLogin" = "携帯番号ログイン";
+"CmgeOtherPhoneNumLogin" = "他の携帯番号でログイン";
+"CmgeAgreeUserProtocol" = "規約などをお先に同意してください";
+"CmgeInputPhoneNum" = "携帯番号をご入力ください";
+"CmgeInputEmailAddress" = "メールアドレスをご入力ください";
+"CmgeNextStep" = "次へ";
+"CmgeVerificationCode" = "検証コードを発送";
+"CmgeChooseLoginType" = "ログイン方法を選んでください";
+"CmgeContactService" = "サポートに連絡";
+"CmgeInputSMSVerifyCode" = "検証コードをご入力ください";
+"CmgeInputEmailVerifyCode" = "検証コードをご入力ください";
+"CmgeSendTo" = "に発送";
+"CmgeResend" = "再発送";
+"CmgeMeetProblem" = "お問い合わせ";
+"CmgeReadAndAgree" = "同意する";
+"CmgeServiceProtocol" = "利用規約";
+"CmgePrivacyPolicy" = "プライバシーポリシー";
+"CmgeAnd" = "と";
+"CmgeInputCorrectAccount" = "アカウントは8~20文字数で、アルファベットと数字含み、アルファベットで始めてください";
+"CmgeInputCorrectPassword" = "パスワードは6~20文字数で、アルファベットと数字を含めてください";
+"CmgeTwoPasswordsNotMatch" = "パスワードが一致しません";
+"CmgeInputCorrectEmail" = "正しいメールアドレスをご入力ください。最大40文字数";
+"CmgeFlashLogin" = "ログイン";
+"CmgeGuestLogin" = "クイックゲーム";
+"CmgeAccountLogin" = "アカウントログイン";
+"CmgeEmailLogin" = "メールログイン";
+"CmgePhoneLogin" = "携帯番号ログイン";
+"CmgeAppleLogin" = "Appleログイン";
+"CmgeWeixinLogin" = "ウェイチャットログイン";
+"CmgeQQLogin" = "QQログイン";
+"CmgeXJLeagueLogin" = "XJLeagueグイン";
+"CmgeFacebookLogin" = "Facebookログイン";
+"CmgeLineLogin" = "Lineログイン";
+"CmgeTwitterLogin" = "Twitterログイン";
+"CmgeGoogleWebLogin" = "Googleログイン";
+"CmgeOtherLogin" = "他の方法でログイン";
+"CmgeLastLogin" = "前回ログイン";
+"CmgeAddNewAccount" = "新しいアカウント追加";
+"CmgeDeleteRecord" = "記録削除";
+"CmgeDone" = "完了";
+"CmgeDelete" = "削除";
+"CmgeGuest" = "ゲスト";
+"CmgeConfirmDeleteAccount" = "このアカウントのログイン記録を削除しますか";
+"CmgeCancel" = "取消";
+"CmgeConfirmDelete" = "削除確認";
+"CmgeJustNow" = "たった今";
+"CmgeMinutesAgo" = "分前";
+"CmgeHoursAgo" = "時間前";
+"CmgeDaysAgo" = "日前";
+"CmgeNetworkException" = "ネット異常";
+"CmgeRealNameAuthException" = "実名検証異常";
+"CmgePayException" = "支払い異常";
+"CmgeCommonException" = "異常";
+"CmgeClickBottomButtonContactCustomerService" = "お問い合わせをタップしてサポートにご連絡ください";
+"CmgeProblemOccur" = "お問い合わせ";
+"CmgeBindPhoneForDataSecurity" = "クイックゲームモードでアカウント紛失しやすいため、連携してください";
+"CmgeGamer" = "プレイヤー";
+"CmgeWelcomeToTheGame" = "ようこそ";
+"CmgeChangeAccount" = "アカウント切替";
+"CmgeChangeAccount" = "アカウント切替";
+"CmgeGuestAcountBindPhoneNum" = "アカウントセキュリティのため、連携してください";
+"CmgeLocalPhoneNumberLogin" = "携帯番号ログイン";
+"CmgeOtherPhoneNumberLogin" = "他の携帯番号でログイン";
+"CmgePleaseReadAgreeProtol" =  "利用規約などをお先に同意してください";
+"CmgeGetOnceKeyTokenFail" = "token獲得失敗";
+"CmgeVerifyOnceKeyTokenFail" = "token検証失敗";
+"cmge_api_systemError" = "ネットシステムエラー";
+"cmge_api_serverError" = "ネットサーバーエラー";
+"cmge_api_dataError" = "ネットデータエラー";
+"cmge_3rd_customError" = "サード定義エラー";
+"cmge_3rd_sdkError" = "サードサービスエラー";
+"cmge_3rd_systemError" = "サードシステムエラー";
+"cmge_public_unknownError" = "未知エラー";
+"CmgeNoAccountData" = "アカウントデータなし";
+"CmgeTips" = "ご注意";
+"CmgeSkipOnce" = "スキップ";
+"CmgeRealNameAuth" = "実名検証";
+"CmgeUnderagePlayerForbiddenTime" = "未成年者は現在のタイムスロットでゲーム禁止です";
+"CmgeUnderagePlayerMaximumTime" = "未成年者のゲーム時間上限になりました";
+"CmgeAbout" = "アバウト";
+"CmgeUnderagePlayerPayLimit" = "未成年者チャージ制限";
+"CmgeGotIt" = "了解";
+"CmgeDemoAccount" = "未実名検証アカウント";
+"CmgeRemain" = "あと";
+"CmgeMinutes" = "分";
+"CmgeReject" = "同意しない";
+"CmgeAccept" = "同意する";
+"CmgeConfirmToExitGame" = "ゲームを終了しますか";
+"CmgeBindSuccess" = "連携成功";
+"CmgeNoAccountDataChooseOtherLogin" = "アカウントデータなし。他の方法でログインしてください";
+"CmgeServerBusy" = "サーバービジー。後ほど再試行してください";
+"CmgeReconnect" = "再接続";
+"CmgeLaterCanReconnect" = "後ほど再接続可能";
+"CmgeBackToGame" = "ゲームに戻る";
+"CmgeInvalidURL" = "無効ウェブサイト";
+"CmgeServerIsFull" = "サーバーフル。後ほど再試行してください";
+"CmgeAccountIsInvalid" = "アカウント失効。再ログインしてください";
+"CmgeCreateNewGuestTips" = "他のアカウントまたはメールアドレスと連携しています。連携しているアカウント/メールでログインするのがお勧めです。このままログインすると新しいアカウントが作成されますが、続きますか";
+"CmgeUserCancelGuestLogin" = "ゲストログイン取消";
+"CmgeOrderIdProductIdIsNull" = "注文番号とゲーム情報をご入力ください";
+"CmgePleaseCheckNetwork" = "ネット状況をご確認ください";
+"CmgeTransactionFailed" = "支払い失敗";
+"CmgeTransactionSuccess" = "支払い成功";
+
+//20220822
+"CmgeMore" = "詳細";
+"CmgeOVAppleLogin" = "Appleログイン";
+"CmgeOVFacebookLogin" = "Facebookログイン";
+"CmgeOVLineLogin" = "Lineログイン";
+"CmgeOVTwitterLogin" = "Twitterログイン";
+"CmgeOVGoogleWebLogin" = "Googleログイン";
+"CmgeAccountEmptyTips" = "アカウントをご入力ください";
+"CmgePasswordEmptyTips" = "パスワードをご入力ください";
+
+"CmgeLiveNotOpen" = "イベントは始まっていません";
+
+//20221024
+"CmgeTips" = "ご注意";
+"CmgeRetryTipsMessage" = "前回の支払いは完了していません。再試行しますか。新たな支払いを開始すると前回の注文が紛失する可能性があります。ご注意ください。";
+"CmgeContinue" = "再試行";
+"CmgeStartNewPay" = "新たな支払いを開始";
+"CmgeBanUserPay" = "失敗。アプリ内の購入は禁止されています";
+"CmgeOrderProductNil" = "注文番号またはゲーム情報をご入力ください";
+"CmgeBuyFail" = "支払い失敗";
+"CmgeProductNotSet" = "ゲーム情報をご入力ください";
+"CmgeProductIDNil" = "ゲームidをご入力ください";
+"CmgeBuySuccess" = "購入成功";
+"CmgeCheckOrderFail" = "注文検証失敗";
+"CmgeDoNotUseSimulatorPay" = "シミュレーターで支払いしないでください";
+"CmgeLastOrderPaying" = "前回の注文を支払っています。暫くお待ちください";
+
+"CmgeNetworkExceptionTryAgainLater" = "ネット異常。後ほど再試行してください";
+
+
+//20221115
+"CmgePleaseInputActivationCode" = "请输入激活码";
+"CmgePleaseInputActivationCodeEnterGame" = "请输入激活码进入游戏";
+"CmgeActivationCodeExpired" = "您的激活码已失效，请使用有效激活码进入游戏";
+"CmgeActivationCodeBindSuccess" = "激活码绑定成功";
+"CmgeActivationCodeIsNull" = "激活码不能为空";
+"CmgeActivationCodeFormatIncorrect" = "您输入的激活码格式有误";
+
+//20221114
+"CmgeEmptyDataError" = "エンプティデータエラー";
+"CmgeUnzipDecryptDataError" = "デクラシファイデータデコンプレスエラー";
+"CmgeParseDataError" = "サーバーデータ分析できません";
+"CmgeNotServerFormatError" = "サーバーフォーマットエラー";
+"CmgeNoProuductError" = "ゲーム情報送信エラー";
+"CmgeNotMatchProductError" = "対応のゲーム情報なし";
+
+//20221202
+"CmgeReturnLogin" = "タイトルへ戻る";
+
+//20230116
+"CmgeOVAccountLogin" = "アカウントログイン";
+"CmgeOVGuestLogin" = "ゲストログイン";
+
+//20230307
+"CmgeCurrencyLimitTip1" = "現在の通貨で支払いすることはできません。";
+"CmgeCurrencyLimitTip2" = "で支払いしてください。";
+"CmgeCurrencyLimitTip3" = "、";
+
+//20230309
+"CmgeErrorInParamInvalid" = "パラメータが無効です。";
+"CmgeErrorNotSupportSDK" = "SDKがインポートされていません。";
+"CmgeErrorNotFoundAPI" = "関連APIが見つかりません。";
+"CmgeErrorReturnDataProblem" = "サードパーティSDKからのデータが異常です。";
+"CmgeErrorUserCancel" = "ユーザーがキャンセルしたかログインしていません。";
+"CmgeErrorNetworkFail" = "ネットワークのエラーです。";
+"CmgeErrorAccessTokenFailed" = "Access Tokenの取得に失敗しました。";
+"CmgeErrorOpenIDFailed" = "Open Idの取得に失敗しました。";
+"CmgeErrorUnknown" = "システムエラーが発生しました。";
+
+"CmgeErrorWebLoadFailed" = "Webの読み込みエラーです。";
+"CmgeErrorUserCloseAuth" = "ユーザーが本人確認をキャンセルしました。";
+
+//20230330
+"CmgeErrorNoUserCenterPage" = "ユーザーセンターのアドレスがありません。";
+"CmgeErrorNoBindedList" = "連携リストが異常です。";
+
+//20230407
+"CmgeErrorServerProductNull" = "サーバーのデータ請求がバックエラーです。";
+"CmgeErrorAppleProductNull" = "Appleのデータ請求がバックエラーです。";
+
+//20230504
+"CmgeErrorApiLoginEmptyInput" = "ご入力ください。";
+"CmgeErrorApiLoginTwoInputDifferent" = "2回の入力内容が異なります。";
+"CmgeErrorApiLoginNoHistoryAccount" = "自動ログインに過去アカウントの記録がありません。";
+
+//20230523
+"CmgePayParamNull" = "支払いパラメータが欠けています。";
+
+//20230609
+"CmgeGuestBindMessage" = "アカウントは連携されていません。\
+アカウントの紛失を避けるために、連携してください。";
+"CmgeGotoBind" = "連携";
+
+//20230613
+"CmgeNoticeTypeErrorTypeEmptyServerData" = "お知らせサーバーからのデータが空です";
+"CmgeNoticeTypeErrorTypeEmptyUrl" = "お知らせのURLリンクが空です";
+"CmgeNoticeTypeErrorTypeEmptyRequestParams" = "お知らせリクエストパラメータが発行されていません";
+"CmgeSkip" = "スキップ";
+
+"CmgeConfirmAge" = "年齢確認";
+"CmgeConfirmBirthDate1" = "初支払いで生年月日の確認が必要です";
+"CmgeConfirmBirthDate2" = "年齢によって毎月購入できる金額が決まっています";
+"CmgeEnterBirthDate" = "正しい生年月日をご入力ください";
+"CmgeEnter" = "ご入力ください";
+"CmgeYear" = "年";
+"CmgeMonth" = "月";
+"CmgeBirthDateWarning" = "生年月日を確認すると変更できません";
+"CmgeBirthDateConfirmTip" = "以上の生年月日を確認しますか？";
+"CmgeBirthDateRule1" = "16歳未満、毎月の購入上限は 5000円 になります";
+"CmgeBirthDateRule2" = "16-17歳、毎月の購入上限は 30000円 になります";
+"CmgeBirthDateRule3" = "18歳以上、毎月の購入上限は 無制限 になります";
+"CmgeEnterYourBirthDate" = "生年月日をご入力ください！";
+"CmgeEnterCorrectBirthDate" = "正しい生年月日をご入力ください！";
+
+//20230714
+"CmgeStoreKit2TransactionError" = "StoreKit エラー";
+"CmgeStoreKit2PurchaseError" = "購入エラー";
+"CmgeStoreKit2PurchaseCanceledByUser" = "ユーザーによる購入のキャンセル";
+"CmgeStoreKit2PurchaseIsPending" = "購入が保留中";
+"CmgeStoreKit2PurchaseProductNotFound" = "購入商品が見つかりません";
+"CmgeStoreKit2FailedVerification" = "検証に失敗しました";
+"CmgeStoreKit2NullReceiptString" = "空の購入レシート";
+"CmgeStoreKit2GenericError" = "一般的なエラー";
+
+//20231010
+"CmgeRetrieve" = "取得する";
+"CmgeRetrieveAgain" = "再送信";
+"CmgeInputVerifyCode" = "SMS認証コードを入力してください";
+"CmgeInputCorrectVerifyCode" = "正しい認証コードを入力してください";

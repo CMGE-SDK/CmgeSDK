@@ -1,0 +1,257 @@
+/* 
+  Localizable.strings
+  CmgeKit
+
+  Created by ly on 2020/7/30.
+  Copyright © 2020 WakeyWoo. All rights reserved.
+*/
+
+"CmgeAccount" = "账号";
+"CmgeEmail" = "邮箱";
+"CmgePassword" = "密码";
+"CmgeLogin" = "登录";
+"CmgeRegister" = "注册";
+"CmgeRegisterNow" = "立即注册";
+"CmgeForgetPassword" = "忘记密码";
+"CmgeInputCorrectPhoneNum" = "请输入正确的手机号码。";
+"CmgeOperationIsTooFrequent" = "操作过于频繁，请10秒后尝试。";
+"CmgeConfirm" = "确认";
+"CmgeConfirmPassword" = "确认密码";
+"CmgeRegisterSuccess" = "注册成功";
+"CmgeRegisterFail" = "注册失败";
+"CmgeLoginGame" = "登录游戏";
+"CmgeRegisterAgain" = "重新注册";
+"CmgePhoneNumOneClickLogin" = "本机号码一键登录";
+"CmgeOtherPhoneNumLogin" = "其它号码登录";
+"CmgeAgreeUserProtocol" = "请阅读并同意相关政策条款。";
+"CmgeInputPhoneNum" = "请输入手机号码";
+"CmgeInputEmailAddress" = "请输入邮箱";
+"CmgeNextStep" = "下一步";
+"CmgeVerificationCode" = "验证码登录";
+"CmgeChooseLoginType" = "请选择登录方式";
+"CmgeContactService" = "联系客服";
+"CmgeInputSMSVerifyCode" = "请填写手机短信验证码。";
+"CmgeInputEmailVerifyCode" = "请填写邮箱验证码。";
+"CmgeSendTo" = "发送至";
+"CmgeResend" = "重新发送";
+"CmgeMeetProblem" = "遇到问题";
+"CmgeReadAndAgree" = "我已详细阅读并同意";
+"CmgeServiceProtocol" = "服务协议";
+"CmgePrivacyPolicy" = "隐私政策";
+"CmgeAnd" = "和";
+"CmgeInputCorrectAccount" = "账号长度为8-20位，仅包含字母和数字，不能以数字开头。";
+"CmgeInputCorrectPassword" = "密码为6-20位字符。";
+"CmgeTwoPasswordsNotMatch" = "两次输入的密码不符，请重新输入。";
+"CmgeInputCorrectEmail" = "请输入正确的邮箱，最多40个字符。";
+"CmgeFlashLogin" = "一键登录";
+"CmgeGuestLogin" = "快速游戏";
+"CmgeAccountLogin" = "账号登录";
+"CmgeEmailLogin" = "邮箱登录";
+"CmgePhoneLogin" = "手机号登录";
+"CmgeAppleLogin" = "Apple登录";
+"CmgeWeixinLogin" = "微信登录";
+"CmgeQQLogin" = "QQ登录";
+"CmgeXJLeagueLogin" = "仙盟登录";
+"CmgeFacebookLogin" = "Facebook登录";
+"CmgeLineLogin" = "Line登录";
+"CmgeTwitterLogin" = "Twitter登录";
+"CmgeGoogleWebLogin" = "Google登录";
+"CmgeOtherLogin" = "其它登录";
+"CmgeLastLogin" = "上次登录";
+"CmgeAddNewAccount" = "添加新账号";
+"CmgeDeleteRecord" = "删除记录";
+"CmgeDone" = "完成";
+"CmgeDelete" = "删除";
+"CmgeGuest" = "游客";
+"CmgeConfirmDeleteAccount" = "是否确认删除该账号的登录记录？";
+"CmgeCancel" = "取消";
+"CmgeConfirmDelete" = "确认删除";
+"CmgeJustNow" = "刚刚";
+"CmgeMinutesAgo" = "分钟前";
+"CmgeHoursAgo" = "小时前";
+"CmgeDaysAgo" = "天前";
+"CmgeNetworkException" = "网络不给力";
+"CmgeRealNameAuthException" = "实名校验异常";
+"CmgePayException" = "支付异常";
+"CmgeCommonException" = "普通异常";
+"CmgeClickBottomButtonContactCustomerService" = "请点击下方遇到问题反馈客服。";
+"CmgeProblemOccur" = "遇到问题";
+"CmgeBindPhoneForDataSecurity" = "快速游戏模式下，刷机或手机遗失等原因导致数据丢失，为保障您的财产安全，建议使用手机号码登录。";
+"CmgeGamer" = "玩家";
+"CmgeWelcomeToTheGame" = "欢迎进入游戏";
+"CmgeChangeAccount" = "切换账号";
+"CmgeGuestAcountBindPhoneNum" = "为了您账号安全，请绑定一个手机号码。";
+"CmgeLocalPhoneNumberLogin" = "本机号码一键登录";
+"CmgeOtherPhoneNumberLogin" = "其他号码登录";
+"CmgePleaseReadAgreeProtol" =  "请先阅读并同意相关协议。";
+"CmgeGetOnceKeyTokenFail" = "获取token失败。";
+"CmgeVerifyOnceKeyTokenFail" = "验证token失败。";
+"cmge_api_systemError" = "网络系统错误";
+"cmge_api_serverError" = "网络服务错误";
+"cmge_api_dataError" = "网络数据错误";
+"cmge_3rd_customError" = "三方定义错误";
+"cmge_3rd_sdkError" = "三方服务错误";
+"cmge_3rd_systemError" = "三方系统错误";
+"cmge_public_unknownError" = "未知错误";
+"CmgeNoAccountData" = "无账号数据";
+"CmgeTips" = "温馨提示";
+"CmgeSkipOnce" = "暂时跳过";
+"CmgeRealNameAuth" = "实名认证";
+"CmgeUnderagePlayerForbiddenTime" = "未成年玩家当前时段禁止游戏。";
+"CmgeUnderagePlayerMaximumTime" = "未成年玩家游戏时长已达上限。";
+"CmgeAbout" = "关于";
+"CmgeUnderagePlayerPayLimit" = "未成年人充值限制。";
+"CmgeGotIt" = "知道了";
+"CmgeDemoAccount" = "未实名账号";
+"CmgeRemain" = "剩余";
+"CmgeMinutes" = "分钟";
+"CmgeReject" = "拒绝";
+"CmgeAccept" = "接受";
+"CmgeConfirmToExitGame" = "确定要退出游戏吗？";
+"CmgeBindSuccess" = "绑定成功";
+"CmgeNoAccountDataChooseOtherLogin" = "暂无可用账号信息，请选择其它登录方式。";
+"CmgeServerBusy" = "服务器已满，请稍后再试。";
+"CmgeReconnect" = "重新连接";
+"CmgeLaterCanReconnect" = "后可重新连接";
+"CmgeBackToGame" = "返回游戏";
+"CmgeInvalidURL" = "无效网址";
+"CmgeServerIsFull" = "服务器已满，请稍后再试。";
+"CmgeAccountIsInvalid" = "账户已失效，请重新登录。";
+"CmgeCreateNewGuestTips" = "检测到已绑定邮箱或第三方账号，建议使用邮箱或第三方账号登录。确认要创建一个新的游客账号？";
+"CmgeUserCancelGuestLogin" = "用户取消游客登录。";
+"CmgeOrderIdProductIdIsNull" = "订单号或产品信息不能为空！";
+"CmgePleaseCheckNetwork" = "请检查网络";
+"CmgeTransactionFailed" = "交易失败。";
+"CmgeTransactionSuccess" = "交易成功";
+
+//20220822
+"CmgeMore" = "更多";
+"CmgeOVAppleLogin" = "通过Apple 登录";
+"CmgeOVFacebookLogin" = "通过Facebook 登录";
+"CmgeOVLineLogin" = "通过Line 登录";
+"CmgeOVTwitterLogin" = "通过Twitter 登录";
+"CmgeOVGoogleWebLogin" = "通过Google 登录";
+"CmgeAccountEmptyTips" = "账号不能为空。";
+"CmgePasswordEmptyTips" = "密码不能为空。";
+"CmgeConfirmPasswordEmptyTips" = "确认密码不能为空。";
+
+"CmgeLiveNotOpen" = "活动暂未开启。";
+
+//20221024
+"CmgeRetryTipsMessage" = "上次支付未完成，是否重试？开始新的支付可能导致丢单，请谨慎选择。";
+"CmgeContinue" = "重试";
+"CmgeStartNewPay" = "开始新的支付";
+"CmgeBanUserPay" = "失败，用户禁止应用内付费购买。";
+"CmgeOrderProductNil" = "订单号或产品信息不能为空。";
+"CmgeBuyFail" = "支付失败";
+"CmgeProductNotSet" = "产品信息未配置。";
+"CmgeProductIDNil" = "产品id为空。";
+"CmgeBuySuccess" = "购买成功";
+"CmgeCheckOrderFail" = "验证订单失败。";
+"CmgeDoNotUseSimulatorPay" = "请不要使用模拟器支付。";
+"CmgeLastOrderPaying" = "上一笔订单正在支付中，请耐心等待到结束。";
+
+"CmgeNetworkExceptionTryAgainLater" = "网络异常，请稍后再试。";
+
+
+//20221115
+"CmgePleaseInputActivationCode" = "请输入激活码";
+"CmgePleaseInputActivationCodeEnterGame" = "请输入激活码进入游戏。";
+"CmgeActivationCodeExpired" = "您的激活码已失效，请使用有效激活码进入游戏。";
+"CmgeActivationCodeBindSuccess" = "激活码绑定成功。";
+"CmgeActivationCodeIsNull" = "激活码不能为空。";
+"CmgeActivationCodeFormatIncorrect" = "您输入的激活码格式有误。";
+
+//20221114
+"CmgeEmptyDataError" = "空数据错误";
+"CmgeUnzipDecryptDataError" = "无法解压解密服务器数据。";
+"CmgeParseDataError" = "无法解析服务器数据。";
+"CmgeNotServerFormatError" = "非服务器格式数据返回。";
+"CmgeNoProuductError" = "无任何产品信息返回。";
+"CmgeNotMatchProductError" = "找不到拼配产品信息。";
+
+//20221202
+"CmgeReturnLogin" = "返回登录界面";
+
+//20230116
+"CmgeOVAccountLogin" = "账号登录";
+"CmgeOVGuestLogin" = "游客登录";
+
+//20230307
+"CmgeCurrencyLimitTip1" = "暂不支持当前币种进行支付，请使用";
+"CmgeCurrencyLimitTip2" = "币种进行支付。";
+"CmgeCurrencyLimitTip3" = "、";
+
+//20230309
+"CmgeErrorInParamInvalid" = "入参错误";
+"CmgeErrorNotSupportSDK" = "没有导入SDK。";
+"CmgeErrorNotFoundAPI" = "找不到相关API。";
+"CmgeErrorReturnDataProblem" = "第三方SDK返回数据异常。";
+"CmgeErrorUserCancel" = "用户取消或没登陆。";
+"CmgeErrorNetworkFail" = "网络失败";
+"CmgeErrorAccessTokenFailed" = "获取Access Token失败。";
+"CmgeErrorOpenIDFailed" = "获取Open Id失败。";
+"CmgeErrorUnknown" = "系统未知错误。";
+
+"CmgeErrorWebLoadFailed" = "Web加载错误。";
+"CmgeErrorUserCloseAuth" = "用户关掉实名认证。";
+
+//20230330
+"CmgeErrorNoUserCenterPage" = "无返回用户中心地址。";
+"CmgeErrorNoBindedList" = "返回绑定列表为空。";
+
+//20230407
+"CmgeErrorServerProductNull" = "服务器返回产品为空。";
+"CmgeErrorAppleProductNull" = "苹果返回产品为空。";
+
+//20230504
+"CmgeErrorApiLoginEmptyInput" = "输入为空";
+"CmgeErrorApiLoginTwoInputDifferent" = "两次输入不同。";
+"CmgeErrorApiLoginNoHistoryAccount" = "自动登陆无历史账号。";
+
+//20230523
+"CmgePayParamNull" = "支付缺少参数。";
+
+//20230609
+"CmgeGuestBindMessage" = "您尚未绑定账号，为了您的账号安全，请前往用户中心绑定账号。";
+"CmgeGotoBind" = "去绑定";
+
+//20230613
+"CmgeNoticeTypeErrorTypeEmptyServerData" = "公告服务器返回数据为空。";
+"CmgeNoticeTypeErrorTypeEmptyUrl" = "公告URL链接为空。";
+"CmgeNoticeTypeErrorTypeEmptyRequestParams" = "公告请求参数未下发。";
+"CmgeSkip" = "跳过";
+
+"CmgeConfirmAge" = "年龄确认";
+"CmgeConfirmBirthDate1" = "首次支付需要确认您的出生年月。";
+"CmgeConfirmBirthDate2" = "月购买限额取决于您的年龄。";
+"CmgeEnterBirthDate" = "请填写正确的出生年月。";
+"CmgeEnter" = "请输入";
+"CmgeYear" = "年";
+"CmgeMonth" = "月";
+"CmgeBirthDateWarning" = "出生年月一经确认，将无法修改。";
+"CmgeBirthDateConfirmTip" = "是否确认上述出生年月？";
+"CmgeBirthDateRule1" = "未满16岁，5000日元/月。";
+"CmgeBirthDateRule2" = "16-17岁，30,000日元/月。";
+"CmgeBirthDateRule3" = "18岁以上，无限制。";
+"CmgeEnterYourBirthDate" = "请输入出生年月！";
+"CmgeEnterCorrectBirthDate" = "请输入正确的出生年月！";
+
+//20230714
+"CmgeStoreKit2TransactionError" = "StoreKit 错误";
+"CmgeStoreKit2PurchaseError" = "购买错误";
+"CmgeStoreKit2PurchaseCanceledByUser" = "用户取消购买";
+"CmgeStoreKit2PurchaseIsPending" = "购买正在进行";
+"CmgeStoreKit2PurchaseProductNotFound" = "购买产品未找到";
+"CmgeStoreKit2FailedVerification" = "验证失败";
+"CmgeStoreKit2NullReceiptString" = "空的购买凭证";
+"CmgeStoreKit2GenericError" = "通用错误";
+
+//20231010
+"CmgeRetrieve" = "获取";
+"CmgeRetrieveAgain" = "重新获取";
+"CmgeInputVerifyCode" = "请输入短信验证码";
+"CmgeInputCorrectVerifyCode" = "请输入正确的验证码。";
+
+//20231031
+"CmgeErrorNotAppInstalled" = "您尚未安装该应用，请先下载该应用或更换登录方式。";

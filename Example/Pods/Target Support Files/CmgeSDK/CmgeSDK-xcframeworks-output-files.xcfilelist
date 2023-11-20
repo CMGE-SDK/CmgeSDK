@@ -1,0 +1,15 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/AliNetworkDiagnosis.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/AliyunLogCore.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/AliyunLogCrashReporter.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/AliyunLogNetworkDiagnosis.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/AliyunLogOT.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/AliyunLogOTSwift.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/AliyunLogProducer.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/AliyunLogTrace.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/AliyunLogURLSession.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/AliyunLog/WPKMobi.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeStandardKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/JtlyAnalyticsKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeDeviceInfoKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeIdentifierKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeShareKit.framework

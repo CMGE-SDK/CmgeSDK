@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CmgeSDK'
-  s.version          = '0.1.0'
+  s.version          = '1.19.0'
   s.summary          = 'A short description of CmgeSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -26,17 +26,62 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Huajie Woo' => 'wu.huajie@cmge.com' }
   s.source           = { :git => 'https://github.com/WakeyWoo/CmgeSDK', :tag => s.version.to_s }
+  #s.ios.deployment_target = "9.0"
+  s.libraries        = 'sqlite3'
+  s.requires_arc  = true
+  #s.default_subspecs = 'CmgeCore'
+  s.platform     = :ios, "9.0"
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'CmgeSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CmgeSDK' => ['CmgeSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.default_subspec = 'CmgeStandardKit'
+  
+  s.subspec 'CmgeCore' do |c|
+    c.ios.deployment_target = '9.0'
+    #c.public_header_files = 'CmgeSDK/Frameworks/includes/*.h'
+    c.vendored_frameworks = 'CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/JtlyAnalyticsKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework'
+    #c.source_files = 'CmgeSDK/Frameworks/CmgeStandardKit.xcframework/**/*.{c,h}'
+    #c.exclude_files = 'CmgeSDK/Frameworks/CmgeStandardKit.xcframework/**/Headers/*.h'
+  
+    c.ios.pod_target_xcconfig = {
+      'OTHER_LDFLAGS' => '-ObjC'
+    }
+    
+    #'LD_RUNPATH_SEARCH_PATHS' => ['/usr/lib/swift', '@executable_path/Frameworks']
+    #c.source_files = 'Sources/Producer/**/*.{h,m}', 'Sources/aliyun-log-c-sdk/**/*.{c,h}'
+    
+  end
+  
+  s.subspec 'AliyunLog' do |c|
+    c.ios.deployment_target = '10.0'
+    c.vendored_frameworks = 'CmgeSDK/Frameworks/AliyunLog/AliNetworkDiagnosis.xcframework', 'CmgeSDK/Frameworks/AliyunLog/AliyunLogCore.xcframework', 'CmgeSDK/Frameworks/AliyunLog/AliyunLogCrashReporter.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogNetworkDiagnosis.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogOT.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogOTSwift.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogProducer.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogTrace.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogURLSession.xcframework','CmgeSDK/Frameworks/AliyunLog/WPKMobi.xcframework'
+    #c.libraries = "libresolv.tbd"
+    c.resources = 'CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog-info.plist'
+    c.ios.frameworks = "SystemConfiguration", "CoreGraphics"
+    c.libraries = "z", "c++", "resolv"
+    #c.exclude_files = 'CmgeSDK/Frameworks/JtlyAnalyticsKit.xcframework/**/Headers/*.h'
+    #c.source_files = 'Sources/Producer/**/*.{h,m}', 'Sources/aliyun-log-c-sdk/**/*.{c,h}'
+    #c.public_header_files = 'CmgeSDK/Frameworks/JtlyAnalyticsKit.xcframework/**/Headers/*.h'
+    c.ios.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+        'OTHER_LDFLAGS' => '-ObjC'
+    }
+    
+    c.xcconfig = {
+      'LIBRARY_SEARCH_PATHS' => ['"$(SDKROOT)/usr/lib/swift"', '"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)"'],
+      'LD_RUNPATH_SEARCH_PATHS' => ['/usr/lib/swift', '"@executable_path/Frameworks"']
+    }
+  end
+  
+  s.subspec 'AliAuth' do |c|
+    c.ios.deployment_target = '9.0'
+    c.vendored_frameworks = 'CmgeSDK/Frameworks/AliAuth/ATAuthSDK.framework', 'CmgeSDK/Frameworks/AliAuth/YTXMonitor.framework', 'CmgeSDK/Frameworks/AliAuth/YTXOperators.framework'
+  end
+  
+  s.subspec 'ThinkingSDK' do |c|
+    c.ios.deployment_target = '9.0'
+    c.vendored_frameworks = 'CmgeSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework'
+  end
+  
+  
+  
 end

@@ -1,0 +1,254 @@
+/* 
+  Localizable.strings
+  CmgeKit
+
+  Created by ly on 2020/7/30.
+  Copyright © 2020 WakeyWoo. All rights reserved.
+*/
+
+"CmgeAccount" = "帳號";
+"CmgeEmail" = "郵箱";
+"CmgePassword" = "密碼";
+"CmgeLogin" = "登入";
+"CmgeRegister" = "註冊";
+"CmgeRegisterNow" = "立即註冊";
+"CmgeForgetPassword" = "忘記密碼";
+"CmgeInputCorrectPhoneNum" = "請輸入正確的手機號碼";
+"CmgeOperationIsTooFrequent" = "操作過於頻繁，請10秒後嘗試";
+"CmgeConfirm" = "確認";
+"CmgeConfirmPassword" = "確認密碼";
+"CmgeRegisterSuccess" = "註冊成功";
+"CmgeRegisterFail" = "註冊失敗";
+"CmgeLoginGame" = "登入遊戲";
+"CmgeRegisterAgain" = "重新註冊";
+"CmgePhoneNumOneClickLogin" = "本機號碼一鍵登入";
+"CmgeOtherPhoneNumLogin" = "其它號碼登入";
+"CmgeAgreeUserProtocol" = "請同意使用者協定";
+"CmgeInputPhoneNum" = "請輸入手機號碼";
+"CmgeInputEmailAddress" = "請輸入郵箱";
+"CmgeNextStep" = "下一步";
+"CmgeVerificationCode" = "驗證碼登入";
+"CmgeChooseLoginType" = "請選擇登入管道";
+"CmgeContactService" = "聯系客服";
+"CmgeInputSMSVerifyCode" = "請填寫手機短信驗證碼";
+"CmgeInputEmailVerifyCode" = "請填寫郵箱驗證碼";
+"CmgeSendTo" = "發送至";
+"CmgeResend" = "重新發送";
+"CmgeMeetProblem" = "遇到問題";
+"CmgeReadAndAgree" = "我已詳細閱讀並同意";
+"CmgeServiceProtocol" = "服務協定";
+"CmgePrivacyPolicy" = "隱私政策";
+"CmgeAnd" = "和";
+"CmgeInputCorrectAccount" = "帳號長度為8-20比特，僅包含字母和數位，不能以數位開頭";
+"CmgeInputCorrectPassword" = "密碼為6-20比特字元";
+"CmgeTwoPasswordsNotMatch" = "兩次輸入的密碼不符，請重新輸入";
+"CmgeInputCorrectEmail" = "請輸入正確的郵箱，最多40個字元";
+"CmgeFlashLogin" = "一鍵登入";
+"CmgeGuestLogin" = "遊客登入";
+"CmgeAccountLogin" = "帳號登入";
+"CmgeEmailLogin" = "郵箱登入";
+"CmgePhoneLogin" = "手機號登入";
+"CmgeAppleLogin" = "Apple登入";
+"CmgeWeixinLogin" = "微信登入";
+"CmgeQQLogin" = "QQ登入";
+"CmgeXJLeagueLogin" = "仙盟登錄";
+"CmgeFacebookLogin" = "Facebook登入";
+"CmgeLineLogin" = "Line登入";
+"CmgeTwitterLogin" = "Twitter登入";
+"CmgeGoogleWebLogin" = "Google登入";
+"CmgeOtherLogin" = "其它登入";
+"CmgeLastLogin" = "上次登錄";
+"CmgeAddNewAccount" = "添加新帳號";
+"CmgeDeleteRecord" = "删除記錄";
+"CmgeDone" = "完成";
+"CmgeDelete" = "删除";
+"CmgeGuest" = "遊客";
+"CmgeConfirmDeleteAccount" = "是否確認删除該帳號的登入記錄？";
+"CmgeCancel" = "取消";
+"CmgeConfirmDelete" = "確認删除";
+"CmgeJustNow" = "剛剛";
+"CmgeMinutesAgo" = "分鐘前";
+"CmgeHoursAgo" = "小時前";
+"CmgeDaysAgo" = "天前";
+"CmgeNetworkException" = "網路訊號不佳";
+"CmgeRealNameAuthException" = "實名校驗异常";
+"CmgePayException" = "支付异常";
+"CmgeCommonException" = "普通异常";
+"CmgeClickBottomButtonContactCustomerService" = "請點擊下方遇到問題迴響客服";
+"CmgeProblemOccur" = "遇到問題";
+"CmgeBindPhoneForDataSecurity" = "為保障您的資料安全，請儘快綁定一個手機號碼，以免因刷機等原因導致資料丟失？";
+"CmgeGamer" = "玩家";
+"CmgeWelcomeToTheGame" = "歡迎進入遊戲";
+"CmgeChangeAccount" = "切換帳號";
+"CmgeGuestAcountBindPhoneNum" = "為了您遊客帳號安全，請綁定一個手機號碼";
+"CmgeLocalPhoneNumberLogin" = "本機號碼一鍵登錄";
+"CmgeOtherPhoneNumberLogin" = "其他號碼登錄";
+"CmgePleaseReadAgreeProtol" =  "請閱讀並同意相關協議";
+"CmgeGetOnceKeyTokenFail" = "獲取token失敗";
+"CmgeVerifyOnceKeyTokenFail" = "驗證token失敗";
+"cmge_api_systemError" = "網絡系統錯誤";
+"cmge_api_serverError" = "網絡服務錯誤";
+"cmge_api_dataError" = "網絡數據錯誤";
+"cmge_3rd_customError" = "三方定義錯誤";
+"cmge_3rd_sdkError" = "三方服務錯誤";
+"cmge_3rd_systemError" = "三方系統錯誤";
+"cmge_public_unknownError" = "未知錯誤";
+"CmgeNoAccountData" = "無帳號數據";
+"CmgeTips" = "溫馨提示";
+"CmgeSkipOnce" = "暫時跳過";
+"CmgeRealNameAuth" = "實名認證";
+"CmgeUnderagePlayerForbiddenTime" = "未成年玩家當前時段禁止遊戲";
+"CmgeUnderagePlayerMaximumTime" = "未成年玩家遊戲時長已達上限";
+"CmgeAbout" = "關於";
+"CmgeUnderagePlayerPayLimit" = "未成年人充值限制";
+"CmgeGotIt" = "Got it";
+"CmgeDemoAccount" = "未實名帳號";
+"CmgeRemain" = "剩餘";
+"CmgeMinutes" = "分鐘";
+"CmgeReject" = "拒絕";
+"CmgeAccept" = "接受";
+"CmgeConfirmToExitGame" = "確定要退出遊戲嗎？";
+"CmgeBindSuccess" = "綁定成功";
+"CmgeNoAccountDataChooseOtherLogin" = "暫無可用帳號資訊，請選擇其它登入管道";
+"CmgeServerBusy" = "服務器已滿，請稍後再試";
+"CmgeReconnect" = "重新連接";
+"CmgeLaterCanReconnect" = "後可重新連接";
+"CmgeBackToGame" = "返回遊戲";
+"CmgeInvalidURL" = "無效網址";
+"CmgeServerIsFull" = "服務器已滿，請稍後再試";
+"CmgeAccountIsInvalid" = "帳戶已失效，請重新登入";
+"CmgeCreateNewGuestTips" = "檢查到已綁定電子郵箱或第三方帳號，建議使用電子郵箱或第三方帳號登入。確認是否創建一個新的遊客帳號？";
+"CmgeUserCancelGuestLogin" = "用戶取消遊客登錄";
+"CmgeOrderIdProductIdIsNull" = "訂單號或產品資訊不能為空！";
+"CmgePleaseCheckNetwork" = "請檢查網絡";
+"CmgeTransactionFailed" = "交易失敗。";
+"CmgeTransactionSuccess" = "交易成功";
+
+//20220822
+"CmgeMore" = "更多";
+"CmgeOVAppleLogin" = "使用Apple登入";
+"CmgeOVFacebookLogin" = "使用Facebook登入";
+"CmgeOVLineLogin" = "使用Line登入";
+"CmgeOVTwitterLogin" = "使用Twitter登入";
+"CmgeOVGoogleWebLogin" = "通过Google登入";
+"CmgeAccountEmptyTips" = "賬號不能為空";
+"CmgePasswordEmptyTips" = "密碼不能為空";
+"CmgeConfirmPasswordEmptyTips" = "確認密碼不能為空";
+
+"CmgeLiveNotOpen" = "活動暫未開啟";
+
+//20221024
+"CmgeRetryTipsMessage" = "上次支付未完成，是否重試？開始新的支付可能導致丟單，請謹慎選擇。";
+"CmgeContinue" = "繼續";
+"CmgeStartNewPay" = "開始新的支付";
+"CmgeBanUserPay" = "失敗，用戶禁止應用內付費購買";
+"CmgeOrderProductNil" = "訂單號或產品信息不能為空";
+"CmgeBuyFail" = "支付失敗";
+"CmgeProductNotSet" = "產品信息未設置";
+"CmgeProductIDNil" = "產品id為空";
+"CmgeBuySuccess" = "購買成功";
+"CmgeCheckOrderFail" = "驗證訂單失敗";
+"CmgeDoNotUseSimulatorPay" = "請不要使用模擬器支付";
+"CmgeLastOrderPaying" = "上一筆訂單正在支付中，請耐心等待至結束";
+
+"CmgeNetworkExceptionTryAgainLater" = "網絡異常，請稍後再試";
+
+
+//20221115
+"CmgePleaseInputActivationCode" = "請輸入啟動碼";
+"CmgePleaseInputActivationCodeEnterGame" = "請輸入啟動碼進入遊戲";
+"CmgeActivationCodeExpired" = "您的啟動碼已失效，請使用有效啟動碼進入遊戲";
+"CmgeActivationCodeBindSuccess" = "啟動碼綁定成功";
+"CmgeActivationCodeIsNull" = "啟動碼不能為空";
+"CmgeActivationCodeFormatIncorrect" = "您輸入的啟動碼格式有誤";
+
+//20221114
+"CmgeEmptyDataError" = "空數據錯誤";
+"CmgeUnzipDecryptDataError" = "無法解壓解密服務器數據";
+"CmgeParseDataError" = "無法解析服務器數據";
+"CmgeNotServerFormatError" = "非服務器格式數據返回";
+"CmgeNoProuductError" = "無任何產品信息返回";
+"CmgeNotMatchProductError" = "找不到拼配產品信息";
+
+//20221202
+"CmgeReturnLogin" = "返回登錄介面";
+
+//20230116
+"CmgeOVAccountLogin" = "帳號登入";
+"CmgeOVGuestLogin" = "遊客登入";
+
+//20230307
+"CmgeCurrencyLimitTip1" = "暫不支持當前幣種進行支付，請使用";
+"CmgeCurrencyLimitTip2" = "幣種進行支付";
+"CmgeCurrencyLimitTip3" = "、";
+
+//20230309
+"CmgeErrorInParamInvalid" = "輸入參數錯誤";
+"CmgeErrorNotSupportSDK" = "未導入SDK";
+"CmgeErrorNotFoundAPI" = "找不到相關API";
+"CmgeErrorReturnDataProblem" = "第三方SDK返回數據異常";
+"CmgeErrorUserCancel" = "用戶取消或未登錄";
+"CmgeErrorNetworkFail" = "網絡失敗";
+"CmgeErrorAccessTokenFailed" = "獲取Access Token失敗";
+"CmgeErrorOpenIDFailed" = "獲取Open Id失敗";
+"CmgeErrorUnknown" = "系統未知錯誤";
+
+"CmgeErrorWebLoadFailed" = "Web加載錯誤";
+"CmgeErrorUserCloseAuth" = "用戶關閉實名認證";
+
+//20230330
+"CmgeErrorNoUserCenterPage" = "無返回用戶中心地址";
+"CmgeErrorNoBindedList" = "返回綁定列表為空";
+
+//20230407
+"CmgeErrorServerProductNull" = "伺服器返回產品為空";
+"CmgeErrorAppleProductNull" = "蘋果返回產品為空";
+
+//20230504
+"CmgeErrorApiLoginEmptyInput" = "輸入為空";
+"CmgeErrorApiLoginTwoInputDifferent" = "兩次輸入不同";
+"CmgeErrorApiLoginNoHistoryAccount" = "自動登陸無歷史賬號";
+
+//20230523
+"CmgePayParamNull" = "支付缺少參數";
+
+//20230609
+"CmgeGuestBindMessage" = "您尚未綁定帳號，為了您的帳號安全，請綁定帳號。";
+"CmgeGotoBind" = "綁定";
+
+//20230613
+"CmgeNoticeTypeErrorTypeEmptyServerData" = "公告伺服器返回數據為空";
+"CmgeNoticeTypeErrorTypeEmptyUrl" = "公告URL鏈接為空";
+"CmgeNoticeTypeErrorTypeEmptyRequestParams" = "公告請求參數未下發";
+"CmgeSkip" = "跳過";
+
+"CmgeConfirmAge" = "年齡確認";
+"CmgeConfirmBirthDate1" = "首次支付需要確認您的出生年月";
+"CmgeConfirmBirthDate2" = "每月儲值限額取決於您的年齡";
+"CmgeEnterBirthDate" = "請輸入正確的出生年月";
+"CmgeEnter" = "請輸入";
+"CmgeYear" = "年";
+"CmgeMonth" = "月";
+"CmgeBirthDateWarning" = "出生年月一經確認後，將無法更改";
+"CmgeBirthDateConfirmTip" = "是否確認上述出生年月？";
+"CmgeBirthDateRule1" = "未滿16歲，5,000日元/月";
+"CmgeBirthDateRule2" = "16~17歲，30,000日元/月";
+"CmgeBirthDateRule3" = "18歲或以上，未限制";
+"CmgeEnterYourBirthDate" = "請輸入出生年月！";
+"CmgeEnterCorrectBirthDate" = "請輸入正確的出生年月！";
+
+//20230714
+"CmgeStoreKit2TransactionError" = "StoreKit 錯誤";
+"CmgeStoreKit2PurchaseError" = "購買錯誤";
+"CmgeStoreKit2PurchaseCanceledByUser" = "使用者取消購買";
+"CmgeStoreKit2PurchaseIsPending" = "購買正在進行中";
+"CmgeStoreKit2PurchaseProductNotFound" = "找不到購買的產品";
+"CmgeStoreKit2FailedVerification" = "驗證失敗";
+"CmgeStoreKit2NullReceiptString" = "空的購買憑證";
+"CmgeStoreKit2GenericError" = "通用錯誤";
+
+//20231010
+"CmgeRetrieve" = "獲取";
+"CmgeRetrieveAgain" = "重新獲取";
+"CmgeInputVerifyCode" = "請輸入簡訊驗證碼";
+"CmgeInputCorrectVerifyCode" = "請輸入正確的驗證碼";
