@@ -507,6 +507,7 @@
 				DEVELOPMENT_TEAM = BKYK4P9KAG;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = JTLYDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CmgeSDKTest;
@@ -539,6 +540,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BKYK4P9KAG;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = JTLYDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CmgeSDKTest;

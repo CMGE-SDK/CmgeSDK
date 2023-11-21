@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CmgeStandardKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CmgeTools
+import Foundation
+import StoreKit
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 15.0, *)
+@objcMembers open class CmgeStoreKitAppStorePay : ObjectiveC.NSObject {
+  @objc public static let shared: CmgeStandardKit.CmgeStoreKitAppStorePay
+  @objc public var currencyWhiteList: [Swift.String]?
+  @objc final public let userCancelErrorCode: Swift.Int
+  @objc public var environment: Swift.String? {
+    get
+  }
+  @objc public func appStorePay(orderId: Swift.String, productId: Swift.String, userId: Swift.String, uuid: Swift.String, productCompletion: @escaping @_Concurrency.MainActor (_ error: Foundation.NSError?, _ completedOrderId: Swift.String, _ completedProductId: Swift.String, _ price: Swift.Int, _ currency: Swift.String?) -> Swift.Void, paymentCompletion: @escaping @_Concurrency.MainActor (_ error: Foundation.NSError?, _ completedOrderId: Swift.String, _ transactionId: Swift.String?) -> Swift.Void)
+  @objc public func finishTransaction(_ transactionId: Swift.String, completion: @escaping @_Concurrency.MainActor (Swift.Bool) -> Swift.Void)
+  @objc public func getAnUnfinishedTransaction(productId: Swift.String?, completion: @escaping @_Concurrency.MainActor (_ unfinishedOrderId: Swift.String?, _ unfinishedTransactionId: Swift.String?, _ unfinishedProductId: Swift.String?) -> Swift.Void)
+  @objc public func listenForTransactionUpdate(_ handler: @escaping @_Concurrency.MainActor (_ orderId: Swift.String?, _ transactionId: Swift.String, _ productId: Swift.String) -> Swift.Void)
+  @objc public func beginRefundRequest(_ transactionId: Swift.String, completion: @escaping @_Concurrency.MainActor (_ msg: Swift.String) -> Swift.Void)
+  @objc deinit
+}

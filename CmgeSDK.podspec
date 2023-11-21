@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   
   #s.default_subspec = 'CmgeStandardKit'
   s.pod_target_xcconfig = {
-    'VALID_ARCHS' => 'x86_64 arm64'
+    'VALID_ARCHS' => 'arm64'
   }
   
   s.subspec 'CmgeCore' do |c|
@@ -70,20 +70,39 @@ TODO: Add long description of the pod here.
         'OTHER_LDFLAGS' => '-ObjC'
     }
     
+    c.user_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+    
     c.xcconfig = {
       'LIBRARY_SEARCH_PATHS' => ['"$(SDKROOT)/usr/lib/swift"', '"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)"'],
       'LD_RUNPATH_SEARCH_PATHS' => ['/usr/lib/swift', '"@executable_path/Frameworks"']
     }
+    
   end
   
   s.subspec 'AliAuth' do |c|
     c.ios.deployment_target = '9.0'
     c.vendored_frameworks = 'CmgeSDK/Frameworks/AliAuth/ATAuthSDK.framework', 'CmgeSDK/Frameworks/AliAuth/YTXMonitor.framework', 'CmgeSDK/Frameworks/AliAuth/YTXOperators.framework'
+    c.ios.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+    
+    c.user_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
   end
   
   s.subspec 'ThinkingSDK' do |c|
     c.ios.deployment_target = '9.0'
     c.vendored_frameworks = 'CmgeSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework'
+    c.ios.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+    
+    c.user_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
   end
   
   

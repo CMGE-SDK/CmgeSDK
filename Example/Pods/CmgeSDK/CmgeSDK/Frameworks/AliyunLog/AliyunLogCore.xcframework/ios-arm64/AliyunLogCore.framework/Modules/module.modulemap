@@ -1,0 +1,6 @@
+framework module AliyunLogCore {
+  umbrella header "AliyunLogCore.h"
+
+  export *
+  module * { export * }
+}

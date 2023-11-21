@@ -1,0 +1,4 @@
+framework module AliyunLogOTSwift {
+  header "AliyunLogOTSwift-Swift.h"
+  requires objc
+}

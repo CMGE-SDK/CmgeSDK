@@ -1,0 +1,253 @@
+/* 
+  Localizable.strings
+  CmgeKit
+
+  Created by ly on 2020/7/30.
+  Copyright © 2020 WakeyWoo. All rights reserved.
+*/
+
+"CmgeAccount" = "Account";
+"CmgeEmail" = "Email";
+"CmgePassword" = "Password";
+"CmgeLogin" = "Login";
+"CmgeRegister" = "Register";
+"CmgeRegisterNow" = "Register now";
+"CmgeForgetPassword" = "Forget password";
+"CmgeInputCorrectPhoneNum" = "Please input the correct phone number";
+"CmgeOperationIsTooFrequent" = "Operation is too frequent, please try after 10 seconds";
+"CmgeConfirm" = "Confirm";
+"CmgeConfirmPassword" = "Confirm password";
+"CmgeRegisterSuccess" = "Register success";
+"CmgeRegisterFail" = "Register fail";
+"CmgeLoginGame" = "Login game";
+"CmgeRegisterAgain" = "Register again";
+"CmgePhoneNumOneClickLogin" = "Phone number one click login";
+"CmgeOtherPhoneNumLogin" = "Other phone number login";
+"CmgeAgreeUserProtocol" = "Please agree to the user protocol";
+"CmgeInputPhoneNum" = "Please input phone number.";
+"CmgeInputEmailAddress" = "Please input email address.";
+"CmgeNextStep" = "Next";
+"CmgeVerificationCode" = "Verification code login";
+"CmgeChooseLoginType" = "Please choose login mode";
+"CmgeContactService" = "Customer service";
+"CmgeInputSMSVerifyCode" = "Please input the SMS verify code";
+"CmgeInputEmailVerifyCode" = "Please input the email verify code";
+"CmgeSendTo" = "Send to";
+"CmgeResend" = "Resend";
+"CmgeMeetProblem" = "Problems occur";
+"CmgeReadAndAgree" = "I have read and accept the ";
+"CmgeServiceProtocol" = "Terms and service";
+"CmgePrivacyPolicy" = "Privacy Policy";
+"CmgeAnd" = " and ";
+"CmgeInputCorrectAccount" = "Account length is 8-20 digits, only contains letters and numbers, can not start with a number";
+"CmgeInputCorrectPassword" = "The password is 6-20 characters";
+"CmgeTwoPasswordsNotMatch" = "The two passwords do not match, please input again";
+"CmgeInputCorrectEmail" = "Please input the correct email address, up to 40 characters";
+"CmgeFlashLogin" = "Flash login";
+"CmgeGuestLogin" = "Guest login";
+"CmgeAccountLogin" = "Account login";
+"CmgeEmailLogin" = "Email login";
+"CmgePhoneLogin" = "Phone login";
+"CmgeAppleLogin" = "Apple login";
+"CmgeWeixinLogin" = "Wechat login";
+"CmgeQQLogin" = "QQ login";
+"CmgeXJLeagueLogin" = "XJLeague login";
+"CmgeFacebookLogin" = "Facebook login";
+"CmgeLineLogin" = "Line login";
+"CmgeTwitterLogin" = "Twitter login";
+"CmgeGoogleWebLogin" = "Google login";
+"CmgeOtherLogin" = "Other login";
+"CmgeLastLogin" = "Last login";
+"CmgeAddNewAccount" = "New account";
+"CmgeDeleteRecord" = "Delete record";
+"CmgeDone" = "Done";
+"CmgeDelete" = "Delete";
+"CmgeGuest" = "Guest";
+"CmgeConfirmDeleteAccount" = "Are you sure to delete the login record of this account?";
+"CmgeCancel" = "Cancel";
+"CmgeConfirmDelete" = "Confirm delete";
+"CmgeJustNow" = "just now";
+"CmgeMinutesAgo" = "minutes ago";
+"CmgeHoursAgo" = "hours ago";
+"CmgeDaysAgo" = "days ago";
+"CmgeNetworkException" = "Network Exception";
+"CmgeRealNameAuthException" = "Real Name Auth Exception";
+"CmgePayException" = "Pay Exception";
+"CmgeCommonException" = "Common Exception";
+"CmgeClickBottomButtonContactCustomerService" = "Please click the bottom button to contact customer service";
+"CmgeProblemOccur" = "Problem occur";
+"CmgeBindPhoneForDataSecurity" = "In order to protect your data security, please bind a mobile phone number as soon as possible.";
+"CmgeGamer" = "Gamer";
+"CmgeWelcomeToTheGame" = "Welcome to the game";
+"CmgeChangeAccount" = "Change account";
+"CmgeGuestAcountBindPhoneNum" = "For the safety of your guest account, please bind a mobile phone number";
+"CmgeLocalPhoneNumberLogin" = "Local Phone Number Login";
+"CmgeOtherPhoneNumberLogin" = "Other Phone Number Login";
+"CmgePleaseReadAgreeProtol" =  "Please read related protocols first";
+"CmgeGetOnceKeyTokenFail" = "Fetch flash login token failed";
+"CmgeVerifyOnceKeyTokenFail" = "Verify flash login token failed";
+"cmge_api_systemError" = "API system error";
+"cmge_api_serverError" = "API server error";
+"cmge_api_dataError" = "API data error";
+"cmge_3rd_customError" = "3rd party custom error";
+"cmge_3rd_sdkError" = "3rd party sdk error";
+"cmge_3rd_systemError" = "3rd party system error";
+"cmge_public_unknownError" = "Unknown error";
+"CmgeNoAccountData" = "No account data";
+"CmgeTips" = "Tips";
+"CmgeSkipOnce" = "Skip";
+"CmgeRealNameAuth" = "Real Name Auth";
+"CmgeUnderagePlayerForbiddenTime" = "Underage players are not allowed to play at the current time";
+"CmgeUnderagePlayerMaximumTime" = "Underage players' playtime has reached the maximum";
+"CmgeAbout" = "about";
+"CmgeUnderagePlayerPayLimit" = "Pay limit for underage players";
+"CmgeGotIt" = "Got it";
+"CmgeDemoAccount" = "Demo account";
+"CmgeRemain" = "remain";
+"CmgeMinutes" = "Mins";
+"CmgeReject" = "Reject";
+"CmgeAccept" = "Accept";
+"CmgeConfirmToExitGame" = "Do you want to exit game?";
+"CmgeBindSuccess" = "Binding succeeded";
+"CmgeNoAccountDataChooseOtherLogin" = "No account data. Please choose other login";
+"CmgeServerBusy" = "The server is busy. Please try again later.";
+"CmgeReconnect" = "reconnect";
+"CmgeLaterCanReconnect" = "later can reconnect";
+"CmgeBackToGame" = "back to game";
+"CmgeInvalidURL" = "Invalid URL";
+"CmgeServerIsFull" = "The server is full. Please try again later.";
+"CmgeAccountIsInvalid" = "Account is invalid, please login again";
+"CmgeCreateNewGuestTips" = "This guest account has linked with other account. Are you sure to create a new guest account?";
+"CmgeUserCancelGuestLogin" = "User cancels guest login.";
+"CmgeOrderIdProductIdIsNull" = "Order ID or product information cannot be empty!";
+"CmgePleaseCheckNetwork" = "Please check your network connection";
+"CmgeTransactionFailed" = "Transaction failed.";
+"CmgeTransactionSuccess" = "Transaction success";
+
+//20220822
+"CmgeMore" = "More";
+"CmgeOVAppleLogin" = "Sign in with Apple";
+"CmgeOVFacebookLogin" = "Sign in with Facebook";
+"CmgeOVLineLogin" = "Sign in with Line";
+"CmgeOVTwitterLogin" = "Sign in with Twitter";
+"CmgeOVGoogleWebLogin" = "ign in with Google";
+"CmgeAccountEmptyTips" = "Account cannot be empty";
+"CmgePasswordEmptyTips" = "Password cannot be empty";
+"CmgeConfirmPasswordEmptyTips" = "Confirm password cannot be empty";
+
+"CmgeLiveNotOpen" = "This function not open yet";
+
+//20221024
+"CmgeRetryTipsMessage" = "Last payment is not finished. Now to retry? Starting a new pay may lost the order, please choose carefully.";
+"CmgeContinue" = "Retry";
+"CmgeStartNewPay" = "Start a new pay";
+"CmgeBanUserPay" = "Pay failed, user forbids in-app purchases";
+"CmgeOrderProductNil" = "Order number or product information cannot be empty.";
+"CmgeBuyFail" = "Buy failed";
+"CmgeProductNotSet" = "Product information is not set";
+"CmgeProductIDNil" = "Product id is nil";
+"CmgeBuySuccess" = "Buy success";
+"CmgeCheckOrderFail" = "Check order failed";
+"CmgeDoNotUseSimulatorPay" = "Please do not use simulator to pay";
+"CmgeLastOrderPaying" = "last payment is paying, please wait for it to finish";
+
+"CmgeNetworkExceptionTryAgainLater" = "There is no network access, please try again";
+
+//20221115
+"CmgePleaseInputActivationCode" = "Please input the activation code";
+"CmgePleaseInputActivationCodeEnterGame" = "Please input the activation code to enter the game";
+"CmgeActivationCodeExpired" = "Your activation code has expired. Please use a valid activation code to enter the game";
+"CmgeActivationCodeBindSuccess" = "Activation code binding succeeded";
+"CmgeActivationCodeIsNull" = "Activation code cannot be empty";
+"CmgeActivationCodeFormatIncorrect" = "Incorrect activation code format";
+
+//20221114
+"CmgeEmptyDataError" = "Empty error";
+"CmgeUnzipDecryptDataError" = "Can not unzip or decrypt server data";
+"CmgeParseDataError" = "Can not parse server data";
+"CmgeNotServerFormatError" = "Non-server format data return";
+"CmgeNoProuductError" = "No product return";
+"CmgeNotMatchProductError" = "Not math any product";
+
+//20221202
+"CmgeReturnLogin" = "Return to login";
+
+//20230116
+"CmgeOVAccountLogin" = "Login";
+"CmgeOVGuestLogin" = "Guest login";
+
+//20230307
+"CmgeCurrencyLimitTip1" = "The current currency is not supported for payment, please use ";
+"CmgeCurrencyLimitTip2" = " for payment";
+"CmgeCurrencyLimitTip3" = ", ";
+
+//20230309
+"CmgeErrorInParamInvalid" = "Invalid parameter";
+"CmgeErrorNotSupportSDK" = "SDK not imported";
+"CmgeErrorNotFoundAPI" = "Related API not found";
+"CmgeErrorReturnDataProblem" = "Abnormal data returned by third-party SDK";
+"CmgeErrorUserCancel" = "User cancelled or not logged in";
+"CmgeErrorNetworkFail" = "Network failure";
+"CmgeErrorAccessTokenFailed" = "Failed to obtain Access Token";
+"CmgeErrorOpenIDFailed" = "Failed to obtain Open Id";
+"CmgeErrorUnknown" = "Unknown system error";
+
+"CmgeErrorWebLoadFailed" = "Web load error";
+"CmgeErrorUserCloseAuth" = "User turned off real-name authentication";
+
+//20230330
+"CmgeErrorNoUserCenterPage" = "No user center address returned";
+"CmgeErrorNoBindedList" = "The binding list returned is empty";
+
+//20230407
+"CmgeErrorServerProductNull" = "Server returns empty product";
+"CmgeErrorAppleProductNull" = "Apple returns empty product";
+
+//20230504
+"CmgeErrorApiLoginEmptyInput" = "Input is empty";
+"CmgeErrorApiLoginTwoInputDifferent" = "Two inputs are different";
+"CmgeErrorApiLoginNoHistoryAccount" = "No history account for auto login";
+
+//20230523
+"CmgePayParamNull" = "Payment parameter is missing";
+
+//20230609
+"CmgeGuestBindMessage" = "You have not yet linked your account. For the sake of your account security, please link your account.";
+"CmgeGotoBind" = "Bind";
+
+//20230613
+"CmgeNoticeTypeErrorTypeEmptyServerData" = "The server returned empty data for the announcement";
+"CmgeNoticeTypeErrorTypeEmptyUrl" = "The URL link for the announcement is empty";
+"CmgeNoticeTypeErrorTypeEmptyRequestParams" = "The request parameters for the announcement have not been issued";
+"CmgeSkip" = "Skip";
+
+"CmgeConfirmAge" = "Please confirm your age";
+"CmgeConfirmBirthDate1" = "Confirm your Birth date";
+"CmgeConfirmBirthDate2" = "Monthly quota is restricted by age";
+"CmgeEnterBirthDate" = "Please enter the real birth date";
+"CmgeEnter" = "Enter";
+"CmgeYear" = "year";
+"CmgeMonth" = "month";
+"CmgeBirthDateWarning" = "Birth date is not allowed to correct once confirmed";
+"CmgeBirthDateConfirmTip" = "Is the above-mentioned date of birth confirmed?";
+"CmgeBirthDateRule1" = "5,000 yen per month under 16";
+"CmgeBirthDateRule2" = "30,000 yen per month between 16 and 17";
+"CmgeBirthDateRule3" = "No limitation for adult (>18)";
+"CmgeEnterYourBirthDate" = "Please enter your birth date";
+"CmgeEnterCorrectBirthDate" = "Please enter the real birth date";
+
+//20230714
+"CmgeStoreKit2TransactionError" = "StoreKit Error";
+"CmgeStoreKit2PurchaseError" = "Purchase Error";
+"CmgeStoreKit2PurchaseCanceledByUser" = "Purchase canceled by user";
+"CmgeStoreKit2PurchaseIsPending" = "Purchase is pending";
+"CmgeStoreKit2PurchaseProductNotFound" = "Purchase product not found";
+"CmgeStoreKit2FailedVerification" = "Failed verification";
+"CmgeStoreKit2NullReceiptString" = "Null receipt string";
+"CmgeStoreKit2GenericError" = "Generic error";
+
+//20231010
+"CmgeRetrieve" = "Retrieve";
+"CmgeRetrieveAgain" = "Retrieve again";
+"CmgeInputVerifyCode" = "Please enter the SMS verification code";
+"CmgeInputCorrectVerifyCode" = "Please enter the correct verification code";

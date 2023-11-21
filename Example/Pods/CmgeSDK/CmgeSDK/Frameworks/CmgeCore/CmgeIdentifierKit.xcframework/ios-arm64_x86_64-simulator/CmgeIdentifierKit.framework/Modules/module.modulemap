@@ -1,0 +1,6 @@
+framework module CmgeIdentifierKit {
+  umbrella header "CmgeIdentifierKit.h"
+  export *
+
+  module * { export * }
+}

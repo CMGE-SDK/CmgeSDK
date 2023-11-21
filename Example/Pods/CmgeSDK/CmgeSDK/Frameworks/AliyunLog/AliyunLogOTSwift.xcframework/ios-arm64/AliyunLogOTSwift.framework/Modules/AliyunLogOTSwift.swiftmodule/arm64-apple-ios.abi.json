@@ -1,0 +1,242 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AliyunLogOTSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.activity",
+        "printedName": "os.activity",
+        "declKind": "Import",
+        "moduleName": "AliyunLogOTSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActivityContextManager",
+        "printedName": "ActivityContextManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getCurrentContextValue",
+            "printedName": "getCurrentContextValue(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogOTSwift@objc(cs)ActivityContextManager(im)getCurrentContextValueForKey:",
+            "mangledName": "$s16AliyunLogOTSwift22ActivityContextManagerC010getCurrentE5Value6forKeyyXlSgSS_tF",
+            "moduleName": "AliyunLogOTSwift",
+            "objc_name": "getCurrentContextValueForKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCurrentContextValue",
+            "printedName": "setCurrentContextValue(forKey:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogOTSwift@objc(cs)ActivityContextManager(im)setCurrentContextValueForKey:value:",
+            "mangledName": "$s16AliyunLogOTSwift22ActivityContextManagerC010setCurrentE5Value6forKey5valueySS_yXltF",
+            "moduleName": "AliyunLogOTSwift",
+            "objc_name": "setCurrentContextValueForKey:value:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeContextValue",
+            "printedName": "removeContextValue(forKey:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogOTSwift@objc(cs)ActivityContextManager(im)removeContextValueForKey:value:",
+            "mangledName": "$s16AliyunLogOTSwift22ActivityContextManagerC06removeE5Value6forKey5valueySS_yXltF",
+            "moduleName": "AliyunLogOTSwift",
+            "objc_name": "removeContextValueForKey:value:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActivityContextManager",
+                "printedName": "AliyunLogOTSwift.ActivityContextManager",
+                "usr": "c:@M@AliyunLogOTSwift@objc(cs)ActivityContextManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AliyunLogOTSwift@objc(cs)ActivityContextManager(im)init",
+            "mangledName": "$s16AliyunLogOTSwift22ActivityContextManagerCACycfc",
+            "moduleName": "AliyunLogOTSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AliyunLogOTSwift@objc(cs)ActivityContextManager",
+        "mangledName": "$s16AliyunLogOTSwift22ActivityContextManagerC",
+        "moduleName": "AliyunLogOTSwift",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/wakeywoo\/Downloads\/aliyun-log-ios-sdk-3.2.1 2\/Sources\/OTSwift\/ActivityContextManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 2,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/wakeywoo\/Downloads\/aliyun-log-ios-sdk-3.2.1 2\/Sources\/OTSwift\/ActivityContextManager.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 22,
+      "value": "\"_os_activity_current\""
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+/* 
+  Localizable.strings
+  CmgeKit
+
+  Created by ly on 2020/7/30.
+  Copyright © 2020 WakeyWoo. All rights reserved.
+*/
+
+"CmgeAccount" = "계정";
+"CmgeEmail" = "메일";
+"CmgePassword" = "비밀번호";
+"CmgeLogin" = "로그인";
+"CmgeRegister" = "가입";
+"CmgeRegisterNow" = "바로 가입";
+"CmgeForgetPassword" = "비밀번호 찾기";
+"CmgeInputCorrectPhoneNum" = "휴대폰 번호를 다시 입력하세요";
+"CmgeOperationIsTooFrequent" = "조작이 너무 빈번합니다. 10초 후에 시도해 주세요.";
+"CmgeConfirm" = "확인";
+"CmgeConfirmPassword" = "비밀번호 확인";
+"CmgeRegisterSuccess" = "가입 성공";
+"CmgeRegisterFail" = "가입 실패";
+"CmgeLoginGame" = "게임 접속";
+"CmgeRegisterAgain" = "다시 가입";
+"CmgePhoneNumOneClickLogin" = "본인 명의 휴대폰으로 로그인";
+"CmgeOtherPhoneNumLogin" = "기타 번호로 로그인";
+"CmgeAgreeUserProtocol" = "약관을 읽고 동의해주세요";
+"CmgeInputPhoneNum" = "휴대폰 번호를 입력하세요";
+"CmgeInputEmailAddress" = "이메일을 입력하세요";
+"CmgeNextStep" = "다음";
+"CmgeVerificationCode" = "인증 코드 로그인";
+"CmgeChooseLoginType" = "로그인 방식";
+"CmgeContactService" = "고객센터로 문의해주세요";
+"CmgeInputSMSVerifyCode" = "인증번호를 입력하세요";
+"CmgeInputEmailVerifyCode" = "메일 인증번호를 입력하세요";
+"CmgeSendTo" = "발송";
+"CmgeResend" = "다시 발송";
+"CmgeMeetProblem" = "오류 발생";
+"CmgeReadAndAgree" = "약관을 읽고 동의합니다";
+"CmgeServiceProtocol" = "서비스 이용약관";
+"CmgePrivacyPolicy" = "개인정보 취급방침";
+"CmgeAnd" = ",";
+"CmgeInputCorrectAccount" = "8-20자의 영문 혹 숫자를 입력해주세요,단 첫머리는 영문이여야 합니다.";
+"CmgeInputCorrectPassword" = "6-20자의 문자 혹 숫자를 입력해주세요.";
+"CmgeTwoPasswordsNotMatch" = "두번 입력한 비밀번호가 일치하지 않습니다. 다시 입력해주세요";
+"CmgeInputCorrectEmail" = "올바른 이메일 주소를 입력해주세요";
+"CmgeFlashLogin" = "일괄 접속";
+"CmgeGuestLogin" = "게스트 로그인";
+"CmgeAccountLogin" = "계정 로그인";
+"CmgeEmailLogin" = "이메일 로그인";
+"CmgePhoneLogin" = "휴대폰 번호 로그인";
+"CmgeAppleLogin" = "Apple 로그인";
+"CmgeWeixinLogin" = "위챗 로그인";
+"CmgeQQLogin" = "QQ 로그인";
+"CmgeXJLeagueLogin" = "XJLeague 로그인";
+"CmgeFacebookLogin" = "페이스북 로그인";
+"CmgeLineLogin" = "Line 로그인";
+"CmgeTwitterLogin" = "Twitter 로그인";
+"CmgeGoogleWebLogin" = "Google 로그인";
+"CmgeOtherLogin" = "기타 방식";
+"CmgeLastLogin" = "이전 접속";
+"CmgeAddNewAccount" = "신규 계정 추가";
+"CmgeDeleteRecord" = "기록 삭제";
+"CmgeDone" = "완성";
+"CmgeDelete" = "삭제";
+"CmgeGuest" = "게스트";
+"CmgeConfirmDeleteAccount" = "로그인 기록을 삭제하시겠습니까?";
+"CmgeCancel" = "취소";
+"CmgeConfirmDelete" = "삭제";
+"CmgeJustNow" = "방금";
+"CmgeMinutesAgo" = "분 전";
+"CmgeHoursAgo" = "시간 전";
+"CmgeDaysAgo" = "일 전";
+"CmgeNetworkException" = "네트워크 오류";
+"CmgeRealNameAuthException" = "실명인증 오류";
+"CmgePayException" = "결재 오류";
+"CmgeCommonException" = "일반 오류";
+"CmgeClickBottomButtonContactCustomerService" = "고객센터로 문의해주세요";
+"CmgeProblemOccur" = "오류 발생";
+"CmgeBindPhoneForDataSecurity" = "게스트 로그인 방식에서 브러시나 휴대폰 분실 등으로 인해 데이터가 손실될 가능성이 있으므로 계정 안전을 위해 휴대폰 번호로 로그인해주세요";
+"CmgeGamer" = "유저";
+"CmgeWelcomeToTheGame" = "환영합니다";
+"CmgeChangeAccount" = "계정 전환";
+"CmgeGuestAcountBindPhoneNum" = "계정 안전을 위해 휴대폰을 연동해주세요";
+"CmgeLocalPhoneNumberLogin" = "일괄 접속속";
+"CmgeOtherPhoneNumberLogin" = "기타 번호로 로그인";
+"CmgePleaseReadAgreeProtol" =  "약관을 읽고 동의해주세요";
+"CmgeGetOnceKeyTokenFail" = "token 획득 실패";
+"CmgeVerifyOnceKeyTokenFail" = "token 인증 실패";
+"cmge_api_systemError" = "네트워크 오류";
+"cmge_api_serverError" = "서버 오류";
+"cmge_api_dataError" = "데이터 오류";
+"cmge_3rd_customError" = "정의 오류";
+"cmge_3rd_sdkError" = "서비스 오류";
+"cmge_3rd_systemError" = "시스템 오류";
+"cmge_public_unknownError" = "알 수 없는 오류";
+"CmgeNoAccountData" = "계정 데이터가 존재하지 않습니다";
+"CmgeTips" = "알림";
+"CmgeSkipOnce" = "스킵";
+"CmgeRealNameAuth" = "실명인증";
+"CmgeUnderagePlayerForbiddenTime" = "현재 미성년자 접속할 수 없습니다";
+"CmgeUnderagePlayerMaximumTime" = "미성년자 플레이 시간 한도 초과";
+"CmgeAbout" = "About";
+"CmgeUnderagePlayerPayLimit" = "미성년자 결제 한도";
+"CmgeGotIt" = "확인";
+"CmgeDemoAccount" = "실명인증을 하지 않았습니다";
+"CmgeRemain" = "남은";
+"CmgeMinutes" = "분";
+"CmgeReject" = "취소";
+"CmgeAccept" = "확인";
+"CmgeConfirmToExitGame" = "로그아웃 하시겠습니까?";
+"CmgeBindSuccess" = "계정 연동 성공";
+"CmgeNoAccountDataChooseOtherLogin" = "계정이 없습니다. 기타 로그인 방식을 선택해주세요";
+"CmgeServerBusy" = "서버 인원 한도 초과. 잠시 후 다시 시도해 주세요";
+"CmgeReconnect" = "다시 접속";
+"CmgeLaterCanReconnect" = "후 다시 접속";
+"CmgeBackToGame" = "돌아가기";
+"CmgeInvalidURL" = "비활성 URL";
+"CmgeServerIsFull" = "서버 인원 한도 초과. 잠시 후 다시 시도해 주세요";
+"CmgeAccountIsInvalid" = "계정 오류, 다시 로그인해주세요";
+"CmgeCreateNewGuestTips" = "연동 계정이 존재합니다. 신규 계정을 생성하시겠습니까?";
+"CmgeUserCancelGuestLogin" = "게스트 로그인 취소";
+"CmgeOrderIdProductIdIsNull" = "주문번호 혹 상품정보 공백";
+"CmgePleaseCheckNetwork" = "네트워크를 확인 후 시도해주세요";
+"CmgeTransactionFailed" = "결제 실패";
+"CmgeTransactionSuccess" = "결제 성공";
+
+//20220822
+"CmgeMore" = "더 보기";
+"CmgeOVAppleLogin" = "Apple로 로그인";
+"CmgeOVFacebookLogin" = "Facebook으로 로그인";
+"CmgeOVLineLogin" = "Line으로 로그인";
+"CmgeOVTwitterLogin" = "Twitter으로 로그인";
+"CmgeOVGoogleWebLogin" = "Google으로 로그인";
+"CmgeAccountEmptyTips" = "계정을 입력해주세요";
+"CmgePasswordEmptyTips" = "비밀번호를 입력해주세요";
+"CmgeConfirmPasswordEmptyTips" = "비밀번호를 확인해주세요";
+
+"CmgeLiveNotOpen" = "생방송 미오픈, 기대해주세요";
+
+
+
+//20221115
+"CmgePleaseInputActivationCode" = "Please input the activation code";
+"CmgePleaseInputActivationCodeEnterGame" = "Please input the activation code to enter the game";
+"CmgeActivationCodeExpired" = "Your activation code has expired. Please use a valid activation code to enter the game";
+"CmgeActivationCodeBindSuccess" = "Activation code binding succeeded";
+"CmgeActivationCodeIsNull" = "Activation code cannot be empty";
+"CmgeActivationCodeFormatIncorrect" = "Incorrect activation code format";
+
+//20221024
+"CmgeRetryTipsMessage" = "진행중인 결제건 존재, 다시 결제하시겠습니까? 재결제 시 결제 미완료건이  미지급될수 있습니다.";
+"CmgeContinue" = "다시 시도";
+"CmgeStartNewPay" = "신규 결제 ";
+"CmgeBanUserPay" = "실패, 인앱 구매 불가";
+"CmgeOrderProductNil" = "주문번호 혹 상품정보가 비어있습니다.";
+"CmgeBuyFail" = "결제 실패";
+"CmgeProductNotSet" = "상품 정보가 비어 있습니다.";
+"CmgeProductIDNil" = "상품 ID가 비어 있습니다.";
+"CmgeBuySuccess" = "구매 성공";
+"CmgeCheckOrderFail" = "주문번호 인증 실패";
+"CmgeDoNotUseSimulatorPay" = "시뮬레이터로 인앱 구매할 수 없습니다.";
+"CmgeLastOrderPaying" = "결제건이 존재합니다. 잠시후 다시 시도해주세요.";
+
+"CmgeNetworkExceptionTryAgainLater" = "네트워크 오류, 잠시 후 다시 시도해주세요.";
+
+//20221114
+"CmgeEmptyDataError" = "데이터 공백 오류";
+"CmgeUnzipDecryptDataError" = "서버 데이터를 해제할 수 없습니다. ";
+"CmgeParseDataError" = "서버 데이터를 분석할 수 없습니다.";
+"CmgeNotServerFormatError" = "서버 데이터 격식 오류";
+"CmgeNoProuductError" = "상품 정보 피드백 오류";
+"CmgeNotMatchProductError" = "상품 정보가 일치하지 않습니다.";
+
+//20221202
+"CmgeReturnLogin" = "로그인 화면으로 돌아가기";
+
+//20230116
+"CmgeOVAccountLogin" = "로그인";
+"CmgeOVGuestLogin" = "게스트 로그인";
+
+//20230307
+"CmgeCurrencyLimitTip1" = "결제 불가 화폐입니다. ";
+"CmgeCurrencyLimitTip2" = "로 결제 부탁드립니다.";
+"CmgeCurrencyLimitTip3" = ", ";
+
+//20230309
+"CmgeErrorInParamInvalid" = "입력 파라미터 오류";
+"CmgeErrorNotSupportSDK" = "SDK 미설치";
+"CmgeErrorNotFoundAPI" = "관련 API를 찾을 수 없습니다";
+"CmgeErrorReturnDataProblem" = "데이터 반환 오류";
+"CmgeErrorUserCancel" = "사용자가 취소하거나 로그인하지 않음";
+"CmgeErrorNetworkFail" = "네트워크 실패";
+"CmgeErrorAccessTokenFailed" = "Access Token을 가져 오는 데 실패했습니다";
+"CmgeErrorOpenIDFailed" = "Open Id를 가져 오는 데 실패했습니다";
+"CmgeErrorUnknown" = "시스템 오류";
+
+"CmgeErrorWebLoadFailed" = "웹 로드 오류";
+"CmgeErrorUserCloseAuth" = "사용자가 실명 인증을 닫음";
+
+//20230330
+"CmgeErrorNoUserCenterPage" = "사용자 센터 주소가 반환되지 않았습니다";
+"CmgeErrorNoBindedList" = "바인딩 목록이 비어 있습니다";
+
+//20230407
+"CmgeErrorServerProductNull" = "서버에서 제품이 비어 있습니다";
+"CmgeErrorAppleProductNull" = "애플에서 제품이 비어 있습니다";
+
+//20230504
+"CmgeErrorApiLoginEmptyInput" = "입력이 비어 있음";
+"CmgeErrorApiLoginTwoInputDifferent" = "두 번의 입력이 다름";
+"CmgeErrorApiLoginNoHistoryAccount" = "자동 로그인에 대한 기록 계정 없음";
+
+//20230523
+"CmgePayParamNull" = "결제 매개 변수가 없습니다";
+
+//20230609
+"CmgeGuestBindMessage" = "아직 계정을 연결하지 않았습니다. 계정 보안을 위해 계정을 연결하십시오.";
+"CmgeGotoBind" = "연동하기";
+
+//20230613
+"CmgeNoticeTypeErrorTypeEmptyServerData" = "공지 서버가 반환 한 데이터가 비어 있습니다";
+"CmgeNoticeTypeErrorTypeEmptyUrl" = "공지 URL 링크가 비어 있습니다";
+"CmgeNoticeTypeErrorTypeEmptyRequestParams" = "공지 요청 매개 변수가 발행되지 않았습니다";
+"CmgeSkip" = "스킵";
+
+"CmgeConfirmAge" = "연령 확인";
+"CmgeConfirmBirthDate1" = "첫 결제를 위해 태어난 연월을 확인해야 합니다.";
+"CmgeConfirmBirthDate2" = "월 구매 한도는 연령에 따라 결정됩니다.";
+"CmgeEnterBirthDate" = "정확한 출생 연월을 입력해 주세요.";
+"CmgeEnter" = "입력하십시오.";
+"CmgeYear" = "년";
+"CmgeMonth" = "월";
+"CmgeBirthDateWarning" = "출생 연월이 확인되면 수정할 수 없습니다.";
+"CmgeBirthDateConfirmTip" = "위의 출생 연월을 확인하시겠습니까?";
+"CmgeBirthDateRule1" = "만 16세 미만, 5,000엔/월";
+"CmgeBirthDateRule2" = "16~17세, 30,000엔/월";
+"CmgeBirthDateRule3" = "18세 이상, 제한 없음";
+"CmgeEnterYourBirthDate" = "출생 연월을 입력해 주세요!";
+"CmgeEnterCorrectBirthDate" = "정확한 출생 연월을 입력해 주세요!";
+
+//20230714
+"CmgeStoreKit2TransactionError" = "StoreKit 오류";
+"CmgeStoreKit2PurchaseError" = "구매 오류";
+"CmgeStoreKit2PurchaseCanceledByUser" = "사용자가 구매를 취소했습니다";
+"CmgeStoreKit2PurchaseIsPending" = "구매 진행 중";
+"CmgeStoreKit2PurchaseProductNotFound" = "구매 상품을 찾을 수 없습니다";
+"CmgeStoreKit2FailedVerification" = "검증 실패";
+"CmgeStoreKit2NullReceiptString" = "빈 구매 영수증";
+"CmgeStoreKit2GenericError" = "일반 오류";
+
+//20231010
+"CmgeRetrieve" = "검색하다";
+"CmgeRetrieveAgain" = "다시 가져오기";
+"CmgeInputVerifyCode" = "문자 인증 코드를 입력하세요";
+"CmgeInputCorrectVerifyCode" = "올바른 인증 코드를 입력하세요";

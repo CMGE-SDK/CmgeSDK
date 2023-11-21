@@ -1,0 +1,3917 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AliyunLogURLSession",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "AliyunLogURLSession"
+      },
+      {
+        "kind": "Import",
+        "name": "AliyunLogOT",
+        "printedName": "AliyunLogOT",
+        "declKind": "Import",
+        "moduleName": "AliyunLogURLSession"
+      },
+      {
+        "kind": "Import",
+        "name": "AliyunLogTrace",
+        "printedName": "AliyunLogTrace",
+        "declKind": "Import",
+        "moduleName": "AliyunLogURLSession"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AliyunLogURLSession",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AliyunLogURLSession",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AliyunLogOT",
+        "printedName": "AliyunLogOT",
+        "declKind": "Import",
+        "moduleName": "AliyunLogURLSession"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionInstrumentationConfiguration",
+        "printedName": "URLSessionInstrumentationConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(shouldRecordPayload:shouldInstrument:shouldRecordRequestHeaders:shouldRecordRequestBody:shouldRecordResponse:shouldRecordError:nameSpan:spanCustomization:shouldInjectTracingHeaders:injectCustomHeaders:createdRequest:receivedResponse:receivedError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionInstrumentationConfiguration",
+                "printedName": "AliyunLogURLSession.URLSessionInstrumentationConfiguration",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLSession) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLSession) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLSession",
+                        "printedName": "Foundation.URLSession",
+                        "usr": "c:objc(cs)NSURLSession"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLResponse, Any?) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLResponse, Any?) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URLResponse, Any?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error, Any?) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error, Any?) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Error, Any?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.String?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SLSSpanBuilder",
+                            "printedName": "AliyunLogOT.SLSSpanBuilder",
+                            "usr": "c:objc(cs)SLSSpanBuilder"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(inout Foundation.URLRequest, AliyunLogOT.SLSSpan?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InOut",
+                            "printedName": "inout Foundation.URLRequest"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "AliyunLogOT.SLSSpan?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpan",
+                                "printedName": "AliyunLogOT.SLSSpan",
+                                "usr": "c:objc(cs)SLSSpan"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest, AliyunLogOT.SLSSpan) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpan) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpan)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SLSSpan",
+                            "printedName": "AliyunLogOT.SLSSpan",
+                            "usr": "c:objc(cs)SLSSpan"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SLSSpan",
+                            "printedName": "AliyunLogOT.SLSSpan",
+                            "usr": "c:objc(cs)SLSSpan"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SLSSpan",
+                            "printedName": "AliyunLogOT.SLSSpan",
+                            "usr": "c:objc(cs)SLSSpan"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayload0F10Instrument0fG14RequestHeaders0fgJ4Body0fG8Response0fG5Error8nameSpan17spanCustomization0f13InjectTracingK0012injectCustomK007createdJ008receivedM00xN0ACSbSgSo12NSURLSessionCcSg_AQ10Foundation10URLRequestVcSgA2xQSo13NSURLResponseC_ypSgtcSgAQs0N0_p_A_tcSgSSSgAWcSgyAW_So14SLSSpanBuilderCtcSgAXyAWz_So7SLSSpanCSgtcSgyAW_A9_tcSgyAZ_A_A9_tcSgysA1__p_A_SiA9_tcSgtcfc",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayload0F10Instrument0fG14RequestHeaders0fgJ4Body0fG8Response0fG5Error8nameSpan17spanCustomization0f13InjectTracingK0012injectCustomK007createdJ008receivedM00xN0ACSbSgSo12NSURLSessionCcSg_AQ10Foundation10URLRequestVcSgA2xQSo13NSURLResponseC_ypSgtcSgAQs0N0_p_A_tcSgSSSgAWcSgyAW_So14SLSSpanBuilderCtcSgAXyAWz_So7SLSSpanCSgtcSgyAW_A9_tcSgyAZ_A_A9_tcSgysA1__p_A_SiA9_tcSgtcfc",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "shouldInstrument",
+            "printedName": "shouldInstrument",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV16shouldInstrumentSbSg10Foundation10URLRequestVcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV16shouldInstrumentSbSg10Foundation10URLRequestVcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV16shouldInstrumentSbSg10Foundation10URLRequestVcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV16shouldInstrumentSbSg10Foundation10URLRequestVcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV16shouldInstrumentSbSg10Foundation10URLRequestVcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV16shouldInstrumentSbSg10Foundation10URLRequestVcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV16shouldInstrumentSbSg10Foundation10URLRequestVcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV16shouldInstrumentSbSg10Foundation10URLRequestVcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldRecordPayload",
+            "printedName": "shouldRecordPayload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLSession) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLSession) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLSession",
+                        "printedName": "Foundation.URLSession",
+                        "usr": "c:objc(cs)NSURLSession"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayloadSbSgSo12NSURLSessionCcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayloadSbSgSo12NSURLSessionCcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLSession) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLSession) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLSession",
+                            "printedName": "Foundation.URLSession",
+                            "usr": "c:objc(cs)NSURLSession"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayloadSbSgSo12NSURLSessionCcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayloadSbSgSo12NSURLSessionCcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLSession) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLSession) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLSession",
+                            "printedName": "Foundation.URLSession",
+                            "usr": "c:objc(cs)NSURLSession"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayloadSbSgSo12NSURLSessionCcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayloadSbSgSo12NSURLSessionCcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayloadSbSgSo12NSURLSessionCcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV19shouldRecordPayloadSbSgSo12NSURLSessionCcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldInjectTracingHeaders",
+            "printedName": "shouldInjectTracingHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldInjectTracingHeadersSbSg10Foundation10URLRequestVcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldInjectTracingHeadersSbSg10Foundation10URLRequestVcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldInjectTracingHeadersSbSg10Foundation10URLRequestVcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldInjectTracingHeadersSbSg10Foundation10URLRequestVcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldInjectTracingHeadersSbSg10Foundation10URLRequestVcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldInjectTracingHeadersSbSg10Foundation10URLRequestVcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldInjectTracingHeadersSbSg10Foundation10URLRequestVcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldInjectTracingHeadersSbSg10Foundation10URLRequestVcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "injectCustomHeaders",
+            "printedName": "injectCustomHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(inout Foundation.URLRequest, AliyunLogOT.SLSSpan?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InOut",
+                            "printedName": "inout Foundation.URLRequest"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "AliyunLogOT.SLSSpan?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpan",
+                                "printedName": "AliyunLogOT.SLSSpan",
+                                "usr": "c:objc(cs)SLSSpan"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV19injectCustomHeadersy10Foundation10URLRequestVz_So7SLSSpanCSgtcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV19injectCustomHeadersy10Foundation10URLRequestVz_So7SLSSpanCSgtcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(inout Foundation.URLRequest, AliyunLogOT.SLSSpan?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InOut",
+                                "printedName": "inout Foundation.URLRequest"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "AliyunLogOT.SLSSpan?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "SLSSpan",
+                                    "printedName": "AliyunLogOT.SLSSpan",
+                                    "usr": "c:objc(cs)SLSSpan"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV19injectCustomHeadersy10Foundation10URLRequestVz_So7SLSSpanCSgtcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV19injectCustomHeadersy10Foundation10URLRequestVz_So7SLSSpanCSgtcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(inout Foundation.URLRequest, AliyunLogOT.SLSSpan?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InOut",
+                                "printedName": "inout Foundation.URLRequest"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "AliyunLogOT.SLSSpan?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "SLSSpan",
+                                    "printedName": "AliyunLogOT.SLSSpan",
+                                    "usr": "c:objc(cs)SLSSpan"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV19injectCustomHeadersy10Foundation10URLRequestVz_So7SLSSpanCSgtcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV19injectCustomHeadersy10Foundation10URLRequestVz_So7SLSSpanCSgtcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV19injectCustomHeadersy10Foundation10URLRequestVz_So7SLSSpanCSgtcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV19injectCustomHeadersy10Foundation10URLRequestVz_So7SLSSpanCSgtcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameSpan",
+            "printedName": "nameSpan",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.String?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV8nameSpanSSSg10Foundation10URLRequestVcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV8nameSpanSSSg10Foundation10URLRequestVcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.String?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV8nameSpanSSSg10Foundation10URLRequestVcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV8nameSpanSSSg10Foundation10URLRequestVcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.String?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV8nameSpanSSSg10Foundation10URLRequestVcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV8nameSpanSSSg10Foundation10URLRequestVcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV8nameSpanSSSg10Foundation10URLRequestVcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV8nameSpanSSSg10Foundation10URLRequestVcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "spanCustomization",
+            "printedName": "spanCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SLSSpanBuilder",
+                            "printedName": "AliyunLogOT.SLSSpanBuilder",
+                            "usr": "c:objc(cs)SLSSpanBuilder"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV17spanCustomizationy10Foundation10URLRequestV_So14SLSSpanBuilderCtcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV17spanCustomizationy10Foundation10URLRequestV_So14SLSSpanBuilderCtcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLRequest",
+                                "printedName": "Foundation.URLRequest",
+                                "usr": "s:10Foundation10URLRequestV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpanBuilder",
+                                "printedName": "AliyunLogOT.SLSSpanBuilder",
+                                "usr": "c:objc(cs)SLSSpanBuilder"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV17spanCustomizationy10Foundation10URLRequestV_So14SLSSpanBuilderCtcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV17spanCustomizationy10Foundation10URLRequestV_So14SLSSpanBuilderCtcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLRequest",
+                                "printedName": "Foundation.URLRequest",
+                                "usr": "s:10Foundation10URLRequestV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpanBuilder",
+                                "printedName": "AliyunLogOT.SLSSpanBuilder",
+                                "usr": "c:objc(cs)SLSSpanBuilder"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV17spanCustomizationy10Foundation10URLRequestV_So14SLSSpanBuilderCtcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV17spanCustomizationy10Foundation10URLRequestV_So14SLSSpanBuilderCtcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV17spanCustomizationy10Foundation10URLRequestV_So14SLSSpanBuilderCtcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV17spanCustomizationy10Foundation10URLRequestV_So14SLSSpanBuilderCtcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdRequest",
+            "printedName": "createdRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest, AliyunLogOT.SLSSpan) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpan) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpan)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SLSSpan",
+                            "printedName": "AliyunLogOT.SLSSpan",
+                            "usr": "c:objc(cs)SLSSpan"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV14createdRequesty10Foundation10URLRequestV_So7SLSSpanCtcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV14createdRequesty10Foundation10URLRequestV_So7SLSSpanCtcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest, AliyunLogOT.SLSSpan) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpan) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpan)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLRequest",
+                                "printedName": "Foundation.URLRequest",
+                                "usr": "s:10Foundation10URLRequestV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpan",
+                                "printedName": "AliyunLogOT.SLSSpan",
+                                "usr": "c:objc(cs)SLSSpan"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV14createdRequesty10Foundation10URLRequestV_So7SLSSpanCtcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV14createdRequesty10Foundation10URLRequestV_So7SLSSpanCtcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest, AliyunLogOT.SLSSpan) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpan) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLRequest, AliyunLogOT.SLSSpan)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLRequest",
+                                "printedName": "Foundation.URLRequest",
+                                "usr": "s:10Foundation10URLRequestV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpan",
+                                "printedName": "AliyunLogOT.SLSSpan",
+                                "usr": "c:objc(cs)SLSSpan"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV14createdRequesty10Foundation10URLRequestV_So7SLSSpanCtcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV14createdRequesty10Foundation10URLRequestV_So7SLSSpanCtcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV14createdRequesty10Foundation10URLRequestV_So7SLSSpanCtcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV14createdRequesty10Foundation10URLRequestV_So7SLSSpanCtcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "receivedResponse",
+            "printedName": "receivedResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SLSSpan",
+                            "printedName": "AliyunLogOT.SLSSpan",
+                            "usr": "c:objc(cs)SLSSpan"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV16receivedResponseySo13NSURLResponseC_ypSgSo7SLSSpanCtcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV16receivedResponseySo13NSURLResponseC_ypSgSo7SLSSpanCtcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLResponse",
+                                "printedName": "Foundation.URLResponse",
+                                "usr": "c:objc(cs)NSURLResponse"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpan",
+                                "printedName": "AliyunLogOT.SLSSpan",
+                                "usr": "c:objc(cs)SLSSpan"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV16receivedResponseySo13NSURLResponseC_ypSgSo7SLSSpanCtcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV16receivedResponseySo13NSURLResponseC_ypSgSo7SLSSpanCtcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLResponse, Any?, AliyunLogOT.SLSSpan)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLResponse",
+                                "printedName": "Foundation.URLResponse",
+                                "usr": "c:objc(cs)NSURLResponse"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpan",
+                                "printedName": "AliyunLogOT.SLSSpan",
+                                "usr": "c:objc(cs)SLSSpan"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV16receivedResponseySo13NSURLResponseC_ypSgSo7SLSSpanCtcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV16receivedResponseySo13NSURLResponseC_ypSgSo7SLSSpanCtcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV16receivedResponseySo13NSURLResponseC_ypSgSo7SLSSpanCtcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV16receivedResponseySo13NSURLResponseC_ypSgSo7SLSSpanCtcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "receivedError",
+            "printedName": "receivedError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SLSSpan",
+                            "printedName": "AliyunLogOT.SLSSpan",
+                            "usr": "c:objc(cs)SLSSpan"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV13receivedErrorys0G0_p_ypSgSiSo7SLSSpanCtcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV13receivedErrorys0G0_p_ypSgSiSo7SLSSpanCtcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpan",
+                                "printedName": "AliyunLogOT.SLSSpan",
+                                "usr": "c:objc(cs)SLSSpan"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV13receivedErrorys0G0_p_ypSgSiSo7SLSSpanCtcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV13receivedErrorys0G0_p_ypSgSiSo7SLSSpanCtcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Error, Any?, Swift.Int, AliyunLogOT.SLSSpan)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SLSSpan",
+                                "printedName": "AliyunLogOT.SLSSpan",
+                                "usr": "c:objc(cs)SLSSpan"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV13receivedErrorys0G0_p_ypSgSiSo7SLSSpanCtcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV13receivedErrorys0G0_p_ypSgSiSo7SLSSpanCtcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV13receivedErrorys0G0_p_ypSgSiSo7SLSSpanCtcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV13receivedErrorys0G0_p_ypSgSiSo7SLSSpanCtcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldRecordRequestHeaders",
+            "printedName": "shouldRecordRequestHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldRecordRequestHeadersSbSg10Foundation10URLRequestVcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldRecordRequestHeadersSbSg10Foundation10URLRequestVcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldRecordRequestHeadersSbSg10Foundation10URLRequestVcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldRecordRequestHeadersSbSg10Foundation10URLRequestVcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldRecordRequestHeadersSbSg10Foundation10URLRequestVcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldRecordRequestHeadersSbSg10Foundation10URLRequestVcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldRecordRequestHeadersSbSg10Foundation10URLRequestVcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV26shouldRecordRequestHeadersSbSg10Foundation10URLRequestVcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldRecordRequestBody",
+            "printedName": "shouldRecordRequestBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV23shouldRecordRequestBodySbSg10Foundation10URLRequestVcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV23shouldRecordRequestBodySbSg10Foundation10URLRequestVcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV23shouldRecordRequestBodySbSg10Foundation10URLRequestVcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV23shouldRecordRequestBodySbSg10Foundation10URLRequestVcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLRequest) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLRequest) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV23shouldRecordRequestBodySbSg10Foundation10URLRequestVcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV23shouldRecordRequestBodySbSg10Foundation10URLRequestVcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV23shouldRecordRequestBodySbSg10Foundation10URLRequestVcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV23shouldRecordRequestBodySbSg10Foundation10URLRequestVcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldRecordResponse",
+            "printedName": "shouldRecordResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLResponse, Any?) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLResponse, Any?) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URLResponse, Any?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV20shouldRecordResponseSbSgSo13NSURLResponseC_ypSgtcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV20shouldRecordResponseSbSgSo13NSURLResponseC_ypSgtcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLResponse, Any?) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLResponse, Any?) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLResponse, Any?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLResponse",
+                                "printedName": "Foundation.URLResponse",
+                                "usr": "c:objc(cs)NSURLResponse"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV20shouldRecordResponseSbSgSo13NSURLResponseC_ypSgtcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV20shouldRecordResponseSbSgSo13NSURLResponseC_ypSgtcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URLResponse, Any?) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLResponse, Any?) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLResponse, Any?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLResponse",
+                                "printedName": "Foundation.URLResponse",
+                                "usr": "c:objc(cs)NSURLResponse"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV20shouldRecordResponseSbSgSo13NSURLResponseC_ypSgtcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV20shouldRecordResponseSbSgSo13NSURLResponseC_ypSgtcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV20shouldRecordResponseSbSgSo13NSURLResponseC_ypSgtcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV20shouldRecordResponseSbSgSo13NSURLResponseC_ypSgtcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldRecordError",
+            "printedName": "shouldRecordError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error, Any?) -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error, Any?) -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Error, Any?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV17shouldRecordErrorSbSgs0H0_p_ypSgtcSgvp",
+            "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV17shouldRecordErrorSbSgs0H0_p_ypSgtcSgvp",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Error, Any?) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error, Any?) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Error, Any?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV17shouldRecordErrorSbSgs0H0_p_ypSgtcSgvg",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV17shouldRecordErrorSbSgs0H0_p_ypSgtcSgvg",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Error, Any?) -> Swift.Bool?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error, Any?) -> Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Error, Any?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV17shouldRecordErrorSbSgs0H0_p_ypSgtcSgvs",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV17shouldRecordErrorSbSgs0H0_p_ypSgtcSgvs",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV17shouldRecordErrorSbSgs0H0_p_ypSgtcSgvM",
+                "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV17shouldRecordErrorSbSgs0H0_p_ypSgtcSgvM",
+                "moduleName": "AliyunLogURLSession",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV",
+        "mangledName": "$s19AliyunLogURLSession0C28InstrumentationConfigurationV",
+        "moduleName": "AliyunLogURLSession",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AliyunLogURLSession",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AliyunLogOT",
+        "printedName": "AliyunLogOT",
+        "declKind": "Import",
+        "moduleName": "AliyunLogURLSession"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionInstrumentationProtocol",
+        "printedName": "URLSessionInstrumentationProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "shouldRecordPayload",
+            "printedName": "shouldRecordPayload(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol(im)shouldRecordPayload:",
+            "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP19shouldRecordPayloadySbSo12NSURLSessionCF",
+            "moduleName": "AliyunLogURLSession",
+            "genericSig": "<τ_0_0 where τ_0_0 : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "sugared_genericSig": "<Self where Self : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldInstrument",
+            "printedName": "shouldInstrument(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol(im)shouldInstrument:",
+            "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP16shouldInstrumentySb10Foundation10URLRequestVF",
+            "moduleName": "AliyunLogURLSession",
+            "genericSig": "<τ_0_0 where τ_0_0 : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "sugared_genericSig": "<Self where Self : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldRecordRequestHeaders",
+            "printedName": "shouldRecordRequestHeaders(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol(im)shouldRecordRequestHeaders:",
+            "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP26shouldRecordRequestHeadersySb10Foundation10URLRequestVF",
+            "moduleName": "AliyunLogURLSession",
+            "genericSig": "<τ_0_0 where τ_0_0 : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "sugared_genericSig": "<Self where Self : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldRecordRequestBody",
+            "printedName": "shouldRecordRequestBody(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol(im)shouldRecordRequestBody:",
+            "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP23shouldRecordRequestBodyySb10Foundation10URLRequestVF",
+            "moduleName": "AliyunLogURLSession",
+            "genericSig": "<τ_0_0 where τ_0_0 : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "sugared_genericSig": "<Self where Self : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldRecordResponse",
+            "printedName": "shouldRecordResponse(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLResponse",
+                "printedName": "Foundation.URLResponse",
+                "usr": "c:objc(cs)NSURLResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol(im)shouldRecordResponse::",
+            "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP20shouldRecordResponseySbSo13NSURLResponseC_ypSgtF",
+            "moduleName": "AliyunLogURLSession",
+            "genericSig": "<τ_0_0 where τ_0_0 : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "sugared_genericSig": "<Self where Self : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldRecordError",
+            "printedName": "shouldRecordError(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol(im)shouldRecordError::",
+            "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP17shouldRecordErrorySbs0H0_p_ypSgtF",
+            "moduleName": "AliyunLogURLSession",
+            "genericSig": "<τ_0_0 where τ_0_0 : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "sugared_genericSig": "<Self where Self : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nameSpan",
+            "printedName": "nameSpan(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol(im)nameSpan:",
+            "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP8nameSpanySSSg10Foundation10URLRequestVF",
+            "moduleName": "AliyunLogURLSession",
+            "genericSig": "<τ_0_0 where τ_0_0 : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "sugared_genericSig": "<Self where Self : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customizeSpan",
+            "printedName": "customizeSpan(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SLSSpanBuilder",
+                "printedName": "AliyunLogOT.SLSSpanBuilder",
+                "usr": "c:objc(cs)SLSSpanBuilder"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol(im)customizeSpan::",
+            "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP13customizeSpanyy10Foundation10URLRequestV_So14SLSSpanBuilderCtF",
+            "moduleName": "AliyunLogURLSession",
+            "genericSig": "<τ_0_0 where τ_0_0 : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "sugared_genericSig": "<Self where Self : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "injectCustomHeaders",
+            "printedName": "injectCustomHeaders(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AliyunLogOT.SLSSpan?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SLSSpan",
+                    "printedName": "AliyunLogOT.SLSSpan",
+                    "usr": "c:objc(cs)SLSSpan"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol(im)injectCustomHeaders::",
+            "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP19injectCustomHeadersyy10Foundation10URLRequestV_So7SLSSpanCSgtF",
+            "moduleName": "AliyunLogURLSession",
+            "genericSig": "<τ_0_0 where τ_0_0 : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "sugared_genericSig": "<Self where Self : AliyunLogURLSession.URLSessionInstrumentationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol",
+        "mangledName": "$s19AliyunLogURLSession0C23InstrumentationProtocolP",
+        "moduleName": "AliyunLogURLSession",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionInstrumentation",
+        "printedName": "URLSessionInstrumentation",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionInstrumentation",
+                "printedName": "AliyunLogURLSession.URLSessionInstrumentation",
+                "usr": "c:@M@AliyunLogURLSession@objc(cs)URLSessionInstrumentation"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AliyunLogURLSession@objc(cs)URLSessionInstrumentation(im)init",
+            "mangledName": "$s19AliyunLogURLSession0C15InstrumentationCACycfc",
+            "moduleName": "AliyunLogURLSession",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Convenience",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionInstrumentation",
+                "printedName": "AliyunLogURLSession.URLSessionInstrumentation",
+                "usr": "c:@M@AliyunLogURLSession@objc(cs)URLSessionInstrumentation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionInstrumentationConfiguration",
+                "printedName": "AliyunLogURLSession.URLSessionInstrumentationConfiguration",
+                "usr": "s:19AliyunLogURLSession0C28InstrumentationConfigurationV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AliyunLogURLSession0C15InstrumentationC13configurationAcA0cD13ConfigurationV_tcfc",
+            "mangledName": "$s19AliyunLogURLSession0C15InstrumentationC13configurationAcA0cD13ConfigurationV_tcfc",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(protoco:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionInstrumentation",
+                "printedName": "AliyunLogURLSession.URLSessionInstrumentation",
+                "usr": "c:@M@AliyunLogURLSession@objc(cs)URLSessionInstrumentation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionInstrumentationProtocol",
+                "printedName": "AliyunLogURLSession.URLSessionInstrumentationProtocol",
+                "usr": "c:@M@AliyunLogURLSession@objc(pl)URLSessionInstrumentationProtocol"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AliyunLogURLSession@objc(cs)URLSessionInstrumentation(im)initWithProtoco:",
+            "mangledName": "$s19AliyunLogURLSession0C15InstrumentationC7protocoAcA0cD8Protocol_p_tcfc",
+            "moduleName": "AliyunLogURLSession",
+            "objc_name": "initWithProtoco:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AliyunLogURLSession@objc(cs)URLSessionInstrumentation",
+        "mangledName": "$s19AliyunLogURLSession0C15InstrumentationC",
+        "moduleName": "AliyunLogURLSession",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLRequest",
+        "printedName": "URLRequest",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "httpBodyAsJSON",
+            "printedName": "httpBodyAsJSON()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation10URLRequestV19AliyunLogURLSessionE14httpBodyAsJSONypSgyF",
+            "mangledName": "$s10Foundation10URLRequestV19AliyunLogURLSessionE14httpBodyAsJSONypSgyF",
+            "moduleName": "AliyunLogURLSession",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation10URLRequestV",
+        "mangledName": "$s10Foundation10URLRequestV",
+        "moduleName": "Foundation",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURLRequest",
+                    "printedName": "Foundation.NSURLRequest",
+                    "usr": "c:objc(cs)NSURLRequest"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURLRequest",
+                    "printedName": "Foundation.NSURLRequest",
+                    "usr": "c:objc(cs)NSURLRequest"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/wakeywoo\/Downloads\/aliyun-log-ios-sdk-3.2.1 2\/Sources\/Instrumentation\/URLSession\/URLSessionLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 36,
+      "value": "\"aliyun.log.tracer.URLSessionLogger\""
+    },
+    {
+      "filePath": "\/Users\/wakeywoo\/Downloads\/aliyun-log-ios-sdk-3.2.1 2\/Sources\/Instrumentation\/URLSession\/URLSessionLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2035,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/wakeywoo\/Downloads\/aliyun-log-ios-sdk-3.2.1 2\/Sources\/Instrumentation\/URLSession\/URLSessionInstrumentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1429,
+      "length": 42,
+      "value": "\"AliyunLogURLSession.URLSessionInstrumentationConfigurationObjc\""
+    },
+    {
+      "filePath": "\/Users\/wakeywoo\/Downloads\/aliyun-log-ios-sdk-3.2.1 2\/Sources\/Instrumentation\/URLSession\/URLSessionInstrumentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4226,
+      "length": 43,
+      "value": "\"io.opentelemetry.ddnetworkinstrumentation\""
+    },
+    {
+      "filePath": "\/Users\/wakeywoo\/Downloads\/aliyun-log-ios-sdk-3.2.1 2\/Sources\/Instrumentation\/URLSession\/URLSessionInstrumentation.swift",
+      "kind": "StringLiteral",
+      "offset": 4305,
+      "length": 35,
+      "value": "\"io.opentelemetry.instrumentedCall\""
+    }
+  ]
+}

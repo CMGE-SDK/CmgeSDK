@@ -1,6 +1,6 @@
 {
   "name": "CmgeSDK",
-  "version": "0.1.0",
+  "version": "1.19.0",
   "summary": "A short description of CmgeSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/WakeyWoo/CmgeSDK",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Huajie Woo": "wu.huajie@cmge.com"
+    "WakeyWoo": "hjw728uow@gmail.com"
   },
   "source": {
-    "git": "https://github.com/WakeyWoo/CmgeSDK",
-    "tag": "0.1.0"
+    "git": "https://github.com/WakeyWoo/CmgeSDK.git",
+    "tag": "1.19.0"
   },
   "libraries": "sqlite3",
   "requires_arc": true,
@@ -21,7 +21,7 @@
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
-    "VALID_ARCHS": "x86_64 arm64"
+    "VALID_ARCHS": "arm64"
   },
   "subspecs": [
     {
@@ -75,6 +75,9 @@
         "c++",
         "resolv"
       ],
+      "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+      },
       "xcconfig": {
         "LIBRARY_SEARCH_PATHS": [
           "\"$(SDKROOT)/usr/lib/swift\"",
@@ -93,16 +96,32 @@
       },
       "vendored_frameworks": [
         "CmgeSDK/Frameworks/AliAuth/ATAuthSDK.framework",
-        "CmgeSDK-0.1.0/Frameworks/AliAuth/YTXMonitor.framework",
-        "CmgeSDK-0.1.0/Frameworks/AliAuth/YTXOperators.framework"
-      ]
+        "CmgeSDK/Frameworks/AliAuth/YTXMonitor.framework",
+        "CmgeSDK/Frameworks/AliAuth/YTXOperators.framework"
+      ],
+      "ios": {
+        "pod_target_xcconfig": {
+          "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+        }
+      },
+      "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+      }
     },
     {
       "name": "ThinkingSDK",
       "platforms": {
         "ios": "9.0"
       },
-      "vendored_frameworks": "CmgeSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework"
+      "vendored_frameworks": "CmgeSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework",
+      "ios": {
+        "pod_target_xcconfig": {
+          "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+        }
+      },
+      "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+      }
     }
   ]
 }

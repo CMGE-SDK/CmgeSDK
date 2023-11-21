@@ -1,0 +1,6 @@
+framework module AliyunLogNetworkDiagnosis {
+  umbrella header "AliyunLogNetworkDiagnosis.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AliyunLogCrashReporter {
+  umbrella header "AliyunLogCrashReporter.h"
+
+  export *
+  module * { export * }
+}

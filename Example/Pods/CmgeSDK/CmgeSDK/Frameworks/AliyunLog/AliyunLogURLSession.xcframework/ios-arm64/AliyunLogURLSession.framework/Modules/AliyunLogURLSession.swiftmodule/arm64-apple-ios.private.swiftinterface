@@ -1,0 +1,51 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AliyunLogURLSession
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AliyunLogOT
+import AliyunLogTrace
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import os.log
+import os
+extension Foundation.URLRequest {
+  public func httpBodyAsJSON() -> Any?
+}
+public typealias DataOrFile = Any
+public typealias SessionTaskId = Swift.String
+public typealias HTTPStatus = Swift.Int
+public struct URLSessionInstrumentationConfiguration {
+  public init(shouldRecordPayload: ((Foundation.URLSession) -> (Swift.Bool)?)? = nil, shouldInstrument: ((Foundation.URLRequest) -> (Swift.Bool)?)? = nil, shouldRecordRequestHeaders: ((Foundation.URLRequest) -> (Swift.Bool)?)? = nil, shouldRecordRequestBody: ((Foundation.URLRequest) -> (Swift.Bool)?)? = nil, shouldRecordResponse: ((Foundation.URLResponse, AliyunLogURLSession.DataOrFile?) -> (Swift.Bool)?)? = nil, shouldRecordError: ((Swift.Error, AliyunLogURLSession.DataOrFile?) -> (Swift.Bool)?)? = nil, nameSpan: ((Foundation.URLRequest) -> (Swift.String)?)? = nil, spanCustomization: ((Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> Swift.Void)? = nil, shouldInjectTracingHeaders: ((Foundation.URLRequest) -> (Swift.Bool)?)? = nil, injectCustomHeaders: ((inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> Swift.Void)? = nil, createdRequest: ((Foundation.URLRequest, AliyunLogOT.SLSSpan) -> Swift.Void)? = nil, receivedResponse: ((Foundation.URLResponse, AliyunLogURLSession.DataOrFile?, AliyunLogOT.SLSSpan) -> Swift.Void)? = nil, receivedError: ((Swift.Error, AliyunLogURLSession.DataOrFile?, AliyunLogURLSession.HTTPStatus, AliyunLogOT.SLSSpan) -> Swift.Void)? = nil)
+  public var shouldInstrument: ((Foundation.URLRequest) -> (Swift.Bool)?)?
+  public var shouldRecordPayload: ((Foundation.URLSession) -> (Swift.Bool)?)?
+  public var shouldInjectTracingHeaders: ((Foundation.URLRequest) -> (Swift.Bool)?)?
+  public var injectCustomHeaders: ((inout Foundation.URLRequest, AliyunLogOT.SLSSpan?) -> Swift.Void)?
+  public var nameSpan: ((Foundation.URLRequest) -> (Swift.String)?)?
+  public var spanCustomization: ((Foundation.URLRequest, AliyunLogOT.SLSSpanBuilder) -> Swift.Void)?
+  public var createdRequest: ((Foundation.URLRequest, AliyunLogOT.SLSSpan) -> Swift.Void)?
+  public var receivedResponse: ((Foundation.URLResponse, AliyunLogURLSession.DataOrFile?, AliyunLogOT.SLSSpan) -> Swift.Void)?
+  public var receivedError: ((Swift.Error, AliyunLogURLSession.DataOrFile?, AliyunLogURLSession.HTTPStatus, AliyunLogOT.SLSSpan) -> Swift.Void)?
+  public var shouldRecordRequestHeaders: ((Foundation.URLRequest) -> (Swift.Bool)?)?
+  public var shouldRecordRequestBody: ((Foundation.URLRequest) -> (Swift.Bool)?)?
+  public var shouldRecordResponse: ((Foundation.URLResponse, AliyunLogURLSession.DataOrFile?) -> (Swift.Bool)?)?
+  public var shouldRecordError: ((Swift.Error, AliyunLogURLSession.DataOrFile?) -> (Swift.Bool)?)?
+}
+@objc public protocol URLSessionInstrumentationProtocol {
+  @objc func shouldRecordPayload(_ session: Foundation.URLSession) -> Swift.Bool
+  @objc func shouldInstrument(_ request: Foundation.URLRequest) -> Swift.Bool
+  @objc func shouldRecordRequestHeaders(_ request: Foundation.URLRequest) -> Swift.Bool
+  @objc func shouldRecordRequestBody(_ request: Foundation.URLRequest) -> Swift.Bool
+  @objc func shouldRecordResponse(_ response: Foundation.URLResponse, _ dataOrFile: AliyunLogURLSession.DataOrFile?) -> Swift.Bool
+  @objc func shouldRecordError(_ error: Swift.Error, _ dataOrFile: AliyunLogURLSession.DataOrFile?) -> Swift.Bool
+  @objc func nameSpan(_ request: Foundation.URLRequest) -> Swift.String?
+  @objc func customizeSpan(_ request: Foundation.URLRequest, _ spanBuilder: AliyunLogOT.SLSSpanBuilder)
+  @objc func injectCustomHeaders(_ request: Foundation.URLRequest, _ span: AliyunLogOT.SLSSpan?)
+}
+@_inheritsConvenienceInitializers @objc public class URLSessionInstrumentation : ObjectiveC.NSObject {
+  @objc override convenience dynamic public init()
+  public init(configuration: AliyunLogURLSession.URLSessionInstrumentationConfiguration)
+  @objc convenience public init(protoco: AliyunLogURLSession.URLSessionInstrumentationProtocol)
+  @objc deinit
+}
