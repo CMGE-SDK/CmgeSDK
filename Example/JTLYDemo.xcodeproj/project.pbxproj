@@ -207,8 +207,8 @@
 				62F84FCA243DA3320099BA5B /* Resources */,
 				620990F724F7933B00480ACF /* Embed Frameworks */,
 				623DE3C42A09E412009BAC9A /* BuildDemoVersion */,
-				EBD0C9DA9D44B657625BCD45 /* [CP] Embed Pods Frameworks */,
-				3AF6F16ABBB942E057DA7A06 /* [CP] Copy Pods Resources */,
+				5989CFF2A0DD1CE687F19715 /* [CP] Embed Pods Frameworks */,
+				AE56A67639DC637362A5EA7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,21 +291,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3AF6F16ABBB942E057DA7A06 /* [CP] Copy Pods Resources */ = {
+		5989CFF2A0DD1CE687F19715 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		623DE3C42A09E412009BAC9A /* BuildDemoVersion */ = {
@@ -327,21 +327,21 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# 1\n# Set bash script to exit immediately if any commands fail.\n# that script for being sure the bundle files are lastest build.\nset -e\n\n#plist文件位置\nplist=${INFOPLIST_FILE}\n\n#Define文件夹目录\ndefinePath=\"${PROJECT_DIR}/../CmgeKit/CmgeKit/Define\"\n#版本号构建号文件夹目录\nverBuildFilePath=\"${definePath}/CmgeCoreConstantDefine.h\"\n#联运开关类型文件夹目录\njointFilePath=\"${definePath}/CmgeAdvanceCoreConstantDefine.h\"\n\n#read version number \nVERSION_NUMBER=`grep '^#define VERSION_CN' ${verBuildFilePath} | sed -n 's/#define VERSION_CN @\"\\(.*\\)\"/\\1/gp'`\n\n#read build number\nBUILD_NUMBER=`grep '^#define Build_CN' ${verBuildFilePath} | sed -n 's/#define Build_CN @\"\\(.*\\)\"/\\1/gp'`\n\n#mutiple switches, 集团默认全关\nJGTypeCount=0\n\n#检测第三方ZF是否打开\n#thirdPartyZF=`sed -n 's/^#define THIRD_PARTY_ZF/THIRD_PARTY_ZF/gp' ${jointFilePath}`\n#if [[ $thirdPartyZF == \"THIRD_PARTY_ZF\" ]]\n#then\n#    let \"JGTypeCount=((1<<0))\"\n#fi\n\n#检测是否强制关闭账号\n#forceOffAccount=`sed -n 's/^#define FORCE_DISABLE_ACCOUNTLOGIN/FORCE_DISABLE_ACCOUNTLOGIN/gp' ${jointFilePath}`\n#if [[ $forceOffAccount == \"FORCE_DISABLE_ACCOUNTLOGIN\" ]]\n#then\n#    let \"JGTypeCount=JGTypeCount + ((1<<1))\"\n#    echo \"you are here\"\n#fi\n\n#build number + switches\nBUILD_AND_TYPE=\"$BUILD_NUMBER.$JGTypeCount\"\n\n\n#这段代码是为了防止build number和version number为空的情况了，先默认给一个\nif [[ $VERSION_NUMBER == \"\" ]]\nthen\n    VERSION_NUMBER=\"1.0.0\"\nfi\n\nif [[ $BUILD_AND_TYPE == \".0\" ]]\nthen\n    BUILD_AND_TYPE=\"202301011000.0\"\nfi\n\n#change version number\n/usr/libexec/Plistbuddy -c \"Set CFBundleShortVersionString $VERSION_NUMBER\" \"${plist}\"\n\n\n#change build number\n/usr/libexec/Plistbuddy -c \"Set CFBundleVersion $BUILD_AND_TYPE\" \"${plist}\"\n";
 		};
-		EBD0C9DA9D44B657625BCD45 /* [CP] Embed Pods Frameworks */ = {
+		AE56A67639DC637362A5EA7B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

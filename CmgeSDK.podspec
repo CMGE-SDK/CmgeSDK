@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/WakeyWoo/CmgeSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Huajie Woo' => 'wu.huajie@cmge.com' }
-  s.source           = { :git => 'https://github.com/WakeyWoo/CmgeSDK', :tag => s.version.to_s }
+  s.author           = { 'WakeyWoo' => 'hjw728uow@gmail.com' }
+  s.source           = { :git => 'https://github.com/WakeyWoo/CmgeSDK.git', :tag => "1.19.0" }
   #s.ios.deployment_target = "9.0"
   s.libraries        = 'sqlite3'
   s.requires_arc  = true
@@ -34,11 +34,15 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   #s.default_subspec = 'CmgeStandardKit'
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'x86_64 arm64'
+  }
   
   s.subspec 'CmgeCore' do |c|
     c.ios.deployment_target = '9.0'
     #c.public_header_files = 'CmgeSDK/Frameworks/includes/*.h'
     c.vendored_frameworks = 'CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/JtlyAnalyticsKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework'
+   
     #c.source_files = 'CmgeSDK/Frameworks/CmgeStandardKit.xcframework/**/*.{c,h}'
     #c.exclude_files = 'CmgeSDK/Frameworks/CmgeStandardKit.xcframework/**/Headers/*.h'
   
@@ -52,7 +56,7 @@ TODO: Add long description of the pod here.
   end
   
   s.subspec 'AliyunLog' do |c|
-    c.ios.deployment_target = '10.0'
+    c.ios.deployment_target = '9.0'
     c.vendored_frameworks = 'CmgeSDK/Frameworks/AliyunLog/AliNetworkDiagnosis.xcframework', 'CmgeSDK/Frameworks/AliyunLog/AliyunLogCore.xcframework', 'CmgeSDK/Frameworks/AliyunLog/AliyunLogCrashReporter.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogNetworkDiagnosis.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogOT.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogOTSwift.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogProducer.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogTrace.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogURLSession.xcframework','CmgeSDK/Frameworks/AliyunLog/WPKMobi.xcframework'
     #c.libraries = "libresolv.tbd"
     c.resources = 'CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog-info.plist'
