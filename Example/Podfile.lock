@@ -1,24 +1,24 @@
 PODS:
-  - CmgeSDK (1.19.0):
-    - CmgeSDK/AliAuth (= 1.19.0)
-    - CmgeSDK/AliyunLog (= 1.19.0)
-    - CmgeSDK/CmgeCore (= 1.19.0)
-    - CmgeSDK/ThinkingSDK (= 1.19.0)
-  - CmgeSDK/AliAuth (1.19.0)
-  - CmgeSDK/AliyunLog (1.19.0)
-  - CmgeSDK/CmgeCore (1.19.0)
-  - CmgeSDK/ThinkingSDK (1.19.0)
+  - CmgeSDK (1.20.0):
+    - CmgeSDK/AliAuth (= 1.20.0)
+    - CmgeSDK/AliyunLog (= 1.20.0)
+    - CmgeSDK/CmgeCore (= 1.20.0)
+    - CmgeSDK/ThinkingSDK (= 1.20.0)
+  - CmgeSDK/AliAuth (1.20.0)
+  - CmgeSDK/AliyunLog (1.20.0)
+  - CmgeSDK/CmgeCore (1.20.0)
+  - CmgeSDK/ThinkingSDK (1.20.0)
 
 DEPENDENCIES:
-  - CmgeSDK (from `../CmgeSDK.podspec`)
+  - CmgeSDK (from `../`)
 
 EXTERNAL SOURCES:
   CmgeSDK:
-    :podspec: "../CmgeSDK.podspec"
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CmgeSDK: 3957b5ae24adfbd2c322f68ed6fc83c884c11916
+  CmgeSDK: f3be54d27d283ad8d7492d9bca60818686f3bb81
 
-PODFILE CHECKSUM: e70416bee2a3c5100c80fcc1745e60cfe3ad2e3c
+PODFILE CHECKSUM: 027037ef26298240052f72035cd3a38c6e91bdff
 
 COCOAPODS: 1.14.2

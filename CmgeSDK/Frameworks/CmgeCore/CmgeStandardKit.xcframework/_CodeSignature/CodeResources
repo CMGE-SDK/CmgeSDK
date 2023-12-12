@@ -475,7 +475,7 @@
 		</data>
 		<key>ios-arm64/CmgeStandardKit.framework/CmgeStandardKit</key>
 		<data>
-		0qRpvgFibPUIcNTy7Vz5LI2vC8M=
+		dlosK02S46ZUXT89Q+dyCz5lJ6E=
 		</data>
 		<key>ios-arm64/CmgeStandardKit.framework/Headers/CmgeApiLoginManager.h</key>
 		<data>
@@ -487,7 +487,7 @@
 		</data>
 		<key>ios-arm64/CmgeStandardKit.framework/Headers/CmgeIAPManager.h</key>
 		<data>
-		ZBJt+HEzZb3X0b3WOdt9zqT45LI=
+		9CwNVOKoMmDAhkUQcubDN61cpUE=
 		</data>
 		<key>ios-arm64/CmgeStandardKit.framework/Headers/CmgeKit-Swift.h</key>
 		<data>
@@ -511,11 +511,11 @@
 		</data>
 		<key>ios-arm64/CmgeStandardKit.framework/Info.plist</key>
 		<data>
-		L6/5Dkxoy8QakPw0dy2bbhX8Rz8=
+		qn9lbsDQK4AM1VUyfED7sdcfYPM=
 		</data>
 		<key>ios-arm64/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		O+tVVl5Tro/lXshFF8RX7YNS87U=
+		rez+v0p5Y78Eir/nxsAnnWXaHBU=
 		</data>
 		<key>ios-arm64/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -1008,7 +1008,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/CmgeStandardKit</key>
 		<data>
-		X7zR/BUOENfwJJIBOqgkhIA71HQ=
+		9wYNpAp/gpK+yIVJ5vN+AgFmKy0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Headers/CmgeApiLoginManager.h</key>
 		<data>
@@ -1020,7 +1020,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Headers/CmgeIAPManager.h</key>
 		<data>
-		ZBJt+HEzZb3X0b3WOdt9zqT45LI=
+		9CwNVOKoMmDAhkUQcubDN61cpUE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Headers/CmgeKit-Swift.h</key>
 		<data>
@@ -1044,11 +1044,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Info.plist</key>
 		<data>
-		dJWN1a7qCRr5TQNFUSV7fqtNDfQ=
+		pN9aFRdfC3YejO6oWbNpf/1+vDc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		O+tVVl5Tro/lXshFF8RX7YNS87U=
+		rez+v0p5Y78Eir/nxsAnnWXaHBU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1064,7 +1064,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		O+tVVl5Tro/lXshFF8RX7YNS87U=
+		rez+v0p5Y78Eir/nxsAnnWXaHBU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1088,7 +1088,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		+Vmm7dw4NvZ/u1OuTZB2TSmTQ/E=
+		rBAnM0qMamrRpTPlK7i4fsFNrpA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2328,11 +2328,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0qRpvgFibPUIcNTy7Vz5LI2vC8M=
+			dlosK02S46ZUXT89Q+dyCz5lJ6E=
 			</data>
 			<key>hash2</key>
 			<data>
-			X8BRATZTNjAPken5TDI+uOzAMPNoiZmbtlDZNfkkqtM=
+			6a1WNLLmE4GBeKd8wHNt6phFLKf9rb8CP+TFhcZiopk=
 			</data>
 		</dict>
 		<key>ios-arm64/CmgeStandardKit.framework/Headers/CmgeApiLoginManager.h</key>
@@ -2361,11 +2361,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZBJt+HEzZb3X0b3WOdt9zqT45LI=
+			9CwNVOKoMmDAhkUQcubDN61cpUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+/YTvU+M+Jo2b0yKEW9MKRuRruOTc98tqwK/4L+3tnc=
+			lhCiGuUHTTUL6xGcHur2k0Ka91/z6m/CU9rSjoP/Glg=
 			</data>
 		</dict>
 		<key>ios-arm64/CmgeStandardKit.framework/Headers/CmgeKit-Swift.h</key>
@@ -2427,22 +2427,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L6/5Dkxoy8QakPw0dy2bbhX8Rz8=
+			qn9lbsDQK4AM1VUyfED7sdcfYPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			noCgHruiL3KmWL7e23SUbrDcO4nqSzzB0hPO7hehQ98=
+			ptrZj6BqGBVMd/g1ZvF33MzjH7K+rPmUpUFGLDxD8Ak=
 			</data>
 		</dict>
 		<key>ios-arm64/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O+tVVl5Tro/lXshFF8RX7YNS87U=
+			rez+v0p5Y78Eir/nxsAnnWXaHBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			e5KsScW8z0gqL0nLfQJ1C+BEzFFnyTEGYVXcp8H1IeA=
+			bDhAskrgysXE3enkafie7Rw1Nr5KzeOurNdBBgrFX54=
 			</data>
 		</dict>
 		<key>ios-arm64/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -3735,11 +3735,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X7zR/BUOENfwJJIBOqgkhIA71HQ=
+			9wYNpAp/gpK+yIVJ5vN+AgFmKy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mu284vunpXdzB7rtTDAFFeRDmoa9H3ZqYxscRwbXNmE=
+			CnSS+16IR1pADldd00hcTzWGVka9TufBgxsrkOHgsfs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Headers/CmgeApiLoginManager.h</key>
@@ -3768,11 +3768,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZBJt+HEzZb3X0b3WOdt9zqT45LI=
+			9CwNVOKoMmDAhkUQcubDN61cpUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+/YTvU+M+Jo2b0yKEW9MKRuRruOTc98tqwK/4L+3tnc=
+			lhCiGuUHTTUL6xGcHur2k0Ka91/z6m/CU9rSjoP/Glg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Headers/CmgeKit-Swift.h</key>
@@ -3834,22 +3834,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dJWN1a7qCRr5TQNFUSV7fqtNDfQ=
+			pN9aFRdfC3YejO6oWbNpf/1+vDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			LaH3RWQ8dRaA0V3mJ5x/6nrRI8QofIHf1KgkCcWqVzE=
+			a8g5bD/WexSKrLrIUxk4yNEWDK2LCQeKDvXi2aOA8Ak=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O+tVVl5Tro/lXshFF8RX7YNS87U=
+			rez+v0p5Y78Eir/nxsAnnWXaHBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			e5KsScW8z0gqL0nLfQJ1C+BEzFFnyTEGYVXcp8H1IeA=
+			bDhAskrgysXE3enkafie7Rw1Nr5KzeOurNdBBgrFX54=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -3889,11 +3889,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O+tVVl5Tro/lXshFF8RX7YNS87U=
+			rez+v0p5Y78Eir/nxsAnnWXaHBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			e5KsScW8z0gqL0nLfQJ1C+BEzFFnyTEGYVXcp8H1IeA=
+			bDhAskrgysXE3enkafie7Rw1Nr5KzeOurNdBBgrFX54=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CmgeStandardKit.framework/Modules/CmgeStandardKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -3955,11 +3955,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+Vmm7dw4NvZ/u1OuTZB2TSmTQ/E=
+			rBAnM0qMamrRpTPlK7i4fsFNrpA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ehFJGUXHmX0WWABxLrVSJyl2e3/dKmLrXsVMSFtBPMY=
+			Umyg6RMkv6V0sQH11phItVOTx71m/ltanEOxH8Kd5GU=
 			</data>
 		</dict>
 	</dict>

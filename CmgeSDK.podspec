@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CmgeSDK'
-  s.version          = '1.19.0'
+  s.version          = '1.20.0'
   s.summary          = 'A short description of CmgeSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WakeyWoo' => 'hjw728uow@gmail.com' }
-  s.source           = { :git => 'https://github.com/WakeyWoo/CmgeSDK.git', :tag => "1.19.0" }
+  s.source           = { :git => 'https://github.com/WakeyWoo/CmgeSDK.git', :tag => "1.20.0" }
   #s.ios.deployment_target = "9.0"
   s.libraries        = 'sqlite3'
   s.requires_arc  = true
   #s.default_subspecs = 'CmgeCore'
   s.platform     = :ios, "9.0"
+  # s.dependency 'ThinkingSDK','= 2.7.4' //不需要，源码有问题
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   #s.default_subspec = 'CmgeStandardKit'
@@ -94,17 +95,15 @@ TODO: Add long description of the pod here.
   end
   
   s.subspec 'ThinkingSDK' do |c|
-    c.ios.deployment_target = '9.0'
-    c.vendored_frameworks = 'CmgeSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework'
-    c.ios.pod_target_xcconfig = {
+      c.ios.deployment_target = '9.0'
+      c.vendored_frameworks = 'CmgeSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework'
+      c.ios.pod_target_xcconfig = {
+          'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+      }
+      
+      c.user_target_xcconfig = {
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-    }
-    
-    c.user_target_xcconfig = {
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-    }
+      }
   end
-  
-  
   
 end

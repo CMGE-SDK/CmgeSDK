@@ -15,7 +15,6 @@
 		62F84FDC243DA3350099BA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F84FDB243DA3350099BA5B /* Assets.xcassets */; };
 		62F84FDF243DA3350099BA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F84FDD243DA3350099BA5B /* LaunchScreen.storyboard */; };
 		62F84FE2243DA3350099BA5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F84FE1243DA3350099BA5B /* main.m */; };
-		723D3DDD2B0785F90019B0F5 /* JtlyThinking-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 723D3DDC2B0785F90019B0F5 /* JtlyThinking-info.plist */; };
 		B22D153CFDCA43F495C16E3C /* Pods_JTLYDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83175C9C2FFE8F4D35EE9C6 /* Pods_JTLYDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +76,6 @@
 		62F84FDE243DA3350099BA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62F84FE0243DA3350099BA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62F84FE1243DA3350099BA5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		723D3DDC2B0785F90019B0F5 /* JtlyThinking-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JtlyThinking-info.plist"; sourceTree = "<group>"; };
 		954BD5D9F0E7D00B82CB872E /* Pods-JTLYDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTLYDemo.release.xcconfig"; path = "Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A54A44221E2124C006DD1F67 /* Pods-JTLYDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTLYDemo.debug.xcconfig"; path = "Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A83175C9C2FFE8F4D35EE9C6 /* Pods_JTLYDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTLYDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,7 +149,6 @@
 		62F84FC3243DA3320099BA5B = {
 			isa = PBXGroup;
 			children = (
-				723D3DDB2B0785F90019B0F5 /* ThirdPartyResourceFiles */,
 				62F84FCE243DA3320099BA5B /* JTLYDemo */,
 				62F84FCD243DA3320099BA5B /* Products */,
 				08FDDDC4247E61160077A55D /* Frameworks */,
@@ -184,14 +181,6 @@
 				62CFA48A24485A3D00DF1494 /* Supporting Files */,
 			);
 			path = JTLYDemo;
-			sourceTree = "<group>";
-		};
-		723D3DDB2B0785F90019B0F5 /* ThirdPartyResourceFiles */ = {
-			isa = PBXGroup;
-			children = (
-				723D3DDC2B0785F90019B0F5 /* JtlyThinking-info.plist */,
-			);
-			path = ThirdPartyResourceFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +249,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F84FDF243DA3350099BA5B /* LaunchScreen.storyboard in Resources */,
-				723D3DDD2B0785F90019B0F5 /* JtlyThinking-info.plist in Resources */,
 				62F84FDC243DA3350099BA5B /* Assets.xcassets in Resources */,
 				62CFA487244858DA00DF1494 /* JTLYDemoViewController.xib in Resources */,
 			);
@@ -503,7 +491,7 @@
 				CODE_SIGN_ENTITLEMENTS = JTLYDemo/JTLYDemoDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2023101601;
+				CURRENT_PROJECT_VERSION = 2023121201;
 				DEVELOPMENT_TEAM = BKYK4P9KAG;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
@@ -514,7 +502,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.15.1;
+				MARKETING_VERSION = 1.20.0;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cmge.sdktest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -535,7 +523,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2023101601;
+				CURRENT_PROJECT_VERSION = 2023121201;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BKYK4P9KAG;
 				ENABLE_BITCODE = NO;
@@ -547,7 +535,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.15.1;
+				MARKETING_VERSION = 1.20.0;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cmge.sdktest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
