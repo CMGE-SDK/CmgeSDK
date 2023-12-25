@@ -1,6 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-frameworks.sh
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeStandardKit.framework/CmgeStandardKit
-${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/JtlyAnalyticsKit.framework/JtlyAnalyticsKit
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeDeviceInfoKit.framework/CmgeDeviceInfoKit
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeIdentifierKit.framework/CmgeIdentifierKit
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeShareKit.framework/CmgeShareKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JtlyAnalyticsSDK/JtlyAnalyticsSDK/JtlyAnalyticsKit.framework/JtlyAnalyticsKit

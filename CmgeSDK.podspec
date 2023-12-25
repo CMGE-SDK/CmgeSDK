@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CmgeSDK'
-  s.version          = '1.20.0'
+  s.version          = '1.21.0'
   s.summary          = 'A short description of CmgeSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -25,14 +25,14 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WakeyWoo' => 'hjw728uow@gmail.com' }
-  s.source           = { :git => 'https://github.com/WakeyWoo/CmgeSDK.git', :tag => "1.20.0" }
+  s.source           = { :git => 'https://github.com/WakeyWoo/CmgeSDK.git', :tag => "1.21.0" }
   #s.ios.deployment_target = "9.0"
   s.libraries        = 'sqlite3'
   s.requires_arc  = true
   #s.default_subspecs = 'CmgeCore'
   s.platform     = :ios, "9.0"
-  # s.dependency 'ThinkingSDK','= 2.7.4' //不需要，源码有问题
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.dependency 'JtlyAnalyticsSDK'
+  # s.social_media_url = 'https://twitter.com/WakeyWoo'
   
   #s.default_subspec = 'CmgeStandardKit'
   s.pod_target_xcconfig = {
@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
   s.subspec 'CmgeCore' do |c|
     c.ios.deployment_target = '9.0'
     #c.public_header_files = 'CmgeSDK/Frameworks/includes/*.h'
-    c.vendored_frameworks = 'CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/JtlyAnalyticsKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework'
+    c.vendored_frameworks = 'CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework'
    
     #c.source_files = 'CmgeSDK/Frameworks/CmgeStandardKit.xcframework/**/*.{c,h}'
     #c.exclude_files = 'CmgeSDK/Frameworks/CmgeStandardKit.xcframework/**/Headers/*.h'
@@ -60,7 +60,7 @@ TODO: Add long description of the pod here.
     c.ios.deployment_target = '9.0'
     c.vendored_frameworks = 'CmgeSDK/Frameworks/AliyunLog/AliNetworkDiagnosis.xcframework', 'CmgeSDK/Frameworks/AliyunLog/AliyunLogCore.xcframework', 'CmgeSDK/Frameworks/AliyunLog/AliyunLogCrashReporter.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogNetworkDiagnosis.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogOT.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogOTSwift.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogProducer.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogTrace.xcframework','CmgeSDK/Frameworks/AliyunLog/AliyunLogURLSession.xcframework','CmgeSDK/Frameworks/AliyunLog/WPKMobi.xcframework'
     #c.libraries = "libresolv.tbd"
-    c.resources = 'CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog-info.plist'
+    c.resources = 'CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog.txt'
     c.ios.frameworks = "SystemConfiguration", "CoreGraphics"
     c.libraries = "z", "c++", "resolv"
     #c.exclude_files = 'CmgeSDK/Frameworks/JtlyAnalyticsKit.xcframework/**/Headers/*.h'
@@ -93,17 +93,6 @@ TODO: Add long description of the pod here.
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
   end
-  
-  s.subspec 'ThinkingSDK' do |c|
-      c.ios.deployment_target = '9.0'
-      c.vendored_frameworks = 'CmgeSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework'
-      c.ios.pod_target_xcconfig = {
-          'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-      }
-      
-      c.user_target_xcconfig = {
-        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-      }
-  end
+
   
 end

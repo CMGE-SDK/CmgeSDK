@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/JtlyAnalyticsSDK/JtlyAnalyticsSDK-xcframeworks.sh
+${PODS_ROOT}/JtlyAnalyticsSDK/JtlyAnalyticsSDK/Frameworks/JtlyAnalyticsKit.xcframework
+${PODS_ROOT}/JtlyAnalyticsSDK/JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingDataCore.xcframework
+${PODS_ROOT}/JtlyAnalyticsSDK/JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingSDK.xcframework

@@ -1,0 +1,3 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JtlyAnalyticsSDK/JtlyAnalyticsSDK/JtlyAnalyticsKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JtlyAnalyticsSDK/ThinkingSDK/ThinkingDataCore.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JtlyAnalyticsSDK/ThinkingSDK/ThinkingSDK.framework

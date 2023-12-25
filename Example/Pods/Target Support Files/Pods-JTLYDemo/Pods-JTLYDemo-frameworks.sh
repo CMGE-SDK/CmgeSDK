@@ -177,17 +177,17 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeStandardKit.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/JtlyAnalyticsKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeDeviceInfoKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeIdentifierKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeShareKit.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/JtlyAnalyticsSDK/JtlyAnalyticsSDK/JtlyAnalyticsKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeStandardKit.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/JtlyAnalyticsKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeDeviceInfoKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeIdentifierKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/CmgeSDK/CmgeCore/CmgeShareKit.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/JtlyAnalyticsSDK/JtlyAnalyticsSDK/JtlyAnalyticsKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

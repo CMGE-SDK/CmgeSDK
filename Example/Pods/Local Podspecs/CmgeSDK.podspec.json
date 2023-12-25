@@ -1,6 +1,6 @@
 {
   "name": "CmgeSDK",
-  "version": "1.20.0",
+  "version": "1.21.0",
   "summary": "A short description of CmgeSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/WakeyWoo/CmgeSDK",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/WakeyWoo/CmgeSDK.git",
-    "tag": "1.20.0"
+    "tag": "1.21.0"
   },
   "libraries": "sqlite3",
   "requires_arc": true,
   "platforms": {
     "ios": "9.0"
+  },
+  "dependencies": {
+    "JtlyAnalyticsSDK": [
+
+    ]
   },
   "pod_target_xcconfig": {
     "VALID_ARCHS": "arm64"
@@ -31,7 +36,6 @@
       },
       "vendored_frameworks": [
         "CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework",
-        "CmgeSDK/Frameworks/CmgeCore/JtlyAnalyticsKit.xcframework",
         "CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework",
         "CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework",
         "CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework"
@@ -59,7 +63,7 @@
         "CmgeSDK/Frameworks/AliyunLog/AliyunLogURLSession.xcframework",
         "CmgeSDK/Frameworks/AliyunLog/WPKMobi.xcframework"
       ],
-      "resources": "CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog-info.plist",
+      "resources": "CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog.txt",
       "ios": {
         "frameworks": [
           "SystemConfiguration",
@@ -99,21 +103,6 @@
         "CmgeSDK/Frameworks/AliAuth/YTXMonitor.framework",
         "CmgeSDK/Frameworks/AliAuth/YTXOperators.framework"
       ],
-      "ios": {
-        "pod_target_xcconfig": {
-          "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-        }
-      },
-      "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-      }
-    },
-    {
-      "name": "ThinkingSDK",
-      "platforms": {
-        "ios": "9.0"
-      },
-      "vendored_frameworks": "CmgeSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework",
       "ios": {
         "pod_target_xcconfig": {
           "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"

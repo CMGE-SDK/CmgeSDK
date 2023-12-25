@@ -252,3 +252,9 @@
 "CmgeRetrieveAgain" = "重新獲取";
 "CmgeInputVerifyCode" = "請輸入簡訊驗證碼";
 "CmgeInputCorrectVerifyCode" = "請輸入正確的驗證碼";
+
+//20231212
+"CmgeFloatMenuDragClose" = "拖曳至此可關閉浮動視窗";
+"CmgeFloatMenuShakeDisplay" = "搖一搖手機可恢復顯示懸浮球";
+"CmgeFloatMenuDoNotRemindAgain" = "不再提醒";
+"CmgeClose" = "關閉";

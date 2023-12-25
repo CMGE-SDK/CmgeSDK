@@ -1,24 +1,36 @@
 PODS:
-  - CmgeSDK (1.20.0):
-    - CmgeSDK/AliAuth (= 1.20.0)
-    - CmgeSDK/AliyunLog (= 1.20.0)
-    - CmgeSDK/CmgeCore (= 1.20.0)
-    - CmgeSDK/ThinkingSDK (= 1.20.0)
-  - CmgeSDK/AliAuth (1.20.0)
-  - CmgeSDK/AliyunLog (1.20.0)
-  - CmgeSDK/CmgeCore (1.20.0)
-  - CmgeSDK/ThinkingSDK (1.20.0)
+  - CmgeSDK (1.21.0):
+    - CmgeSDK/AliAuth (= 1.21.0)
+    - CmgeSDK/AliyunLog (= 1.21.0)
+    - CmgeSDK/CmgeCore (= 1.21.0)
+    - JtlyAnalyticsSDK
+  - CmgeSDK/AliAuth (1.21.0):
+    - JtlyAnalyticsSDK
+  - CmgeSDK/AliyunLog (1.21.0):
+    - JtlyAnalyticsSDK
+  - CmgeSDK/CmgeCore (1.21.0):
+    - JtlyAnalyticsSDK
+  - JtlyAnalyticsSDK (1.5.1):
+    - JtlyAnalyticsSDK/JtlyAnalyticsSDK (= 1.5.1)
+    - JtlyAnalyticsSDK/ThinkingSDK (= 1.5.1)
+  - JtlyAnalyticsSDK/JtlyAnalyticsSDK (1.5.1)
+  - JtlyAnalyticsSDK/ThinkingSDK (1.5.1)
 
 DEPENDENCIES:
   - CmgeSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - JtlyAnalyticsSDK
 
 EXTERNAL SOURCES:
   CmgeSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CmgeSDK: f3be54d27d283ad8d7492d9bca60818686f3bb81
+  CmgeSDK: 472ab5e9385a7d1c58d243e432e3b98b46b24717
+  JtlyAnalyticsSDK: 42890281975ca80bcf33ea4db0984dcd9ca27cc9
 
-PODFILE CHECKSUM: 027037ef26298240052f72035cd3a38c6e91bdff
+PODFILE CHECKSUM: a9e411f0a7abb9edc1399991558fdf26be2c2199
 
 COCOAPODS: 1.14.2

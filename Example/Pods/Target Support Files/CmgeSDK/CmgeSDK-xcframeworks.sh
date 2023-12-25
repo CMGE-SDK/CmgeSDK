@@ -92,12 +92,6 @@ variant_for_slice()
   "CmgeStandardKit.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
-  "JtlyAnalyticsKit.xcframework/ios-arm64")
-    echo ""
-    ;;
-  "JtlyAnalyticsKit.xcframework/ios-arm64_x86_64-simulator")
-    echo "simulator"
-    ;;
   "CmgeDeviceInfoKit.xcframework/ios-arm64")
     echo ""
     ;;
@@ -195,12 +189,6 @@ archs_for_slice()
     echo "arm64"
     ;;
   "CmgeStandardKit.xcframework/ios-arm64_x86_64-simulator")
-    echo "arm64 x86_64"
-    ;;
-  "JtlyAnalyticsKit.xcframework/ios-arm64")
-    echo "arm64"
-    ;;
-  "JtlyAnalyticsKit.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   "CmgeDeviceInfoKit.xcframework/ios-arm64")
@@ -314,7 +302,6 @@ install_xcframework "${PODS_ROOT}/../../CmgeSDK/Frameworks/AliyunLog/AliyunLogTr
 install_xcframework "${PODS_ROOT}/../../CmgeSDK/Frameworks/AliyunLog/AliyunLogURLSession.xcframework" "CmgeSDK/AliyunLog" "framework" "ios-arm64"
 install_xcframework "${PODS_ROOT}/../../CmgeSDK/Frameworks/AliyunLog/WPKMobi.xcframework" "CmgeSDK/AliyunLog" "framework" "ios-arm64_armv7" "ios-arm64_i386_x86_64-simulator" "ios-arm64_x86_64-maccatalyst"
 install_xcframework "${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework" "CmgeSDK/CmgeCore" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/JtlyAnalyticsKit.xcframework" "CmgeSDK/CmgeCore" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework" "CmgeSDK/CmgeCore" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework" "CmgeSDK/CmgeCore" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework" "CmgeSDK/CmgeCore" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"

@@ -10,7 +10,6 @@ ${PODS_ROOT}/../../CmgeSDK/Frameworks/AliyunLog/AliyunLogTrace.xcframework
 ${PODS_ROOT}/../../CmgeSDK/Frameworks/AliyunLog/AliyunLogURLSession.xcframework
 ${PODS_ROOT}/../../CmgeSDK/Frameworks/AliyunLog/WPKMobi.xcframework
 ${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework
-${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/JtlyAnalyticsKit.xcframework
 ${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework
 ${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework
 ${PODS_ROOT}/../../CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework
