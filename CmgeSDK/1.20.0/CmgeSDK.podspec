@@ -31,8 +31,8 @@ TODO: Add long description of the pod here.
   s.requires_arc  = true
   #s.default_subspecs = 'CmgeCore'
   s.platform     = :ios, "9.0"
-  # s.dependency 'ThinkingSDK','= 2.7.4' //不需要，源码有问题
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.dependency 'JtlyAnalyticsSDK', :git => 'https://github.com/WakeyWoo'
+  # s.social_media_url = 'https://twitter.com/WakeyWoo'
   
   #s.default_subspec = 'CmgeStandardKit'
   s.pod_target_xcconfig = {
@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
   s.subspec 'CmgeCore' do |c|
     c.ios.deployment_target = '9.0'
     #c.public_header_files = 'CmgeSDK/Frameworks/includes/*.h'
-    c.vendored_frameworks = 'CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/JtlyAnalyticsKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework'
+    c.vendored_frameworks = 'CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework', 'CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework'
    
     #c.source_files = 'CmgeSDK/Frameworks/CmgeStandardKit.xcframework/**/*.{c,h}'
     #c.exclude_files = 'CmgeSDK/Frameworks/CmgeStandardKit.xcframework/**/Headers/*.h'
@@ -93,17 +93,6 @@ TODO: Add long description of the pod here.
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
   end
-  
-  s.subspec 'ThinkingSDK' do |c|
-      c.ios.deployment_target = '9.0'
-      c.vendored_frameworks = 'CmgeSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework'
-      c.ios.pod_target_xcconfig = {
-          'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-      }
-      
-      c.user_target_xcconfig = {
-        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-      }
-  end
+
   
 end
