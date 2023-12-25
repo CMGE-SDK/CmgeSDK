@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "JtlyAnalyticsSDK": [
-
+      "= 1.5.1"
     ]
   },
   "pod_target_xcconfig": {

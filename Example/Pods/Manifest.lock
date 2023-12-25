@@ -3,13 +3,13 @@ PODS:
     - CmgeSDK/AliAuth (= 1.21.0)
     - CmgeSDK/AliyunLog (= 1.21.0)
     - CmgeSDK/CmgeCore (= 1.21.0)
-    - JtlyAnalyticsSDK
+    - JtlyAnalyticsSDK (= 1.5.1)
   - CmgeSDK/AliAuth (1.21.0):
-    - JtlyAnalyticsSDK
+    - JtlyAnalyticsSDK (= 1.5.1)
   - CmgeSDK/AliyunLog (1.21.0):
-    - JtlyAnalyticsSDK
+    - JtlyAnalyticsSDK (= 1.5.1)
   - CmgeSDK/CmgeCore (1.21.0):
-    - JtlyAnalyticsSDK
+    - JtlyAnalyticsSDK (= 1.5.1)
   - JtlyAnalyticsSDK (1.5.1):
     - JtlyAnalyticsSDK/JtlyAnalyticsSDK (= 1.5.1)
     - JtlyAnalyticsSDK/ThinkingSDK (= 1.5.1)
@@ -28,7 +28,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CmgeSDK: 472ab5e9385a7d1c58d243e432e3b98b46b24717
+  CmgeSDK: c43e61bfd8b66f3baf2ca5c2b57b9c96b802ea5c
   JtlyAnalyticsSDK: 42890281975ca80bcf33ea4db0984dcd9ca27cc9
 
 PODFILE CHECKSUM: a9e411f0a7abb9edc1399991558fdf26be2c2199

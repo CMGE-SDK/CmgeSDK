@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.requires_arc  = true
   #s.default_subspecs = 'CmgeCore'
   s.platform     = :ios, "9.0"
-  s.dependency 'JtlyAnalyticsSDK'
+  s.dependency 'JtlyAnalyticsSDK','= 1.5.1'
   # s.social_media_url = 'https://twitter.com/WakeyWoo'
   
   #s.default_subspec = 'CmgeStandardKit'
