@@ -255,3 +255,9 @@
 
 //20231031
 "CmgeErrorNotAppInstalled" = "您尚未安装该应用，请先下载该应用或更换登录方式。";
+
+//20231212
+"CmgeFloatMenuDragClose" = "拖拽至此可取消浮标";
+"CmgeFloatMenuShakeDisplay" = "摇一摇手机可恢复显示悬浮球";
+"CmgeFloatMenuDoNotRemindAgain" = "不再提醒";
+"CmgeClose" = "关闭";

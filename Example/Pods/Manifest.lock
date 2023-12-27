@@ -17,7 +17,7 @@ PODS:
   - JtlyAnalyticsSDK/ThinkingSDK (1.5.1)
 
 DEPENDENCIES:
-  - CmgeSDK (from `../`)
+  - CmgeSDK (from `../CmgeSDK.podspec`)
 
 SPEC REPOS:
   trunk:
@@ -25,12 +25,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   CmgeSDK:
-    :path: "../"
+    :podspec: "../CmgeSDK.podspec"
 
 SPEC CHECKSUMS:
   CmgeSDK: c43e61bfd8b66f3baf2ca5c2b57b9c96b802ea5c
   JtlyAnalyticsSDK: 42890281975ca80bcf33ea4db0984dcd9ca27cc9
 
-PODFILE CHECKSUM: a9e411f0a7abb9edc1399991558fdf26be2c2199
+PODFILE CHECKSUM: da00579b71b66c8e7e9d82fb64f870676c66900a
 
 COCOAPODS: 1.14.2

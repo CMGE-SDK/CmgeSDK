@@ -254,3 +254,9 @@
 "CmgeRetrieveAgain" = "再送信";
 "CmgeInputVerifyCode" = "SMS認証コードを入力してください";
 "CmgeInputCorrectVerifyCode" = "正しい認証コードを入力してください";
+
+//20231212
+"CmgeFloatMenuDragClose" = "ここにドラッグしてフローティングウィンドウを閉じる";
+"CmgeFloatMenuShakeDisplay" = "携帯を振ると、フローティングボールが再表示されます";
+"CmgeFloatMenuDoNotRemindAgain" = "再度リマインダーしないでください";
+"CmgeClose" = "閉じる";

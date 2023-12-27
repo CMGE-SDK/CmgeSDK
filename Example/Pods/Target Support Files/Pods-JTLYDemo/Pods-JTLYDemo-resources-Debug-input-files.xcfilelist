@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo-resources.sh
-${PODS_ROOT}/../../CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog.txt
+${PODS_ROOT}/CmgeSDK/CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog.txt

@@ -1,6 +1,0 @@
-framework module JtlyAnalyticsKit {
-  umbrella header "JtlyAnalyticsKit.h"
-  export *
-
-  module * { export * }
-}

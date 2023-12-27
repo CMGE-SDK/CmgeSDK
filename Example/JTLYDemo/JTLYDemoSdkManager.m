@@ -402,6 +402,8 @@
     } else if ([functionName isEqualToString:kFunctionUIPay] || [functionName isEqualToString:kFunctionAPIPay]) {
         //IAP支付
         NSString *feePoint = self.feePointId; //(self.sdkRegion == CmgeRegionChina)?@"10003101":@"23";//国内版3、海外版23
+        //游戏订单号
+        NSString *gameOrderID = [NSString stringWithFormat:@"%.0f", [[NSDate date] timeIntervalSince1970] * 1000];
         if (feePoint.length == 0) {
             [self showAlert:@"提示" message:@"请在计费点填入有效的值"];
             return;
@@ -427,7 +429,7 @@
         gameData.serverName = @"server name";   //服务器名字，必填
         gameData.goodName = @"good name";   //商品名称，必填
         gameData.goodDesc = @"good desc";   //商品描述，可选
-        [[CmgeIAPManager sharedInstance] startIAPWithFeePoint:feePoint gameOrderID:@"347893247981" gameData:gameData callbackText:@"callback text" notifyServerUrl:nil];
+        [[CmgeIAPManager sharedInstance] startIAPWithFeePoint:feePoint gameOrderID:gameOrderID gameData:gameData callbackText:@"callback text" notifyServerUrl:nil];
         
         //feePoint：是计费点ID，是纯数字的，咨询sdk人员
         //gameOrderID：游戏订单号

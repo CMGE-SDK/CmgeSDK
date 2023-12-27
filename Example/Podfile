@@ -3,6 +3,6 @@ platform :ios, '10.0'
 
 target 'JTLYDemo' do
   use_frameworks!
-  pod 'CmgeSDK', :path => '../'
-#  pod 'CmgeSDK',:podspec => '../CmgeSDK.podspec'
+#  pod 'CmgeSDK', :path => '../'
+  pod 'CmgeSDK',:podspec => '../CmgeSDK.podspec'
 end

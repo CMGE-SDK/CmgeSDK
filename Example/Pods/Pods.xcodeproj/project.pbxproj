@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		55504FB424909E48C3D8EA87EF901045 /* JtlyAnalyticsSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F210CD7D527652B6209F2C3ECAF33557 /* Build configuration list for PBXAggregateTarget "JtlyAnalyticsSDK" */;
+			buildConfigurationList = 8F12EA90ED3075513C599D9E60DA1FAC /* Build configuration list for PBXAggregateTarget "JtlyAnalyticsSDK" */;
 			buildPhases = (
-				C9F0EDB9DC97CF5D1B75FCA04DF3F9D9 /* [CP] Copy XCFrameworks */,
+				0835A7E26549DD775313EAB7FC1CCD89 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -24,7 +24,7 @@
 				29AB0E3E031970A376F026784DC7AE58 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				704763EC2EB73EEC4676CC2DFF5763C9 /* PBXTargetDependency */,
+				5B9AC96A7868CBE39484D0C9F179BEF4 /* PBXTargetDependency */,
 			);
 			name = CmgeSDK;
 		};
@@ -37,73 +37,70 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1257BBBB81DF277C895B52D3D6AED8C0 /* PBXContainerItemProxy */ = {
+		26A51B9B776B687D302A0EF25497C8D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55504FB424909E48C3D8EA87EF901045;
 			remoteInfo = JtlyAnalyticsSDK;
 		};
-		9A089F0DCFD248CB16E2933E19C7BE18 /* PBXContainerItemProxy */ = {
+		64DD14EB4ACC35984EC7F4C883B6AD58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55504FB424909E48C3D8EA87EF901045;
+			remoteInfo = JtlyAnalyticsSDK;
+		};
+		F9562AA04AA657F6182135EF9D29AD6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 97BC61813A39C489AA50072C9AA5B9AB;
 			remoteInfo = CmgeSDK;
 		};
-		FFFCA14FD116B5059C3068628C0ED6DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55504FB424909E48C3D8EA87EF901045;
-			remoteInfo = JtlyAnalyticsSDK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		087DB7707641751627778EEEBB6F876A /* ThinkingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ThinkingSDK.xcframework; path = JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingSDK.xcframework; sourceTree = "<group>"; };
-		0E2F91151EC27E79900F0067B358149C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0036B2724377F4182A4995DF716D0668 /* JtlyAnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JtlyAnalyticsSDK.release.xcconfig; sourceTree = "<group>"; };
+		06EEE2951A087AA6D55D7CD43859F12A /* CmgeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CmgeSDK.release.xcconfig; sourceTree = "<group>"; };
+		0D9D11313274627497A8E88CCD1C7B8A /* YTXMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXMonitor.framework; path = CmgeSDK/Frameworks/AliAuth/YTXMonitor.framework; sourceTree = "<group>"; };
 		10505D3F6F906EB8964A438A71B3E714 /* Pods-JTLYDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JTLYDemo"; path = Pods_JTLYDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		114E605C025CD65F20838A70EC674B6B /* JtlyAnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JtlyAnalyticsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		1193B72F63812E546E8E6CF37F782DB6 /* CmgeSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CmgeSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		127C7369F37DAF3579DA61BE7FC451A3 /* JtlyAnalyticsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "JtlyAnalyticsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		12B180799E9279FA1C0B6B42FB638819 /* CmgeDeviceInfoKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CmgeDeviceInfoKit.xcframework; path = CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework; sourceTree = "<group>"; };
+		12BF15458EC8836C4E0E22F1863DE044 /* YTXOperators.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXOperators.framework; path = CmgeSDK/Frameworks/AliAuth/YTXOperators.framework; sourceTree = "<group>"; };
 		139EBAFF1AB9576A227812386B2C1486 /* Pods-JTLYDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTLYDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		2117BA9A780BC096CD2C0914ED7867CA /* AliyunLogCrashReporter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogCrashReporter.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogCrashReporter.xcframework; sourceTree = "<group>"; };
-		2D67584030A4B12E84C669A360F1A204 /* AliyunLogNetworkDiagnosis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogNetworkDiagnosis.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogNetworkDiagnosis.xcframework; sourceTree = "<group>"; };
-		32C07F10E1301D42878EFCFE3FB50699 /* AliyunLogURLSession.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogURLSession.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogURLSession.xcframework; sourceTree = "<group>"; };
-		3B5F97251C7B76F418D3EAB321BD3D0C /* AliyunLogTrace.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogTrace.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogTrace.xcframework; sourceTree = "<group>"; };
+		1A471E176FD3D55467A4D37FF50BFB37 /* AliNetworkDiagnosis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliNetworkDiagnosis.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliNetworkDiagnosis.xcframework; sourceTree = "<group>"; };
+		25BEB11D33AE46F1DB97CDC666140ACE /* AliyunLogCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogCore.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogCore.xcframework; sourceTree = "<group>"; };
+		2971FAB98C90D8BE1CB57D1CAEFE35EE /* ThinkingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ThinkingSDK.xcframework; path = JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingSDK.xcframework; sourceTree = "<group>"; };
+		375400FD41A8DFC3D5D1878AA10FE40D /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ATAuthSDK.framework; path = CmgeSDK/Frameworks/AliAuth/ATAuthSDK.framework; sourceTree = "<group>"; };
+		3FB141B43810EFD67B89B73CCB9310C3 /* JtlyAnalyticsKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = JtlyAnalyticsKit.xcframework; path = JtlyAnalyticsSDK/Frameworks/JtlyAnalyticsKit.xcframework; sourceTree = "<group>"; };
 		445984855D31DEF2EF5DBF9AD7B4CD13 /* Pods-JTLYDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTLYDemo-Info.plist"; sourceTree = "<group>"; };
-		45A0ABA704938A75E04CE36DF5CAF129 /* CmgeShareKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CmgeShareKit.xcframework; path = CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework; sourceTree = "<group>"; };
-		4960971801759D7CA6C8E02B53CE8F1A /* JtlyAnalyticsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "JtlyAnalyticsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		4E101713A58BEF020D7CA124C6F8A7AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4E8561EA0A1AAAB4734B5F89E086D3C6 /* YTXMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXMonitor.framework; path = CmgeSDK/Frameworks/AliAuth/YTXMonitor.framework; sourceTree = "<group>"; };
+		4C84D29AFD4D592BEE8423A1E6E0B037 /* AliyunLogTrace.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogTrace.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogTrace.xcframework; sourceTree = "<group>"; };
 		4F3D3A008AF424B0D1B7CD2973C0913D /* Pods-JTLYDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTLYDemo-frameworks.sh"; sourceTree = "<group>"; };
-		510515B33FF9CC3B5E2A2A57F4FA529D /* AliNetworkDiagnosis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliNetworkDiagnosis.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliNetworkDiagnosis.xcframework; sourceTree = "<group>"; };
-		53A477302E3B4B0D317A020D101563F5 /* CmgeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CmgeSDK.release.xcconfig; sourceTree = "<group>"; };
-		57C9C73C7F2377F8D3AAC6963CBFE878 /* JtlyAnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JtlyAnalyticsSDK.release.xcconfig; sourceTree = "<group>"; };
+		55BCAC64CC5A35B3A016A8399DF76533 /* ThinkingDataCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ThinkingDataCore.xcframework; path = JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingDataCore.xcframework; sourceTree = "<group>"; };
+		6482F402D0BC596FA685919B4E10178D /* AliyunLogURLSession.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogURLSession.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogURLSession.xcframework; sourceTree = "<group>"; };
 		6927E4CF013249FA5B9C9A776976B00E /* Pods-JTLYDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JTLYDemo.modulemap"; sourceTree = "<group>"; };
-		694C9BAFA3BD2D2DBC6420263C96C648 /* AliyunLogOT.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogOT.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogOT.xcframework; sourceTree = "<group>"; };
-		71C2A8FB2C80E21BC4B559913EC54BFD /* CmgeDeviceInfoKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CmgeDeviceInfoKit.xcframework; path = CmgeSDK/Frameworks/CmgeCore/CmgeDeviceInfoKit.xcframework; sourceTree = "<group>"; };
+		71CD9DFCB29EE70E0CFD3832986A52F4 /* CmgeStandardKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CmgeStandardKit.xcframework; path = CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7BA217EEC9932F1D4163578698FC787B /* CmgeSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CmgeSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		7CB3FBF69F27E849629F3D34F6B94B18 /* AliyunLogCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogCore.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogCore.xcframework; sourceTree = "<group>"; };
-		7EE280FA6AA8D0EFD543F9E3C2884C73 /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ATAuthSDK.framework; path = CmgeSDK/Frameworks/AliAuth/ATAuthSDK.framework; sourceTree = "<group>"; };
-		821D270832203A3ED64B169180A6F96F /* CmgeStandardKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CmgeStandardKit.xcframework; path = CmgeSDK/Frameworks/CmgeCore/CmgeStandardKit.xcframework; sourceTree = "<group>"; };
+		873A7BA6833514C8DCEEB00976CD6CC2 /* WPKMobi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = WPKMobi.xcframework; path = CmgeSDK/Frameworks/AliyunLog/WPKMobi.xcframework; sourceTree = "<group>"; };
+		8D53B68887F2514753F63F0410A07E70 /* CmgeIdentifierKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CmgeIdentifierKit.xcframework; path = CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework; sourceTree = "<group>"; };
 		8EF0D3BF2B3F317E9A8CDDC22E537A9B /* Pods-JTLYDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTLYDemo-umbrella.h"; sourceTree = "<group>"; };
-		9381560B4B04090FAB5A9B94F91DED7C /* JtlyAliyunLog.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = JtlyAliyunLog.txt; path = CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog.txt; sourceTree = "<group>"; };
+		936B7608BE6F3BFA3D32F0ED550F4950 /* AliyunLogOTSwift.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogOTSwift.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogOTSwift.xcframework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6855686CE7F5B330343706296D87C12 /* ThinkingDataCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ThinkingDataCore.xcframework; path = JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingDataCore.xcframework; sourceTree = "<group>"; };
-		A92FC047EB9E3FE1565BDA4F23C73FBB /* AliyunLogOTSwift.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogOTSwift.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogOTSwift.xcframework; sourceTree = "<group>"; };
-		ABBBA996637FB3DE51626494FBDAF6D3 /* CmgeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CmgeSDK.debug.xcconfig; sourceTree = "<group>"; };
+		A9A7F6F074515D5DE1686BBC73C48944 /* AliyunLogProducer.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogProducer.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogProducer.xcframework; sourceTree = "<group>"; };
+		B3510A5E104E5A3C249287FC4F3E30E2 /* CmgeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CmgeSDK.debug.xcconfig; sourceTree = "<group>"; };
 		BD086209E8583A960E78773A01FA3ABA /* Pods-JTLYDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTLYDemo-dummy.m"; sourceTree = "<group>"; };
-		BE4013D939EA09ED9A67FE9530DA79F2 /* JtlyAnalyticsKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = JtlyAnalyticsKit.xcframework; path = JtlyAnalyticsSDK/Frameworks/JtlyAnalyticsKit.xcframework; sourceTree = "<group>"; };
-		CFF076F1299CEF4C844A71440A4C5C1F /* CmgeIdentifierKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CmgeIdentifierKit.xcframework; path = CmgeSDK/Frameworks/CmgeCore/CmgeIdentifierKit.xcframework; sourceTree = "<group>"; };
-		D7FB23F3CECE920EB951F1C9EE03D984 /* AliyunLogProducer.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogProducer.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogProducer.xcframework; sourceTree = "<group>"; };
+		CED960666F2FF2941D9B4A6011E001CB /* AliyunLogOT.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogOT.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogOT.xcframework; sourceTree = "<group>"; };
+		D2505134322282075E0DA29F2119671A /* JtlyAliyunLog.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = JtlyAliyunLog.txt; path = CmgeSDK/Frameworks/AliyunLog/JtlyAliyunLog.txt; sourceTree = "<group>"; };
+		D7A27D1F0AD68AFF25E260332584B86B /* AliyunLogNetworkDiagnosis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogNetworkDiagnosis.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogNetworkDiagnosis.xcframework; sourceTree = "<group>"; };
+		DA7EF036C66E5B4D8E990E164F91625E /* CmgeShareKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CmgeShareKit.xcframework; path = CmgeSDK/Frameworks/CmgeCore/CmgeShareKit.xcframework; sourceTree = "<group>"; };
 		DF890FF170AB8A95E7C1A6E736D5F057 /* Pods-JTLYDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTLYDemo-resources.sh"; sourceTree = "<group>"; };
 		E137E418C3A2C3F209A0B527C48A2BED /* Pods-JTLYDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTLYDemo.release.xcconfig"; sourceTree = "<group>"; };
-		E8DD38DB143BC109722F4B16EC00A4BC /* CmgeSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CmgeSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E88A64B25D967C4ACD98DF41D8AF87C2 /* JtlyAnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JtlyAnalyticsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		E933EABF0247FFACF0BEFC42EA921E85 /* AliyunLogCrashReporter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AliyunLogCrashReporter.xcframework; path = CmgeSDK/Frameworks/AliyunLog/AliyunLogCrashReporter.xcframework; sourceTree = "<group>"; };
 		F2B0474CF405007DCF11957E8CBC6280 /* Pods-JTLYDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JTLYDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FA4D80C353BF7D08AF85A92CD94AE1BF /* WPKMobi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = WPKMobi.xcframework; path = CmgeSDK/Frameworks/AliyunLog/WPKMobi.xcframework; sourceTree = "<group>"; };
 		FA9DC356976825413053B2F67C4975EE /* Pods-JTLYDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTLYDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		FDEE627860D6F966A6AD75B8D158E72F /* YTXOperators.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXOperators.framework; path = CmgeSDK/Frameworks/AliAuth/YTXOperators.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,39 +115,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		028266E19026E950043939DAD2B7CC69 /* CmgeCore */ = {
+		0569FA9F21573AB788DC1DFDDDFE04F3 /* JtlyAnalyticsSDK */ = {
 			isa = PBXGroup;
 			children = (
-				47D4AFA4E87304D5407AC0A91F8D2044 /* Frameworks */,
+				BC81F9EFC1599AB3432D916F76D5D4AA /* Frameworks */,
+			);
+			name = JtlyAnalyticsSDK;
+			sourceTree = "<group>";
+		};
+		098E162E49CB2EE945C9A8312B89888E /* ThinkingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				753CE0387DEE1B8A8E5AB160EE0BC979 /* Frameworks */,
+			);
+			name = ThinkingSDK;
+			sourceTree = "<group>";
+		};
+		150B07B083CCD037A33933DAC10D2085 /* CmgeCore */ = {
+			isa = PBXGroup;
+			children = (
+				960FCD2EC94D0CBD9FCB13EB981E7A78 /* Frameworks */,
 			);
 			name = CmgeCore;
-			sourceTree = "<group>";
-		};
-		06F5D6D656E30E9D02B4904B3CFB20E1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				510515B33FF9CC3B5E2A2A57F4FA529D /* AliNetworkDiagnosis.xcframework */,
-				7CB3FBF69F27E849629F3D34F6B94B18 /* AliyunLogCore.xcframework */,
-				2117BA9A780BC096CD2C0914ED7867CA /* AliyunLogCrashReporter.xcframework */,
-				2D67584030A4B12E84C669A360F1A204 /* AliyunLogNetworkDiagnosis.xcframework */,
-				694C9BAFA3BD2D2DBC6420263C96C648 /* AliyunLogOT.xcframework */,
-				A92FC047EB9E3FE1565BDA4F23C73FBB /* AliyunLogOTSwift.xcframework */,
-				D7FB23F3CECE920EB951F1C9EE03D984 /* AliyunLogProducer.xcframework */,
-				3B5F97251C7B76F418D3EAB321BD3D0C /* AliyunLogTrace.xcframework */,
-				32C07F10E1301D42878EFCFE3FB50699 /* AliyunLogURLSession.xcframework */,
-				FA4D80C353BF7D08AF85A92CD94AE1BF /* WPKMobi.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		13DC7D566CBE5B966A29CEA4BC272A6E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E8DD38DB143BC109722F4B16EC00A4BC /* CmgeSDK.podspec */,
-				0E2F91151EC27E79900F0067B358149C /* LICENSE */,
-				4E101713A58BEF020D7CA124C6F8A7AC /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		23EE9669189C8858BFFFB6ABC5E3318F /* Pods-JTLYDemo */ = {
@@ -171,85 +157,16 @@
 			path = "Target Support Files/Pods-JTLYDemo";
 			sourceTree = "<group>";
 		};
-		28DB65AA37C92654A78C420A258CB1E7 /* AliAuth */ = {
+		3CBA53513E982F4846C327D2446D2211 /* CmgeSDK */ = {
 			isa = PBXGroup;
 			children = (
-				34CF471C5EB03D7016BA8C8DB9F65F8E /* Frameworks */,
-			);
-			name = AliAuth;
-			sourceTree = "<group>";
-		};
-		2F2E537D1ED32EB1590F4F5972C22B58 /* CmgeSDK */ = {
-			isa = PBXGroup;
-			children = (
-				28DB65AA37C92654A78C420A258CB1E7 /* AliAuth */,
-				4FE99D35B82F29CF3F743060BB7947EE /* AliyunLog */,
-				028266E19026E950043939DAD2B7CC69 /* CmgeCore */,
-				13DC7D566CBE5B966A29CEA4BC272A6E /* Pod */,
-				4085D739D0C3043B9ADC4C22A2AB773C /* Support Files */,
+				6D7F02EB77F57DACB128FB57DDC16F58 /* AliAuth */,
+				77AFDB66999118293C9483BD3D060594 /* AliyunLog */,
+				150B07B083CCD037A33933DAC10D2085 /* CmgeCore */,
+				7B7F4BE7E4E54CA75E82AE6D22E3C600 /* Support Files */,
 			);
 			name = CmgeSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		34CF471C5EB03D7016BA8C8DB9F65F8E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7EE280FA6AA8D0EFD543F9E3C2884C73 /* ATAuthSDK.framework */,
-				4E8561EA0A1AAAB4734B5F89E086D3C6 /* YTXMonitor.framework */,
-				FDEE627860D6F966A6AD75B8D158E72F /* YTXOperators.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3C930CEAE9F9F802BAC4E64FDB57A75E /* JtlyAnalyticsSDK */ = {
-			isa = PBXGroup;
-			children = (
-				A0457D6B3722E519BB08722134ECFC5B /* JtlyAnalyticsSDK */,
-				738565ED29DCCE1D0B821D7A9F49B6D1 /* Support Files */,
-				87E062C298B4460535082C6DAA849DE9 /* ThinkingSDK */,
-			);
-			name = JtlyAnalyticsSDK;
-			path = JtlyAnalyticsSDK;
-			sourceTree = "<group>";
-		};
-		4085D739D0C3043B9ADC4C22A2AB773C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7BA217EEC9932F1D4163578698FC787B /* CmgeSDK-xcframeworks.sh */,
-				ABBBA996637FB3DE51626494FBDAF6D3 /* CmgeSDK.debug.xcconfig */,
-				53A477302E3B4B0D317A020D101563F5 /* CmgeSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CmgeSDK";
-			sourceTree = "<group>";
-		};
-		4541B7093687CD64F59A7561AB4040DC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BE4013D939EA09ED9A67FE9530DA79F2 /* JtlyAnalyticsKit.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		47D4AFA4E87304D5407AC0A91F8D2044 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				71C2A8FB2C80E21BC4B559913EC54BFD /* CmgeDeviceInfoKit.xcframework */,
-				CFF076F1299CEF4C844A71440A4C5C1F /* CmgeIdentifierKit.xcframework */,
-				45A0ABA704938A75E04CE36DF5CAF129 /* CmgeShareKit.xcframework */,
-				821D270832203A3ED64B169180A6F96F /* CmgeStandardKit.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4FE99D35B82F29CF3F743060BB7947EE /* AliyunLog */ = {
-			isa = PBXGroup;
-			children = (
-				9381560B4B04090FAB5A9B94F91DED7C /* JtlyAliyunLog.txt */,
-				06F5D6D656E30E9D02B4904B3CFB20E1 /* Frameworks */,
-			);
-			name = AliyunLog;
+			path = CmgeSDK;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -260,40 +177,70 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		65F5223CA469CD11CCC5B7B38E87EB80 /* Frameworks */ = {
+		6D7F02EB77F57DACB128FB57DDC16F58 /* AliAuth */ = {
 			isa = PBXGroup;
 			children = (
-				A6855686CE7F5B330343706296D87C12 /* ThinkingDataCore.xcframework */,
-				087DB7707641751627778EEEBB6F876A /* ThinkingSDK.xcframework */,
+				8299FDECD9B0AA4F51DF40E6A0ECD870 /* Frameworks */,
+			);
+			name = AliAuth;
+			sourceTree = "<group>";
+		};
+		6F2BC94554D07ECA790426D1B44536FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2505134322282075E0DA29F2119671A /* JtlyAliyunLog.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		753CE0387DEE1B8A8E5AB160EE0BC979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55BCAC64CC5A35B3A016A8399DF76533 /* ThinkingDataCore.xcframework */,
+				2971FAB98C90D8BE1CB57D1CAEFE35EE /* ThinkingSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		738565ED29DCCE1D0B821D7A9F49B6D1 /* Support Files */ = {
+		77AFDB66999118293C9483BD3D060594 /* AliyunLog */ = {
 			isa = PBXGroup;
 			children = (
-				4960971801759D7CA6C8E02B53CE8F1A /* JtlyAnalyticsSDK-xcframeworks.sh */,
-				114E605C025CD65F20838A70EC674B6B /* JtlyAnalyticsSDK.debug.xcconfig */,
-				57C9C73C7F2377F8D3AAC6963CBFE878 /* JtlyAnalyticsSDK.release.xcconfig */,
+				C83E1A8CDB6B1F2F6F6793DD8C8D7D1C /* Frameworks */,
+				6F2BC94554D07ECA790426D1B44536FA /* Resources */,
+			);
+			name = AliyunLog;
+			sourceTree = "<group>";
+		};
+		7B7F4BE7E4E54CA75E82AE6D22E3C600 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1193B72F63812E546E8E6CF37F782DB6 /* CmgeSDK-xcframeworks.sh */,
+				B3510A5E104E5A3C249287FC4F3E30E2 /* CmgeSDK.debug.xcconfig */,
+				06EEE2951A087AA6D55D7CD43859F12A /* CmgeSDK.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/JtlyAnalyticsSDK";
+			path = "../Target Support Files/CmgeSDK";
 			sourceTree = "<group>";
 		};
-		87E062C298B4460535082C6DAA849DE9 /* ThinkingSDK */ = {
+		8299FDECD9B0AA4F51DF40E6A0ECD870 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65F5223CA469CD11CCC5B7B38E87EB80 /* Frameworks */,
+				375400FD41A8DFC3D5D1878AA10FE40D /* ATAuthSDK.framework */,
+				0D9D11313274627497A8E88CCD1C7B8A /* YTXMonitor.framework */,
+				12BF15458EC8836C4E0E22F1863DE044 /* YTXOperators.framework */,
 			);
-			name = ThinkingSDK;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8B63C63C2E08D4FDEA9F726FE8E3DB2B /* Pods */ = {
+		960FCD2EC94D0CBD9FCB13EB981E7A78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3C930CEAE9F9F802BAC4E64FDB57A75E /* JtlyAnalyticsSDK */,
+				12B180799E9279FA1C0B6B42FB638819 /* CmgeDeviceInfoKit.xcframework */,
+				8D53B68887F2514753F63F0410A07E70 /* CmgeIdentifierKit.xcframework */,
+				DA7EF036C66E5B4D8E990E164F91625E /* CmgeShareKit.xcframework */,
+				71CD9DFCB29EE70E0CFD3832986A52F4 /* CmgeStandardKit.xcframework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		99DB6D70DA5E54D76B17A5D9EEC76F3F /* Targets Support Files */ = {
@@ -304,12 +251,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A0457D6B3722E519BB08722134ECFC5B /* JtlyAnalyticsSDK */ = {
+		B1C80372499212EA8CA472A9CDD84BEA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4541B7093687CD64F59A7561AB4040DC /* Frameworks */,
+				3CBA53513E982F4846C327D2446D2211 /* CmgeSDK */,
+				B6061C07DD264E621393B8DEAABCD1B5 /* JtlyAnalyticsSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6061C07DD264E621393B8DEAABCD1B5 /* JtlyAnalyticsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0569FA9F21573AB788DC1DFDDDFE04F3 /* JtlyAnalyticsSDK */,
+				D6DC040C5D1801A382F336DF5E9731FB /* Support Files */,
+				098E162E49CB2EE945C9A8312B89888E /* ThinkingSDK */,
 			);
 			name = JtlyAnalyticsSDK;
+			path = JtlyAnalyticsSDK;
+			sourceTree = "<group>";
+		};
+		BC81F9EFC1599AB3432D916F76D5D4AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FB141B43810EFD67B89B73CCB9310C3 /* JtlyAnalyticsKit.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BEC453A3AB41B0A99C6C2FC882ADACC2 /* Products */ = {
@@ -320,21 +287,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAB3A4632019A8A6C9057A7190370EBA /* Development Pods */ = {
+		C83E1A8CDB6B1F2F6F6793DD8C8D7D1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2F2E537D1ED32EB1590F4F5972C22B58 /* CmgeSDK */,
+				1A471E176FD3D55467A4D37FF50BFB37 /* AliNetworkDiagnosis.xcframework */,
+				25BEB11D33AE46F1DB97CDC666140ACE /* AliyunLogCore.xcframework */,
+				E933EABF0247FFACF0BEFC42EA921E85 /* AliyunLogCrashReporter.xcframework */,
+				D7A27D1F0AD68AFF25E260332584B86B /* AliyunLogNetworkDiagnosis.xcframework */,
+				CED960666F2FF2941D9B4A6011E001CB /* AliyunLogOT.xcframework */,
+				936B7608BE6F3BFA3D32F0ED550F4950 /* AliyunLogOTSwift.xcframework */,
+				A9A7F6F074515D5DE1686BBC73C48944 /* AliyunLogProducer.xcframework */,
+				4C84D29AFD4D592BEE8423A1E6E0B037 /* AliyunLogTrace.xcframework */,
+				6482F402D0BC596FA685919B4E10178D /* AliyunLogURLSession.xcframework */,
+				873A7BA6833514C8DCEEB00976CD6CC2 /* WPKMobi.xcframework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CAB3A4632019A8A6C9057A7190370EBA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8B63C63C2E08D4FDEA9F726FE8E3DB2B /* Pods */,
+				B1C80372499212EA8CA472A9CDD84BEA /* Pods */,
 				BEC453A3AB41B0A99C6C2FC882ADACC2 /* Products */,
 				99DB6D70DA5E54D76B17A5D9EEC76F3F /* Targets Support Files */,
 			);
@@ -346,6 +321,17 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6DC040C5D1801A382F336DF5E9731FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				127C7369F37DAF3579DA61BE7FC451A3 /* JtlyAnalyticsSDK-xcframeworks.sh */,
+				E88A64B25D967C4ACD98DF41D8AF87C2 /* JtlyAnalyticsSDK.debug.xcconfig */,
+				0036B2724377F4182A4995DF716D0668 /* JtlyAnalyticsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JtlyAnalyticsSDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,8 +360,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				A3BB0251E8D664FB79B42C1DB5E594FF /* PBXTargetDependency */,
-				4D693684E4656813EC06AAF8E7C15CEB /* PBXTargetDependency */,
+				77FF75E9BBF273DE9A88C566AD2F59C2 /* PBXTargetDependency */,
+				1FB660B3E393EBE285D80B4FEDE66911 /* PBXTargetDependency */,
 			);
 			name = "Pods-JTLYDemo";
 			productName = Pods_JTLYDemo;
@@ -422,6 +408,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0835A7E26549DD775313EAB7FC1CCD89 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/JtlyAnalyticsSDK/JtlyAnalyticsSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/JtlyAnalyticsSDK/JtlyAnalyticsSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/JtlyAnalyticsSDK/JtlyAnalyticsSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		29AB0E3E031970A376F026784DC7AE58 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,23 +442,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/CmgeSDK/CmgeSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C9F0EDB9DC97CF5D1B75FCA04DF3F9D9 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/JtlyAnalyticsSDK/JtlyAnalyticsSDK-xcframeworks-input-files.xcfilelist",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/JtlyAnalyticsSDK/JtlyAnalyticsSDK-xcframeworks-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/JtlyAnalyticsSDK/JtlyAnalyticsSDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -470,30 +456,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4D693684E4656813EC06AAF8E7C15CEB /* PBXTargetDependency */ = {
+		1FB660B3E393EBE285D80B4FEDE66911 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JtlyAnalyticsSDK;
 			target = 55504FB424909E48C3D8EA87EF901045 /* JtlyAnalyticsSDK */;
-			targetProxy = 1257BBBB81DF277C895B52D3D6AED8C0 /* PBXContainerItemProxy */;
+			targetProxy = 64DD14EB4ACC35984EC7F4C883B6AD58 /* PBXContainerItemProxy */;
 		};
-		704763EC2EB73EEC4676CC2DFF5763C9 /* PBXTargetDependency */ = {
+		5B9AC96A7868CBE39484D0C9F179BEF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JtlyAnalyticsSDK;
 			target = 55504FB424909E48C3D8EA87EF901045 /* JtlyAnalyticsSDK */;
-			targetProxy = FFFCA14FD116B5059C3068628C0ED6DA /* PBXContainerItemProxy */;
+			targetProxy = 26A51B9B776B687D302A0EF25497C8D6 /* PBXContainerItemProxy */;
 		};
-		A3BB0251E8D664FB79B42C1DB5E594FF /* PBXTargetDependency */ = {
+		77FF75E9BBF273DE9A88C566AD2F59C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CmgeSDK;
 			target = 97BC61813A39C489AA50072C9AA5B9AB /* CmgeSDK */;
-			targetProxy = 9A089F0DCFD248CB16E2933E19C7BE18 /* PBXContainerItemProxy */;
+			targetProxy = F9562AA04AA657F6182135EF9D29AD6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		26FD995D9005FADB8ECF0CEB4B1F864C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0036B2724377F4182A4995DF716D0668 /* JtlyAnalyticsSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		49BB5EDDFCAC9522D30D752718DD1387 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53A477302E3B4B0D317A020D101563F5 /* CmgeSDK.release.xcconfig */;
+			baseConfigurationReference = 06EEE2951A087AA6D55D7CD43859F12A /* CmgeSDK.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -612,7 +616,7 @@
 		};
 		93C91E0CC1F9A8327E87015018FD3ADC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABBBA996637FB3DE51626494FBDAF6D3 /* CmgeSDK.debug.xcconfig */;
+			baseConfigurationReference = B3510A5E104E5A3C249287FC4F3E30E2 /* CmgeSDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -665,9 +669,9 @@
 			};
 			name = Debug;
 		};
-		AF6F028E06F849128DB5ACECE4C43477 /* Release */ = {
+		C2C9697FB2A8DE39F5B467C8FC328CFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57C9C73C7F2377F8D3AAC6963CBFE878 /* JtlyAnalyticsSDK.release.xcconfig */;
+			baseConfigurationReference = E88A64B25D967C4ACD98DF41D8AF87C2 /* JtlyAnalyticsSDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -679,9 +683,8 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -749,23 +752,6 @@
 			};
 			name = Debug;
 		};
-		F0F2B28D5F5696F71F6362F71FC52C5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 114E605C025CD65F20838A70EC674B6B /* JtlyAnalyticsSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -796,11 +782,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F210CD7D527652B6209F2C3ECAF33557 /* Build configuration list for PBXAggregateTarget "JtlyAnalyticsSDK" */ = {
+		8F12EA90ED3075513C599D9E60DA1FAC /* Build configuration list for PBXAggregateTarget "JtlyAnalyticsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0F2B28D5F5696F71F6362F71FC52C5D /* Debug */,
-				AF6F028E06F849128DB5ACECE4C43477 /* Release */,
+				C2C9697FB2A8DE39F5B467C8FC328CFC /* Debug */,
+				26FD995D9005FADB8ECF0CEB4B1F864C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

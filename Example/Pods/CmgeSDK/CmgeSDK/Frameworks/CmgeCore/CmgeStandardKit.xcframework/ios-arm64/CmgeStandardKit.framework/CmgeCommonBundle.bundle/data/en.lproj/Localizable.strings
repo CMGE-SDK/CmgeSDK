@@ -251,3 +251,9 @@
 "CmgeRetrieveAgain" = "Retrieve again";
 "CmgeInputVerifyCode" = "Please enter the SMS verification code";
 "CmgeInputCorrectVerifyCode" = "Please enter the correct verification code";
+
+//20231212
+"CmgeFloatMenuDragClose" = "Drag here to close the floating window";
+"CmgeFloatMenuShakeDisplay" = "Shaking the phone restores the floating ball display";
+"CmgeFloatMenuDoNotRemindAgain" = "Do not remind again";
+"CmgeClose" = "Close";
