@@ -15,6 +15,7 @@
 		62F84FDC243DA3350099BA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F84FDB243DA3350099BA5B /* Assets.xcassets */; };
 		62F84FDF243DA3350099BA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F84FDD243DA3350099BA5B /* LaunchScreen.storyboard */; };
 		62F84FE2243DA3350099BA5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F84FE1243DA3350099BA5B /* main.m */; };
+		721A90EF2B3C172500E27E01 /* JtlyThinking-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 721A90EE2B3C172500E27E01 /* JtlyThinking-info.plist */; };
 		B22D153CFDCA43F495C16E3C /* Pods_JTLYDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83175C9C2FFE8F4D35EE9C6 /* Pods_JTLYDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		62F84FDE243DA3350099BA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62F84FE0243DA3350099BA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62F84FE1243DA3350099BA5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		721A90EE2B3C172500E27E01 /* JtlyThinking-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JtlyThinking-info.plist"; sourceTree = "<group>"; };
 		954BD5D9F0E7D00B82CB872E /* Pods-JTLYDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTLYDemo.release.xcconfig"; path = "Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A54A44221E2124C006DD1F67 /* Pods-JTLYDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTLYDemo.debug.xcconfig"; path = "Target Support Files/Pods-JTLYDemo/Pods-JTLYDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A83175C9C2FFE8F4D35EE9C6 /* Pods_JTLYDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTLYDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +169,7 @@
 		62F84FCE243DA3320099BA5B /* JTLYDemo */ = {
 			isa = PBXGroup;
 			children = (
+				721A90ED2B3C172500E27E01 /* thirdPartyResources */,
 				6267D01C2760B5A8006A2FAA /* JTLYDemoDebug.entitlements */,
 				628F594A24FCD744000C2B2F /* JTLYDemo.entitlements */,
 				62F84FCF243DA3320099BA5B /* AppDelegate.h */,
@@ -181,6 +184,14 @@
 				62CFA48A24485A3D00DF1494 /* Supporting Files */,
 			);
 			path = JTLYDemo;
+			sourceTree = "<group>";
+		};
+		721A90ED2B3C172500E27E01 /* thirdPartyResources */ = {
+			isa = PBXGroup;
+			children = (
+				721A90EE2B3C172500E27E01 /* JtlyThinking-info.plist */,
+			);
+			path = thirdPartyResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F84FDF243DA3350099BA5B /* LaunchScreen.storyboard in Resources */,
+				721A90EF2B3C172500E27E01 /* JtlyThinking-info.plist in Resources */,
 				62F84FDC243DA3350099BA5B /* Assets.xcassets in Resources */,
 				62CFA487244858DA00DF1494 /* JTLYDemoViewController.xib in Resources */,
 			);

@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WakeyWoo' => 'hjw728uow@gmail.com' }
-  s.source           = { :git => 'https://github.com/WakeyWoo/CmgeSDK.git', :tag => "1.21.0" }
+  s.source           = { :git => 'https://github.com/WakeyWoo/CmgeSDK.git', :tag => s.version.to_s }
   #s.ios.deployment_target = "9.0"
   s.libraries        = 'sqlite3'
   s.requires_arc  = true
