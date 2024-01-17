@@ -16,7 +16,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XJujB7kwu+DScnthu5zwLbJ15QQ=
+			PLQiLVmGvnF6AkGcBlRbIaI1UqQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -25,7 +25,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zP5iJ/kv01+3bWRcPxbwFJ1i9CI=
+			HCmNrPnJT4f6Rd/sXF9sVwcWgcE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -34,7 +34,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pspbert1Dg5JIx3HRo3Q1isptHQ=
+			TW78rz9gs3vPFZVD1x3tNqkgRcY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -187,7 +187,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8YDA7GAn/7GGpXh4MCvwekgou3M=
+			wLoVyn/8tD/HIt1BJc5Zcd5VOwE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -196,7 +196,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NDxV/WJsF8I6ad7PkrcJxLpnd2Q=
+			QPfQ4hsELSdHjrYegoe+nXVZVM4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -319,7 +319,7 @@
 		</data>
 		<key>CmgeStandardBundle.bundle/image/cmge_login_twitter.png</key>
 		<data>
-		9WogVhDBkrcs/Sq6aZp7zTMKYB4=
+		ICBS1Sb93TYRbfuNbtqXe1JXShg=
 		</data>
 		<key>CmgeStandardBundle.bundle/image/cmge_login_weixin.png</key>
 		<data>
@@ -435,7 +435,7 @@
 		</data>
 		<key>CmgeStandardBundle.bundle/image/cmge_ov_twitter.png</key>
 		<data>
-		vNaDeJm2is+wnGd8CbJExpoDbvE=
+		V+DUbULf+cJdwpj87ERxmTEv4Dc=
 		</data>
 		<key>CmgeStandardBundle.bundle/image/cmge_pc_qrcode.png</key>
 		<data>
@@ -511,11 +511,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KwezIWYJxCr8MgdDmzvvcDFnJOw=
+		qAovVHtxDD434Xtfe7LS7JQMrR8=
 		</data>
 		<key>Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		krKZygtBCmhCoMurvIu1Wk3gIU8=
+		8E3sA8YpfkcEX01/AfVmQEbIQwE=
 		</data>
 		<key>Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -531,11 +531,11 @@
 		</data>
 		<key>Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mwsu+6btucglPT1ulEgtPUewr6o=
+		f4LHPQ/zDxp5zDC2uKEyJOE26p8=
 		</data>
 		<key>Modules/CmgeStandardKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		krKZygtBCmhCoMurvIu1Wk3gIU8=
+		8E3sA8YpfkcEX01/AfVmQEbIQwE=
 		</data>
 		<key>Modules/CmgeStandardKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -551,7 +551,7 @@
 		</data>
 		<key>Modules/CmgeStandardKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		H0urmhgTLhkb9ucHHefKI5/SORE=
+		O0WkoEk+gtO8VZAea16/slECP/U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -590,11 +590,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XJujB7kwu+DScnthu5zwLbJ15QQ=
+			PLQiLVmGvnF6AkGcBlRbIaI1UqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			+IOnoFsVN20PBUT0CDBXoLLsAhDzS5nRTcQXgPFHTG0=
+			zZx+p6PRue0N+wEkwdfkIAAVJe57sitRU9obfDTtXyE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -603,11 +603,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zP5iJ/kv01+3bWRcPxbwFJ1i9CI=
+			HCmNrPnJT4f6Rd/sXF9sVwcWgcE=
 			</data>
 			<key>hash2</key>
 			<data>
-			kzumH4PI9D2ahxorKWo2RFZpu/+yL0Ub50nST8zsKX4=
+			0V/Ff8mOrtgzFo3kNW4eVyxP0mcgKJrdYoxDj6H0X14=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -616,11 +616,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pspbert1Dg5JIx3HRo3Q1isptHQ=
+			TW78rz9gs3vPFZVD1x3tNqkgRcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			gTUu72kCaC8oCikWVdhL9IriAtfpj+pO/6h33QhdtQ4=
+			8bx1c4JCfO1w/F3CWbgls+VzxstDGWCgfNqnwvxZ97w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1025,11 +1025,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8YDA7GAn/7GGpXh4MCvwekgou3M=
+			wLoVyn/8tD/HIt1BJc5Zcd5VOwE=
 			</data>
 			<key>hash2</key>
 			<data>
-			C/AUVdYKJXCpkvFDcWCSgr+H1OUfnklER6Y9+Yh68Gs=
+			ElQ9PPhAlNMofQNOGMN9+xiiv8al5ahUvglKgLZd290=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1038,11 +1038,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NDxV/WJsF8I6ad7PkrcJxLpnd2Q=
+			QPfQ4hsELSdHjrYegoe+nXVZVM4=
 			</data>
 			<key>hash2</key>
 			<data>
-			QxglGsw0S2dm/8TYdTJCLy+iEpJNVlYlawNHHVAgnTM=
+			a3H0F5t7e2Z+IpzN5z0cZDqpezF3UQVE2Hb2G9CgN9Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1370,11 +1370,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9WogVhDBkrcs/Sq6aZp7zTMKYB4=
+			ICBS1Sb93TYRbfuNbtqXe1JXShg=
 			</data>
 			<key>hash2</key>
 			<data>
-			5akBtGx1rckd8bLUbcuyRnfnPcTP2Qof//U9s+W4tPM=
+			2JIfvtfjXHHJu6uCwy9qcF5KDvhrPryXxBnoVKRd1ZU=
 			</data>
 		</dict>
 		<key>CmgeStandardBundle.bundle/image/cmge_login_weixin.png</key>
@@ -1689,11 +1689,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vNaDeJm2is+wnGd8CbJExpoDbvE=
+			V+DUbULf+cJdwpj87ERxmTEv4Dc=
 			</data>
 			<key>hash2</key>
 			<data>
-			+T/gEocw/8hTOncWxBZDk7nTjeL7SgwGC63o51hh8ZY=
+			bQAonnb/zaWsrnN+vfGpIAdY2qQMvC0bp6LTXaZ65j8=
 			</data>
 		</dict>
 		<key>CmgeStandardBundle.bundle/image/cmge_pc_qrcode.png</key>
@@ -1898,11 +1898,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			krKZygtBCmhCoMurvIu1Wk3gIU8=
+			8E3sA8YpfkcEX01/AfVmQEbIQwE=
 			</data>
 			<key>hash2</key>
 			<data>
-			rHtXEd2iVjnynqz9yadoKUMXF7Fkl8nrQjnpPD9UU0w=
+			TXT/KBr44jRXMR+b+JT6YcgBYbpegrbo2EVDSEqr8nM=
 			</data>
 		</dict>
 		<key>Modules/CmgeStandardKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1942,22 +1942,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mwsu+6btucglPT1ulEgtPUewr6o=
+			f4LHPQ/zDxp5zDC2uKEyJOE26p8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nr/Slafd58mfPXwHMa1kqOG1sd6LXLh0WwkLx0TEIyg=
+			JYgzBaLTyrhMJnFDW+jN+HaIQhVaWInaCQcUB1cxCO0=
 			</data>
 		</dict>
 		<key>Modules/CmgeStandardKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			krKZygtBCmhCoMurvIu1Wk3gIU8=
+			8E3sA8YpfkcEX01/AfVmQEbIQwE=
 			</data>
 			<key>hash2</key>
 			<data>
-			rHtXEd2iVjnynqz9yadoKUMXF7Fkl8nrQjnpPD9UU0w=
+			TXT/KBr44jRXMR+b+JT6YcgBYbpegrbo2EVDSEqr8nM=
 			</data>
 		</dict>
 		<key>Modules/CmgeStandardKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1997,11 +1997,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H0urmhgTLhkb9ucHHefKI5/SORE=
+			O0WkoEk+gtO8VZAea16/slECP/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			eDdkRd9aeuOwgmkXV11N9/biZ7aK8/tZiYESQpJyS3g=
+			mCCSHkZUj3tjDj19RNPM98o/x9+ZBT+//nHQIctTC5s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

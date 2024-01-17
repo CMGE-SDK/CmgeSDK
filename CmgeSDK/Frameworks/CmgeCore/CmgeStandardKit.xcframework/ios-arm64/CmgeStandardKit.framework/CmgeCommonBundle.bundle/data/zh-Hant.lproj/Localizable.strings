@@ -258,3 +258,15 @@
 "CmgeFloatMenuShakeDisplay" = "搖一搖手機可恢復顯示懸浮球";
 "CmgeFloatMenuDoNotRemindAgain" = "不再提醒";
 "CmgeClose" = "關閉";
+
+//20240104
+"CmgeIAPDomainError" = "支付錯誤";
+
+//20240108
+"CmgeWebAuthWebErrorDomain" = "認證錯誤";
+"CmgeWebAuthManMadeErrorDomain" = "認證錯誤";
+"CmgeAPIUtilityClientBindedErrorDomain" = "API應用錯誤";
+"CmgeAPILoginClientErrorDomain" = "API登錄錯誤";
+"CmgeFetchProductInfoErrorDomain" = "產品資訊錯誤";
+"CmgeStoreErrorDomain" = "支付錯誤";
+"CmgeUnknownErrorDomain" = "錯誤"; // 繁体中文

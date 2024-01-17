@@ -260,3 +260,15 @@
 "CmgeFloatMenuShakeDisplay" = "携帯を振ると、フローティングボールが再表示されます";
 "CmgeFloatMenuDoNotRemindAgain" = "再度リマインダーしないでください";
 "CmgeClose" = "閉じる";
+
+//20240104
+"CmgeIAPDomainError" = "支払いエラー";
+
+//20240108
+"CmgeWebAuthWebErrorDomain" = "認証エラー";
+"CmgeWebAuthManMadeErrorDomain" = "認証エラー";
+"CmgeAPIUtilityClientBindedErrorDomain" = "APIアプリケーションエラー";
+"CmgeAPILoginClientErrorDomain" = "APIログインエラー";
+"CmgeFetchProductInfoErrorDomain" = "製品情報エラー";
+"CmgeStoreErrorDomain" = "支払いエラー";
+"CmgeUnknownErrorDomain" = "エラー";

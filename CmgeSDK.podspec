@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CmgeSDK'
-  s.version          = '1.21.0'
+  s.version          = '1.22.0'
   s.summary          = 'A short description of CmgeSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,12 @@ TODO: Add long description of the pod here.
   
   #s.default_subspec = 'CmgeStandardKit'
   s.pod_target_xcconfig = {
-    'VALID_ARCHS' => 'arm64'
+    'VALID_ARCHS' => 'arm64',
+    'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+  
+  s.user_target_xcconfig = {
+    'GENERATE_INFOPLIST_FILE' => 'YES'
   }
   
   s.subspec 'CmgeCore' do |c|

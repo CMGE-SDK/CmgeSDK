@@ -259,3 +259,15 @@
 "CmgeFloatMenuShakeDisplay" = "휴대폰을 흔들면 플로팅 볼의 표시가 복원됩니다";
 "CmgeFloatMenuDoNotRemindAgain" = "다시 알리지 않기";
 "CmgeClose" = "닫기";
+
+//20240104
+"CmgeIAPDomainError" = "결제 오류"; 
+
+//20240108
+"CmgeWebAuthWebErrorDomain" = "인증 오류";
+"CmgeWebAuthManMadeErrorDomain" = "인증 오류";
+"CmgeAPIUtilityClientBindedErrorDomain" = "API 애플리케이션 오류";
+"CmgeAPILoginClientErrorDomain" = "API 로그인 오류";
+"CmgeFetchProductInfoErrorDomain" = "제품 정보 오류";
+"CmgeStoreErrorDomain" = "결제 오류";
+"CmgeUnknownErrorDomain" = "오류";

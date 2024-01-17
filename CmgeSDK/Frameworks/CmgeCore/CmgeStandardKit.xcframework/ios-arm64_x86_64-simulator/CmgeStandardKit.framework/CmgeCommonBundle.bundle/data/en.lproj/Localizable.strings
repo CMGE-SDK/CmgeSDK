@@ -257,3 +257,15 @@
 "CmgeFloatMenuShakeDisplay" = "Shaking the phone restores the floating ball display";
 "CmgeFloatMenuDoNotRemindAgain" = "Do not remind again";
 "CmgeClose" = "Close";
+
+//20240104
+"CmgeIAPDomainError" = "Payment Error";
+
+//20240108
+"CmgeWebAuthWebErrorDomain" = "Authentication Error";
+"CmgeWebAuthManMadeErrorDomain" = "Authentication Error";
+"CmgeAPIUtilityClientBindedErrorDomain" = "API Application Error";
+"CmgeAPILoginClientErrorDomain" = "API Login Error";
+"CmgeFetchProductInfoErrorDomain" = "Product Information Error";
+"CmgeStoreErrorDomain" = "Payment Error";
+"CmgeUnknownErrorDomain" = "Error";

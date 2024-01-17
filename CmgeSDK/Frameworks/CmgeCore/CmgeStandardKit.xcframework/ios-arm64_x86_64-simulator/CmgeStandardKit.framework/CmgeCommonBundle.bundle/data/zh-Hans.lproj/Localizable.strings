@@ -261,3 +261,16 @@
 "CmgeFloatMenuShakeDisplay" = "摇一摇手机可恢复显示悬浮球";
 "CmgeFloatMenuDoNotRemindAgain" = "不再提醒";
 "CmgeClose" = "关闭";
+
+//20240104
+"CmgeIAPDomainError" = "支付错误";
+
+
+//20240108
+"CmgeWebAuthWebErrorDomain" = "认证错误";
+"CmgeWebAuthManMadeErrorDomain" = "认证错误";
+"CmgeAPIUtilityClientBindedErrorDomain" = "API应用错误";
+"CmgeAPILoginClientErrorDomain" = "API登录错误";
+"CmgeFetchProductInfoErrorDomain" = "产品信息错误";
+"CmgeStoreErrorDomain" = "支付错误";
+"CmgeUnknownErrorDomain" = "错误";
